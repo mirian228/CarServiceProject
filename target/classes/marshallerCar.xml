@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<car>
+    <bodytype>SUV</bodytype>
+    <engineCapacity>2993cc</engineCapacity>
+    <exteriorColor>Alpine White</exteriorColor>
+    <fuelType>Gasoline</fuelType>
+    <idCar>3</idCar>
+    <idCustomer>1</idCustomer>
+    <make>BMW</make>
+    <model>X3</model>
+    <productionYear>2018</productionYear>
+    <vin>KNDJE723297570351</vin>
+</car>

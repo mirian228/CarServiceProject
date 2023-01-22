@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CarServiceA>
+   <CarServiceA idCarServiceA="1" idCar="1">
+      <ServiceType>EngineOilReplacement</ServiceType>
+   </CarServiceA>
+   <CarServiceA idCarServiceA="2" idCar="2">
+      <ServiceType>GearBoxReplacement</ServiceType>
+   </CarServiceA>
+</CarServiceA>

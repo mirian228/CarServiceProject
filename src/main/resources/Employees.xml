@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Employees>
+   <Employees idEmployees="1" idManager="1">
+      <fname>George</fname>
+      <lname>Macalister</lname>
+      <city>Washington</city>
+      <phoneNumber>+1534341</phoneNumber>
+      <adress>Montgomery Street</adress>
+      <salary>60000</salary>
+   </Employees>
+   <Employees idEmployees="2" idManager="2">
+      <fname>Olivia</fname>
+      <lname>Williams</lname>
+      <city>Phoenix</city>
+      <phoneNumber>+2312513</phoneNumber>
+      <adress>Bowden Street</adress>
+      <salary>49000</salary>
+   </Employees>
+   <Employees idEmployees="3" idManager="1">
+      <fname>Lucas</fname>
+      <lname>King</lname>
+      <city>Austin</city>
+      <phoneNumber>+129703</phoneNumber>
+      <adress>Glen Street</adress>
+      <salary>52000</salary>
+   </Employees>
+   <Employees idEmployees="4" idManager="2">
+      <fname>Benjamin</fname>
+      <lname>White</lname>
+      <city>San Diego</city>
+      <phoneNumber>+167093</phoneNumber>
+      <adress>Clayton Street</adress>
+      <salary>47000</salary>
+   </Employees>
+   <Employees idEmployees="5" idManager="1">
+      <fname>Henry</fname>
+      <lname>Lopez</lname>
+      <city>Jacksonville</city>
+      <phoneNumber>+122334</phoneNumber>
+      <adress>Dolton Street</adress>
+      <salary>37000</salary>
+   </Employees>
+   <Employees idEmployees="6" idManager="1">
+      <fname>James</fname>
+      <lname>Williams</lname>
+      <city>Chicago</city>
+      <phoneNumber>+123123</phoneNumber>
+      <adress>Buford Street</adress>
+      <salary>65000</salary>
+   </Employees>
+   <Employees idEmployees="7" idManager="2">
+      <fname>Amelia</fname>
+      <lname>Clark</lname>
+      <city>Seattle</city>
+      <phoneNumber>+13232</phoneNumber>
+      <adress>Jennings Street</adress>
+      <salary>80000</salary>
+   </Employees>
+   <Employees idEmployees="8" idManager="1">
+      <fname>Lucas</fname>
+      <lname>White</lname>
+      <city>Washington</city>
+      <phoneNumber>+13232</phoneNumber>
+      <adress>Dolton</adress>
+      <salary>20000</salary>
+   </Employees>
+   <Employees idEmployees="9" idManager="3">
+      <fname>Amelia</fname>
+      <lname>Sanders</lname>
+      <city>Chicago</city>
+      <phoneNumber>+13232</phoneNumber>
+      <adress>Bellwood Street</adress>
+      <salary>31500</salary>
+   </Employees>
+   <Employees idEmployees="10" idManager="2">
+      <fname>Benjamin</fname>
+      <lname>Williams</lname>
+      <city>Phoenix</city>
+      <phoneNumber>+13232</phoneNumber>
+      <adress>Golf Street</adress>
+      <salary>15000</salary>
+   </Employees>
+   <Employees idEmployees="11" idManager="3">
+      <fname>Charlotte</fname>
+      <lname>Myers</lname>
+      <city>Boston</city>
+      <phoneNumber>+13232</phoneNumber>
+      <adress>Flossmoor Street</adress>
+      <salary>44000</salary>
+   </Employees>
+</Employees>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<car>
+   <car idCar="1" idCustomer="1">
+      <vin>WBAAA1305H8251545</vin>
+      <make>BMW</make>
+      <model>X5</model>
+      <bodytype>SUV</bodytype>
+      <productionYear>2009</productionYear>
+      <engineCapacity>2993cc</engineCapacity>
+      <fuelType>Diesel</fuelType>
+      <exteriorColor>SpaceGray</exteriorColor>
+   </car>
+   <car idCar="2" idCustomer="2">
+      <vin>WBDBA2505H8342325</vin>
+      <make>Mercedes</make>
+      <model>CLA</model>
+      <bodytype>Sedan</bodytype>
+      <productionYear>2015</productionYear>
+      <engineCapacity>1992cc</engineCapacity>
+      <fuelType>Gasoline</fuelType>
+      <exteriorColor>SunYellow</exteriorColor>
+   </car>
+</car>

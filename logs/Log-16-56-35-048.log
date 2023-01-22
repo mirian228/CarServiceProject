@@ -1,0 +1,38 @@
+16:53:59:568 [main] INFO  main.Main - Car info
+16:53:59:576 [main] INFO  main.Main - vin: KNDJE723297570351
+16:53:59:576 [main] INFO  main.Main - make: BMW
+16:53:59:577 [main] INFO  main.Main - model: X3
+16:53:59:584 [main] INFO  main.Main - Car info
+16:53:59:585 [main] INFO  main.Main - idCustomer: null
+16:53:59:586 [main] INFO  main.Main - make: null
+16:53:59:586 [main] INFO  main.Main - model: null
+16:53:59:601 [main] ERROR main.Main - JAXBException occured
+javax.xml.bind.UnmarshalException: unexpected element (uri:"", local:"Customer"). Expected elements are <{}customer>
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(UnmarshallingContext.java:744) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.unmarshaller.Loader.reportError(Loader.java:262) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.unmarshaller.Loader.reportError(Loader.java:257) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.unmarshaller.Loader.reportUnexpectedChildElement(Loader.java:124) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext$DefaultRootLoader.childElement(UnmarshallingContext.java:1149) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext._startElement(UnmarshallingContext.java:574) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext.startElement(UnmarshallingContext.java:556) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.unmarshaller.SAXConnector.startElement(SAXConnector.java:168) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:613) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3079) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:836) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637) ~[?:?]
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:258) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:229) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:170) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:209) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:194) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at jaxb.CustomerJAXB.unmarshallExistingFile(CustomerJAXB.java:25) ~[classes/:?]
+	at main.Main.main(Main.java:24) ~[classes/:?]

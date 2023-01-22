@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Manager>
+   <Manager idManager="1">
+      <fname>George</fname>
+      <lname>Smith</lname>
+      <adress>Bond Road</adress>
+      <phoneNumber>+32131</phoneNumber>
+      <salary>125000</salary>
+   </Manager>
+   <Manager idManager="2">
+      <fname>Martin</fname>
+      <lname>White</lname>
+      <adress>Beasley Lane</adress>
+      <phoneNumber>+12323</phoneNumber>
+      <salary>90000</salary>
+   </Manager>
+   <Manager idManager="3">
+      <fname>Benjamin</fname>
+      <lname>White</lname>
+      <adress>Buford Street</adress>
+      <phoneNumber>+32131</phoneNumber>
+      <salary>110000</salary>
+   </Manager>
+</Manager>

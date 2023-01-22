@@ -1,0 +1,17 @@
+19:03:18:759 [main] INFO  main.Main - Car info
+19:03:18:763 [main] INFO  main.Main - idCustomer: null
+19:03:18:764 [main] INFO  main.Main - make: null
+19:03:18:764 [main] INFO  main.Main - model: null
+19:03:18:777 [main] INFO  model.AutomotivePartsStoreOrders - Automotive Parts Store order information
+19:03:18:777 [main] INFO  model.AutomotivePartsStoreOrders - Customer ID: 1
+19:03:18:778 [main] INFO  model.AutomotivePartsStoreOrders - AutomotivePartsStore ID: 1
+19:03:18:778 [main] INFO  model.AutomotivePartsStoreOrders - Order ID: 1
+19:03:18:790 [main] INFO  model.AutomotivePartsStoreOrders - Order Date: Thu Jan 01 00:00:00 GET 1970
+19:06:11:862 [main] INFO  main.Main - Car info
+19:06:11:864 [main] INFO  main.Main - vin: KNDJE723297570351
+19:06:11:865 [main] INFO  main.Main - make: BMW
+19:06:11:865 [main] INFO  main.Main - model: X3
+19:06:11:871 [main] INFO  main.Main - Car info
+19:06:11:871 [main] INFO  main.Main - idCustomer: null
+19:06:11:871 [main] INFO  main.Main - make: null
+19:06:11:871 [main] INFO  main.Main - model: null

@@ -1,0 +1,20 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="Manager">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="Manager" maxOccurs="unbounded" minOccurs="1">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="fname" type="xs:string"/>
+						<xs:element name="lname" type="xs:string"/>
+						<xs:element name="adress" type="xs:string"/>
+						<xs:element name="phoneNumber" type="xs:string"/>
+						<xs:element name="salary" type="xs:int"/>
+					</xs:sequence>
+					<xs:attribute name="idManager" type="xs:long"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>

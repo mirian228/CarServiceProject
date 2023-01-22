@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cashier>
+   <Cashier idCashier="1" idEmployees="2" />
+   <Cashier idCashier="2" idEmployees="7" />
+</Cashier>

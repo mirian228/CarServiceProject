@@ -1,0 +1,21 @@
+16:34:48:887 [main] INFO  main.Main - Car info
+16:34:48:894 [main] INFO  main.Main - vin: null
+16:34:48:894 [main] INFO  main.Main - make: null
+16:34:48:894 [main] INFO  main.Main - model: null
+16:37:55:363 [main] INFO  main.Main - Car info
+16:37:55:365 [main] INFO  main.Main - vin: null
+16:37:55:366 [main] INFO  main.Main - make: null
+16:37:55:366 [main] INFO  main.Main - model: null
+16:38:36:702 [main] INFO  main.Main - Car info
+16:38:36:705 [main] INFO  main.Main - vin: null
+16:38:36:706 [main] INFO  main.Main - make: null
+16:38:36:706 [main] INFO  main.Main - model: null
+16:39:02:728 [main] INFO  main.Main - Car info
+16:39:02:731 [main] INFO  main.Main - vin: null
+16:39:02:732 [main] INFO  main.Main - make: null
+16:39:02:732 [main] INFO  main.Main - model: null
+16:39:02:732 [main] INFO  main.Main - ramenull
+16:42:25:667 [main] INFO  main.Main - Car info
+16:42:25:669 [main] INFO  main.Main - vin: KNDJE723297570351
+16:42:25:670 [main] INFO  main.Main - make: BMW
+16:42:25:670 [main] INFO  main.Main - model: X3

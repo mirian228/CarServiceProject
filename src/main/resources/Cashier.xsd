@@ -1,0 +1,18 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="Cashier">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="Cashier" maxOccurs="unbounded" minOccurs="0">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="idCashier" type="xs:long"/>
+							<xs:attribute name="idEmployees" type="xs:long"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>

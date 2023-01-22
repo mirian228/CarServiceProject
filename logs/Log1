@@ -1,0 +1,5 @@
+19:06:11:897 [main] INFO  model.AutomotivePartsStoreOrders - Automotive Parts Store order information
+19:06:11:901 [main] INFO  model.AutomotivePartsStoreOrders - Customer ID: 1
+19:06:11:902 [main] INFO  model.AutomotivePartsStoreOrders - AutomotivePartsStore ID: 1
+19:06:11:902 [main] INFO  model.AutomotivePartsStoreOrders - Order ID: 1
+19:06:11:913 [main] INFO  model.AutomotivePartsStoreOrders - Order Date: Thu Jan 01 00:00:00 GET 1970

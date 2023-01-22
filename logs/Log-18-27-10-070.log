@@ -1,0 +1,25 @@
+18:18:59:673 [main] INFO  main.Main - Car info
+18:18:59:711 [main] INFO  main.Main - vin: KNDJE723297570351
+18:18:59:712 [main] INFO  main.Main - make: BMW
+18:18:59:712 [main] INFO  main.Main - model: X3
+18:18:59:719 [main] INFO  main.Main - Car info
+18:18:59:719 [main] INFO  main.Main - idCustomer: null
+18:18:59:720 [main] INFO  main.Main - make: null
+18:18:59:720 [main] INFO  main.Main - model: null
+18:19:24:898 [main] INFO  main.Main - Car info
+18:19:24:900 [main] INFO  main.Main - vin: KNDJE723297570351
+18:19:24:901 [main] INFO  main.Main - make: BMW
+18:19:24:903 [main] INFO  main.Main - model: X3
+18:19:24:909 [main] INFO  main.Main - Car info
+18:19:24:910 [main] INFO  main.Main - idCustomer: null
+18:19:24:910 [main] INFO  main.Main - make: null
+18:19:24:910 [main] INFO  main.Main - model: null
+18:19:25:071 [main] ERROR model.AutomotivePartsStoreOrders - JAXBException occured
+javax.xml.bind.JAXBException: class model.AutomotivePartsStoreOrders nor any of its super class is known to this context.
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.getBeanInfo(JAXBContextImpl.java:593) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.XMLSerializer.childAsRoot(XMLSerializer.java:482) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.MarshallerImpl.write(MarshallerImpl.java:328) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.MarshallerImpl.marshal(MarshallerImpl.java:256) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at javax.xml.bind.helpers.AbstractMarshallerImpl.marshal(AbstractMarshallerImpl.java:110) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at jaxb.AutomotivePartsStoreOrdersJAXB.marshall(AutomotivePartsStoreOrdersJAXB.java:28) ~[classes/:?]
+	at main.Main.main(Main.java:27) ~[classes/:?]

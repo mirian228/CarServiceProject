@@ -1,0 +1,16 @@
+16:06:48:512 [main] ERROR main.Main - JAXBException occured
+javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:278) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:421) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:721) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:662) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at jaxb.CarJAXB.marshall(CarJAXB.java:20) ~[classes/:?]
+	at main.Main.main(Main.java:17) ~[classes/:?]
+Caused by: java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at javax.xml.bind.ServiceLoaderUtil.nullSafeLoadClass(ServiceLoaderUtil.java:122) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at javax.xml.bind.ServiceLoaderUtil.safeLoadClass(ServiceLoaderUtil.java:155) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:276) ~[jaxb-api-2.3.1.jar:2.3.0]
+	... 5 more

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Customer>
+   <Customer idCustomer="1">
+      <fname>Mirian</fname>
+      <lname>Surmanidze</lname>
+      <phoneNumber>577480406</phoneNumber>
+      <adress>Bagrationi Street</adress>
+      <discount>10%</discount>
+   </Customer>
+   <Customer idCustomer="2">
+      <fname>Giorgi</fname>
+      <lname>Giorgadze</lname>
+      <phoneNumber>555400400</phoneNumber>
+      <adress>Gorgasali Street</adress>
+      <discount>5%</discount>
+   </Customer>
+</Customer>
