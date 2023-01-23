@@ -14,7 +14,7 @@ import model.CarServiceA;
 import utility.ConnectionPool;
 
 public class CarServiceADaoImpl implements ICarServiceADao {
-	private static final Logger LOGGER = LogManager.getLogger(CarDaoImpl.class);
+	private static final Logger LOGGER = LogManager.getLogger(CarServiceADaoImpl.class);
 	ConnectionPool conPool = ConnectionPool.getInstance();
 
 	public CarServiceA selectEntityById(Long id) {

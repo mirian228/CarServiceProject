@@ -13,7 +13,7 @@ import model.Cashier;
 import utility.ConnectionPool;
 
 public class CashierDaoImpl implements ICashierDao {
-	private static final Logger LOGGER = LogManager.getLogger(CarDaoImpl.class);
+	private static final Logger LOGGER = LogManager.getLogger(CashierDaoImpl.class);
 	ConnectionPool conPool = ConnectionPool.getInstance();
 
 	public Cashier selectEntityById(Long id){

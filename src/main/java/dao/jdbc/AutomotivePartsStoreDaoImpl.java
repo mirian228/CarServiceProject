@@ -14,7 +14,7 @@ import model.AutomotivePartsStore;
 import utility.ConnectionPool;
 
 public class AutomotivePartsStoreDaoImpl implements IAutomotivePartsStoreDao {
-    private static final Logger LOGGER = LogManager.getLogger(CarDaoImpl.class);
+    private static final Logger LOGGER = LogManager.getLogger(AutomotivePartsStoreDaoImpl.class);
     ConnectionPool conPool = ConnectionPool.getInstance();
 	
     public AutomotivePartsStore selectEntityById(Long id) throws SQLException {

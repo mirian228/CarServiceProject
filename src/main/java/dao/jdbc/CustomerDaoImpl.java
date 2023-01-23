@@ -11,7 +11,7 @@ import model.Customer;
 import utility.ConnectionPool;
 
 public class CustomerDaoImpl implements ICustomerDao {
-	private static final Logger LOGGER = LogManager.getLogger(CarDaoImpl.class);
+	private static final Logger LOGGER = LogManager.getLogger(CustomerDaoImpl.class);
 	ConnectionPool conPool = ConnectionPool.getInstance();
 
 	public Customer selectEntityById(Long id) {

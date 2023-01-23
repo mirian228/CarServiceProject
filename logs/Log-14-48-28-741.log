@@ -1,0 +1,15 @@
+14:48:20:849 [main] INFO  model.AutomotivePartsStoreOrders - Order ID: 1
+14:48:20:867 [main] INFO  model.AutomotivePartsStoreOrders - Order Date: Thu Jan 01 00:00:00 GET 1970
+14:48:20:888 [main] INFO  jaxb.PartWarehouseJAXB - Part warehouse info
+14:48:20:888 [main] INFO  jaxb.PartWarehouseJAXB - Part warehouse ID : 1
+14:48:20:889 [main] INFO  jaxb.PartWarehouseJAXB - Part ID: 1
+14:48:20:889 [main] INFO  jaxb.PartWarehouseJAXB - Part name: Valve cover gasket
+14:48:20:890 [main] INFO  jaxb.PartWarehouseJAXB - Part number: b32sCx100
+14:48:20:890 [main] INFO  jaxb.PartWarehouseJAXB - Part quantity: 3
+14:48:20:891 [main] INFO  jaxb.PartWarehouseJAXB - Part producer: Mahle
+14:48:20:891 [main] INFO  jaxb.PartWarehouseJAXB - Part name: 2021
+14:48:28:735 [main] INFO  jaxb.CarJAXB - Car info
+14:48:28:737 [main] INFO  jaxb.CarJAXB - Vin: KNDJE723297570351
+14:48:28:738 [main] INFO  jaxb.CarJAXB - Make: BMW
+14:48:28:738 [main] INFO  jaxb.CarJAXB - Model: X3
+14:48:28:739 [main] INFO  jaxb.CarJAXB - Body type: SUV

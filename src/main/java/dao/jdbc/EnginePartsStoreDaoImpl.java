@@ -1,6 +1,5 @@
 package dao.jdbc;
 
-import java.sql.Connection;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
@@ -11,7 +10,7 @@ import model.EnginePartsStore;
 import utility.ConnectionPool;
 
 public class EnginePartsStoreDaoImpl implements IEnginePartsStoreDao {
-	private static final Logger LOGGER = LogManager.getLogger(CarDaoImpl.class);
+	private static final Logger LOGGER = LogManager.getLogger(EnginePartsStoreDaoImpl.class);
 	ConnectionPool conPool = ConnectionPool.getInstance();
 
 	public EnginePartsStore selectEntityById(Long id) {

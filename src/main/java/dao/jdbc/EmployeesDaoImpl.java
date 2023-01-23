@@ -11,7 +11,7 @@ import model.Employees;
 import utility.ConnectionPool;
 
 public class EmployeesDaoImpl implements IEmployeesDao {
-	private static final Logger LOGGER = LogManager.getLogger(CarDaoImpl.class);
+	private static final Logger LOGGER = LogManager.getLogger(EmployeesDaoImpl.class);
 	ConnectionPool conPool = ConnectionPool.getInstance();
 
 	public Employees selectEntityById(Long id) {

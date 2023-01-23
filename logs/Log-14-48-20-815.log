@@ -1,0 +1,16 @@
+14:46:14:079 [main] INFO  jaxb.CarJAXB - Model: null
+14:46:14:084 [main] INFO  jaxb.CarJAXB - Body type: null
+14:46:14:084 [main] INFO  jaxb.CarJAXB - Production year: 0
+14:46:14:085 [main] INFO  jaxb.CarJAXB - Engine capacity: null
+14:46:14:085 [main] INFO  jaxb.CarJAXB - Fuel type: null
+14:46:14:085 [main] INFO  jaxb.CarJAXB - Exterior color: null
+14:46:14:102 [main] INFO  model.AutomotivePartsStoreOrders - Automotive Parts Store order information
+14:46:14:102 [main] INFO  model.AutomotivePartsStoreOrders - Customer ID: 1
+14:46:14:102 [main] INFO  model.AutomotivePartsStoreOrders - AutomotivePartsStore ID: 1
+14:46:14:103 [main] INFO  model.AutomotivePartsStoreOrders - Order ID: 1
+14:46:14:114 [main] INFO  model.AutomotivePartsStoreOrders - Order Date: Thu Jan 01 00:00:00 GET 1970
+14:48:20:809 [main] INFO  jaxb.CarJAXB - Car info
+14:48:20:812 [main] INFO  jaxb.CarJAXB - Vin: KNDJE723297570351
+14:48:20:812 [main] INFO  jaxb.CarJAXB - Make: BMW
+14:48:20:812 [main] INFO  jaxb.CarJAXB - Model: X3
+14:48:20:812 [main] INFO  jaxb.CarJAXB - Body type: SUV

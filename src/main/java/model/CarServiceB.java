@@ -1,14 +1,29 @@
 package model;
 
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class CarServiceB {
 	private Long idCarServiceB;
 	private Long idCar;
 	private String ServiceType;
 
-	CarServiceB() {
+	public CarServiceB() {
 		
 	}
+	
+	
+	public CarServiceB(Long idCarServiceB, Long idCar, String serviceType) {
+		super();
+		this.idCarServiceB = idCarServiceB;
+		this.idCar = idCar;
+		ServiceType = serviceType;
+	}
 
+
+	@XmlAttribute
 	public Long getIdCarServiceB() {
 		return idCarServiceB;
 	}
@@ -16,7 +31,7 @@ public class CarServiceB {
 	public void setIdCarServiceB(Long idCarServiceB) {
 		this.idCarServiceB = idCarServiceB;
 	}
-
+	@XmlAttribute
 	public Long getIdCar() {
 		return idCar;
 	}
@@ -24,7 +39,7 @@ public class CarServiceB {
 	public void setIdCar(Long idCar) {
 		this.idCar = idCar;
 	}
-
+	@XmlElement
 	public String getServiceType() {
 		return ServiceType;
 	}

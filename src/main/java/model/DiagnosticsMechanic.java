@@ -1,5 +1,10 @@
 package model;
 
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class DiagnosticsMechanic {
 	private Long idDiagnosticsMechanic;
 	private Long idCarServiceA;
@@ -8,7 +13,19 @@ public class DiagnosticsMechanic {
 	public DiagnosticsMechanic() {
 	
 	}
+	
+	
+	
+	public DiagnosticsMechanic(Long idDiagnosticsMechanic, Long idCarServiceA, Long idEmployees) {
+		super();
+		this.idDiagnosticsMechanic = idDiagnosticsMechanic;
+		this.idCarServiceA = idCarServiceA;
+		this.idEmployees = idEmployees;
+	}
 
+
+
+	@XmlAttribute
 	public Long getIdDiagnosticsMechanic() {
 		return idDiagnosticsMechanic;
 	}
@@ -16,7 +33,7 @@ public class DiagnosticsMechanic {
 	public void setIdDiagnosticsMechanic(Long idDiagnosticsMechanic) {
 		this.idDiagnosticsMechanic = idDiagnosticsMechanic;
 	}
-
+	@XmlElement
 	public Long getIdCarServiceA() {
 		return idCarServiceA;
 	}
@@ -24,7 +41,7 @@ public class DiagnosticsMechanic {
 	public void setIdCarServiceA(Long idCarServiceA) {
 		this.idCarServiceA = idCarServiceA;
 	}
-
+	@XmlElement
 	public Long getIdEmployees() {
 		return idEmployees;
 	}

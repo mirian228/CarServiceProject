@@ -1,19 +1,21 @@
 package jaxb;
 
 import java.io.File;
+
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import main.Main;
+
 import model.Car;
 
 public class CarJAXB {
-	private static final Logger LOGGER = LogManager.getLogger(Main.class);
-	File file = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\marshallerCar.xml");
-	File file2 = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\Car.xml");
+	private static final Logger LOGGER = LogManager.getLogger(CarJAXB.class);
+	File file = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\xml\\marshallerCar.xml");
+	File file2 = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\xml\\Car.xml");
 	
 	public CarJAXB(){
 		
@@ -41,9 +43,15 @@ public class CarJAXB {
 			Unmarshaller unmarshaller = jaxbContent.createUnmarshaller();
 			Car car = (Car) unmarshaller.unmarshal(file);
 			LOGGER.info("Car info");
-			LOGGER.info("vin: " + car.getVin());
-			LOGGER.info("make: " + car.getMake());
-			LOGGER.info("model: " + car.getModel());
+			LOGGER.info("Vin: " + car.getVin());
+			LOGGER.info("Make: " + car.getMake());
+			LOGGER.info("Model: " + car.getModel());
+			LOGGER.info("Body type: " + car.getBodytype());
+			LOGGER.info("Production year: " + car.getProductionYear());
+			LOGGER.info("Engine capacity: " + car.getEngineCapacity());
+			LOGGER.info("Fuel type: " + car.getFuelType());
+			LOGGER.info("Exterior color: " + car.getExteriorColor());
+			
 
 		} catch (JAXBException e) {
 			LOGGER.error("JAXBException occured", e);
@@ -57,9 +65,14 @@ public class CarJAXB {
 			Unmarshaller unmarshaller = jaxbContent.createUnmarshaller();
 			Car car = (Car) unmarshaller.unmarshal(file2);
 			LOGGER.info("Car info");
-			LOGGER.info("idCustomer: " + car.getVin());
-			LOGGER.info("make: " + car.getMake());
-			LOGGER.info("model: " + car.getModel());
+			LOGGER.info("Vin: " + car.getVin());
+			LOGGER.info("Make: " + car.getMake());
+			LOGGER.info("Model: " + car.getModel());
+			LOGGER.info("Body type: " + car.getBodytype());
+			LOGGER.info("Production year: " + car.getProductionYear());
+			LOGGER.info("Engine capacity: " + car.getEngineCapacity());
+			LOGGER.info("Fuel type: " + car.getFuelType());
+			LOGGER.info("Exterior color: " + car.getExteriorColor());
 
 		} catch (JAXBException e) {
 			LOGGER.error("JAXBException occured", e);

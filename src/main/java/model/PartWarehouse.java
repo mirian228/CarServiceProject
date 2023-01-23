@@ -1,5 +1,10 @@
 package model;
 
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class PartWarehouse {
 	private Long idPartWarehouse;
 	private String partId;
@@ -11,6 +16,74 @@ public class PartWarehouse {
 
 	public PartWarehouse() {
 	
+	}
+
+	public PartWarehouse(Long idPartWarehouse, String partId, String partName, String partNumber, int partquantity,
+			String producer, int releaseyear) {
+		super();
+		this.idPartWarehouse = idPartWarehouse;
+		this.partId = partId;
+		this.partName = partName;
+		this.partNumber = partNumber;
+		this.partquantity = partquantity;
+		this.producer = producer;
+		this.releaseyear = releaseyear;
+	}
+	@XmlAttribute
+	public Long getIdPartWarehouse() {
+		return idPartWarehouse;
+	}
+
+	public void setIdPartWarehouse(Long idPartWarehouse) {
+		this.idPartWarehouse = idPartWarehouse;
+	}
+	@XmlElement
+	public String getPartId() {
+		return partId;
+	}
+
+	public void setPartId(String partId) {
+		this.partId = partId;
+	}
+	@XmlElement
+	public String getPartName() {
+		return partName;
+	}
+
+	public void setPartName(String partName) {
+		this.partName = partName;
+	}
+	@XmlElement
+	public String getPartNumber() {
+		return partNumber;
+	}
+
+	public void setPartNumber(String partNumber) {
+		this.partNumber = partNumber;
+	}
+	@XmlElement
+	public int getPartquantity() {
+		return partquantity;
+	}
+
+	public void setPartquantity(int partquantity) {
+		this.partquantity = partquantity;
+	}
+	@XmlElement
+	public String getProducer() {
+		return producer;
+	}
+
+	public void setProducer(String producer) {
+		this.producer = producer;
+	}
+	@XmlElement
+	public int getReleaseyear() {
+		return releaseyear;
+	}
+
+	public void setReleaseyear(int releaseyear) {
+		this.releaseyear = releaseyear;
 	}
 
 	@Override

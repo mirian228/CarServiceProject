@@ -5,14 +5,15 @@ import java.io.File;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import main.Main;
+
 import model.Customer;
 
 public class CustomerJAXB {
-	private static final Logger LOGGER = LogManager.getLogger(Main.class);
-	File file1 = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\Customer.xml");
+	private static final Logger LOGGER = LogManager.getLogger(CustomerJAXB.class);
+	File file1 = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\xml\\Customer.xml");
 	
 	
 	public void unmarshallExistingFile() {

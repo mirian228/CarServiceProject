@@ -9,7 +9,7 @@ import model.CarServiceB;
 import utility.ConnectionPool;
 
 public class CarServiceBDaoImpl implements ICarServiceBDao {
-	private static final Logger LOGGER = LogManager.getLogger(CarDaoImpl.class);
+	private static final Logger LOGGER = LogManager.getLogger(CarServiceBDaoImpl.class);
 	ConnectionPool conPool = ConnectionPool.getInstance();
 
 	public CarServiceB selectEntityById(Long id) {

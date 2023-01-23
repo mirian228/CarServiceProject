@@ -11,7 +11,7 @@ import model.Manager;
 import utility.ConnectionPool;
 
 public class ManagerDaoImpl implements IManagerDao {
-	private static final Logger LOGGER = LogManager.getLogger(CarDaoImpl.class);
+	private static final Logger LOGGER = LogManager.getLogger(ManagerDaoImpl.class);
 	ConnectionPool conPool = ConnectionPool.getInstance();
 
 	public Manager selectEntityById(Long id) {

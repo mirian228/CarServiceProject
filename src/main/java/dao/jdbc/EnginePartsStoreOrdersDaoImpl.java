@@ -11,7 +11,7 @@ import model.EnginePartsStoreOrders;
 import utility.ConnectionPool;
 
 public class EnginePartsStoreOrdersDaoImpl implements IEnginePartsStoreOrdersDao {
-    private static final Logger LOGGER = LogManager.getLogger(CarDaoImpl.class);
+    private static final Logger LOGGER = LogManager.getLogger(EnginePartsStoreOrdersDaoImpl.class);
     ConnectionPool conPool = ConnectionPool.getInstance();
 	@Override
 	public void insertEntity(EnginePartsStoreOrders enity) throws SQLException {

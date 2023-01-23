@@ -1,0 +1,17 @@
+14:45:40:366 [main] INFO  model.AutomotivePartsStoreOrders - AutomotivePartsStore ID: 1
+14:45:40:371 [main] INFO  model.AutomotivePartsStoreOrders - Order ID: 1
+14:45:40:383 [main] INFO  model.AutomotivePartsStoreOrders - Order Date: Thu Jan 01 00:00:00 GET 1970
+14:45:49:190 [main] INFO  jaxb.CarJAXB - Car info
+14:45:49:192 [main] INFO  jaxb.CarJAXB - Vin: KNDJE723297570351
+14:45:49:193 [main] INFO  jaxb.CarJAXB - Make: BMW
+14:45:49:193 [main] INFO  jaxb.CarJAXB - Model: X3
+14:45:49:193 [main] INFO  jaxb.CarJAXB - Body type: SUV
+14:45:49:194 [main] INFO  jaxb.CarJAXB - Production year: 2018
+14:45:49:194 [main] INFO  jaxb.CarJAXB - Engine capacity: 2993cc
+14:45:49:194 [main] INFO  jaxb.CarJAXB - Fuel type: Gasoline
+14:45:49:194 [main] INFO  jaxb.CarJAXB - Exterior color: Alpine White
+14:45:49:199 [main] INFO  jaxb.CarJAXB - Car info
+14:45:49:199 [main] INFO  jaxb.CarJAXB - idCustomer: null
+14:45:49:201 [main] INFO  jaxb.CarJAXB - make: null
+14:45:49:201 [main] INFO  jaxb.CarJAXB - model: null
+14:45:49:217 [main] INFO  model.AutomotivePartsStoreOrders - Automotive Parts Store order information

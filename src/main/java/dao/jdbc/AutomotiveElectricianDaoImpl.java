@@ -15,7 +15,7 @@ import model.AutomotiveElectrician;
 import utility.ConnectionPool;
 
 public class AutomotiveElectricianDaoImpl implements IAutomotiveElectricianDao {
-    private static final Logger LOGGER = LogManager.getLogger(CarDaoImpl.class);
+    private static final Logger LOGGER = LogManager.getLogger(AutomotiveElectricianDaoImpl.class);
     ConnectionPool conPool = ConnectionPool.getInstance();
 	
 	
