@@ -11,17 +11,15 @@ public class CarServiceB {
 	private String ServiceType;
 
 	public CarServiceB() {
-		
+
 	}
-	
-	
+
 	public CarServiceB(Long idCarServiceB, Long idCar, String serviceType) {
 		super();
 		this.idCarServiceB = idCarServiceB;
 		this.idCar = idCar;
 		ServiceType = serviceType;
 	}
-
 
 	@XmlAttribute
 	public Long getIdCarServiceB() {
@@ -31,6 +29,7 @@ public class CarServiceB {
 	public void setIdCarServiceB(Long idCarServiceB) {
 		this.idCarServiceB = idCarServiceB;
 	}
+
 	@XmlAttribute
 	public Long getIdCar() {
 		return idCar;
@@ -39,6 +38,7 @@ public class CarServiceB {
 	public void setIdCar(Long idCar) {
 		this.idCar = idCar;
 	}
+
 	@XmlElement
 	public String getServiceType() {
 		return ServiceType;
@@ -90,7 +90,5 @@ public class CarServiceB {
 		return "CarServiceB [idCarServiceB=" + idCarServiceB + ", idCar=" + idCar + ", ServiceType=" + ServiceType
 				+ "]";
 	}
-	
-	
 
 }

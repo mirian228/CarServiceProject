@@ -32,19 +32,18 @@ public class SuspensionMechanicDaoImpl implements ISuspensionMechanicDao {
 			suspensionMechanic.setIdCarServiceB(resultset.getLong("idCarServiceB"));
 			suspensionMechanic.setIdEmployees(resultset.getLong("idEmployees"));
 			statement.executeUpdate();
-			
-		}catch(SQLException e) {
+
+		} catch (SQLException e) {
 			e.printStackTrace();
-		}
-		finally {
+		} finally {
 			try {
-			if(statement != null) {
-				statement.close();
-				LOGGER.info("Statement closed");
-			}
-			} catch(SQLException e) {
+				if (statement != null) {
+					statement.close();
+					LOGGER.info("Statement closed");
+				}
+			} catch (SQLException e) {
 				e.printStackTrace();
-				LOGGER.error("Cannot close Statement" ,e);
+				LOGGER.error("Cannot close Statement", e);
 			}
 			if (connection != null) {
 				conPool.putBack(connection);
@@ -59,40 +58,38 @@ public class SuspensionMechanicDaoImpl implements ISuspensionMechanicDao {
 		List<SuspensionMechanic> suspensionMechanicList = new ArrayList<SuspensionMechanic>();
 		String sql = "SELECT * FROM SuspensionMechanic";
 		Statement statement = null;
-		
+
 		try {
-		statement = connection.createStatement();
-		ResultSet resultSet = statement.executeQuery(sql);
-		
-		while(resultSet.next()) {
-			SuspensionMechanic suspensionMechanic = new SuspensionMechanic();
-			suspensionMechanic.setIdSuspensionMechanic(resultSet.getLong("idSuspensionMechanic"));
-			suspensionMechanic.setIdCarServiceB(resultSet.getLong("idCarServiceB"));
-			suspensionMechanic.setIdEmployees(resultSet.getLong("idEmployees"));
-			
-			suspensionMechanicList.add(suspensionMechanic);
-		}
-		}
-		catch(SQLException e) { 
-			e.printStackTrace();
-		}
-		finally {
-			try {
-			if(statement != null) {
-				statement.close();
-				LOGGER.info("Statement closed successfully");
+			statement = connection.createStatement();
+			ResultSet resultSet = statement.executeQuery(sql);
+
+			while (resultSet.next()) {
+				SuspensionMechanic suspensionMechanic = new SuspensionMechanic();
+				suspensionMechanic.setIdSuspensionMechanic(resultSet.getLong("idSuspensionMechanic"));
+				suspensionMechanic.setIdCarServiceB(resultSet.getLong("idCarServiceB"));
+				suspensionMechanic.setIdEmployees(resultSet.getLong("idEmployees"));
+
+				suspensionMechanicList.add(suspensionMechanic);
 			}
-			} catch(SQLException e) {
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (statement != null) {
+					statement.close();
+					LOGGER.info("Statement closed successfully");
+				}
+			} catch (SQLException e) {
 				e.printStackTrace();
 				LOGGER.error("Cannot close statement", e);
-				
+
 			}
 			if (connection != null) {
 				conPool.putBack(connection);
 				LOGGER.info("Connection has returned back to connection pool");
 			}
 		}
-		
+
 		return suspensionMechanicList;
 	}
 
@@ -113,104 +110,88 @@ public class SuspensionMechanicDaoImpl implements ISuspensionMechanicDao {
 				if (statement != null) {
 					statement.close();
 					LOGGER.info("Statement closed successfully");
-											   } 
-				} catch (SQLException e) {
-					e.printStackTrace();
-					LOGGER.error("Cannot close Statement", e);
-										 } 
+				}
+			} catch (SQLException e) {
+				e.printStackTrace();
+				LOGGER.error("Cannot close Statement", e);
+			}
 			if (connection != null) {
 				conPool.putBack(connection);
 				LOGGER.info("Connection has returned back to connection pool");
 			}
-		          }
-		
+		}
+
 	}
 
-
-
-
-	public boolean updateEntity(SuspensionMechanic entity) {
+	public void updateEntity(SuspensionMechanic entity) {
 		Connection connection = conPool.retrieve();
 		PreparedStatement statement = null;
 		String sql = "UPDATE SuspensionMechanic SET idSuspensionMechanic=?, idCarServiceB=?, idEmployees=?";
-		
-				
+
 		try {
 			statement = connection.prepareStatement(sql);
-			
+
 			statement.setLong(1, entity.getIdSuspensionMechanic());
 			statement.setLong(2, entity.getIdCarServiceB());
 			statement.setLong(3, entity.getIdEmployees());
-			
+
 			statement.executeUpdate();
-			} catch(SQLException e) {
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (statement != null) {
+					statement.close();
+					LOGGER.info("Statement closed successfully");
+				}
+			} catch (SQLException e) {
 				e.printStackTrace();
-			}		finally {
-				try {
-					if(statement != null) {
-						statement.close();
-						LOGGER.info("Statement closed successfully");
-					}
-					} catch(SQLException e) {
-						e.printStackTrace();
-						LOGGER.error("Cannot close statement", e);
-						
-					}
-				if (connection != null) {
-					conPool.putBack(connection);
-					LOGGER.info("Connection has returned back to connection pool");
-				}
-				}
-		
-		return false;
+				LOGGER.error("Cannot close statement", e);
+
+			}
+			if (connection != null) {
+				conPool.putBack(connection);
+				LOGGER.info("Connection has returned back to connection pool");
+			}
+		}
+
 	}
 
-	
-
-	public boolean deleteEntinty(SuspensionMechanic entity) {
+	public void deleteEntinty(SuspensionMechanic entity) {
 		Connection connection = conPool.retrieve();
 		PreparedStatement statement = null;
 		String sql = "DELETE FROM SuspensionMechanic WHERE idSuspensionMechanic=?";
-			
-				
-				
+
 		try {
 			statement = connection.prepareStatement(sql);
 			statement.setLong(1, entity.getIdSuspensionMechanic());
-			
+
 			statement.executeUpdate();
-			
-			
-		}catch(SQLException e) {
+
+		} catch (SQLException e) {
 			e.printStackTrace();
-		}
-		finally {
+		} finally {
 			try {
-			if(statement != null) {
-				statement.close();
-				LOGGER.info("Statement closed successfully");
-			}
-			} catch(SQLException e) {
+				if (statement != null) {
+					statement.close();
+					LOGGER.info("Statement closed successfully");
+				}
+			} catch (SQLException e) {
 				e.printStackTrace();
 				LOGGER.error("Cannot close statement", e);
-				
+
 			}
 			try {
-			if(connection != null) {
-				connection.close();
-				LOGGER.info("Connection closed successfully");
-									}
-				}catch(SQLException e) {
-					e.printStackTrace();
-					LOGGER.error("Cannot close connection" ,e);
+				if (connection != null) {
+					connection.close();
+					LOGGER.info("Connection closed successfully");
 				}
+			} catch (SQLException e) {
+				e.printStackTrace();
+				LOGGER.error("Cannot close connection", e);
+			}
 		}
-		
-		return false;
-	}
-	
-	
-	
 
+	}
 
 }

@@ -10,17 +10,25 @@ public class Customer {
 	private String phoneNumber;
 	private String adress;
 	private String discount;
-	
-	
+
 	public Customer() {
-		
+
+	}
+
+	public Customer(Long idCustomer, String fname, String lname, String phoneNumber, String adress, String discount) {
+		super();
+		this.idCustomer = idCustomer;
+		this.fname = fname;
+		this.lname = lname;
+		this.phoneNumber = phoneNumber;
+		this.adress = adress;
+		this.discount = discount;
 	}
 
 	@XmlElement
 	public Long getIdCustomer() {
 		return idCustomer;
 	}
-
 
 	public void setIdCustomer(Long idCustomer) {
 		this.idCustomer = idCustomer;
@@ -31,7 +39,6 @@ public class Customer {
 		return fname;
 	}
 
-
 	public void setFname(String fname) {
 		this.fname = fname;
 	}
@@ -40,7 +47,6 @@ public class Customer {
 	public String getLname() {
 		return lname;
 	}
-
 
 	public void setLname(String lname) {
 		this.lname = lname;
@@ -51,7 +57,6 @@ public class Customer {
 		return phoneNumber;
 	}
 
-
 	public void setPhoneNumber(String phoneNumber) {
 		this.phoneNumber = phoneNumber;
 	}
@@ -60,7 +65,6 @@ public class Customer {
 	public String getAdress() {
 		return adress;
 	}
-
 
 	public void setAdress(String adress) {
 		this.adress = adress;
@@ -71,11 +75,9 @@ public class Customer {
 		return discount;
 	}
 
-
 	public void setDiscount(String discount) {
 		this.discount = discount;
 	}
-
 
 	@Override
 	public int hashCode() {
@@ -89,7 +91,6 @@ public class Customer {
 		result = prime * result + ((phoneNumber == null) ? 0 : phoneNumber.hashCode());
 		return result;
 	}
-
 
 	@Override
 	public boolean equals(Object obj) {
@@ -133,15 +134,10 @@ public class Customer {
 		return true;
 	}
 
-
 	@Override
 	public String toString() {
 		return "Customer [idCustomer=" + idCustomer + ", fname=" + fname + ", lname=" + lname + ", phoneNumber="
 				+ phoneNumber + ", adress=" + adress + ", discount=" + discount + "]";
 	}
 
-
-
-	
-	
 }

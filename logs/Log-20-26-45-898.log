@@ -1,0 +1,16 @@
+15:42:04:683 [main] INFO  jaxb.EnginePartsStoreJAXB - Engine parts store ID1
+15:42:04:686 [main] INFO  jaxb.EnginePartsStoreJAXB - Cashier ID1
+15:42:04:687 [main] INFO  jaxb.EnginePartsStoreJAXB - Part warehouse ID1
+15:42:04:688 [main] INFO  jaxb.EnginePartsStoreJAXB - Part ID3
+15:42:04:700 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car Service B info:
+15:42:04:701 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car service B ID: 1
+15:42:04:702 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car ID: 1
+15:42:04:702 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Service type: 3
+15:42:04:716 [main] INFO  jaxb.CarJAXB - Car Service B info:
+15:42:04:717 [main] INFO  jaxb.CarJAXB - Car service B ID: 1
+15:42:04:717 [main] INFO  jaxb.CarJAXB - Car ID: 2
+15:42:04:718 [main] INFO  jaxb.CarJAXB - Service type: Engine Replacement
+20:26:45:884 [main] INFO  jaxb.CarJAXB - Car info
+20:26:45:888 [main] INFO  jaxb.CarJAXB - Vin: KNDJE723297570351
+20:26:45:888 [main] INFO  jaxb.CarJAXB - Make: BMW
+20:26:45:888 [main] INFO  jaxb.CarJAXB - Model: X3

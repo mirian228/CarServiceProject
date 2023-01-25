@@ -11,7 +11,7 @@ public class GearboxMechanic {
 	private Long idEmployees;
 
 	public GearboxMechanic() {
-		
+
 	}
 
 	public GearboxMechanic(Long idGearboxMechanic, Long idCarServiceB, Long idEmployees) {
@@ -20,6 +20,7 @@ public class GearboxMechanic {
 		this.idCarServiceB = idCarServiceB;
 		this.idEmployees = idEmployees;
 	}
+
 	@XmlAttribute
 	public Long getIdGearboxMechanic() {
 		return idGearboxMechanic;
@@ -28,6 +29,7 @@ public class GearboxMechanic {
 	public void setIdGearboxMechanic(Long idGearboxMechanic) {
 		this.idGearboxMechanic = idGearboxMechanic;
 	}
+
 	@XmlElement
 	public Long getIdCarServiceB() {
 		return idCarServiceB;
@@ -36,6 +38,7 @@ public class GearboxMechanic {
 	public void setIdCarServiceB(Long idCarServiceB) {
 		this.idCarServiceB = idCarServiceB;
 	}
+
 	@XmlElement
 	public Long getIdEmployees() {
 		return idEmployees;
@@ -87,6 +90,5 @@ public class GearboxMechanic {
 		return "GearboxMechanic [idGearboxMechanic=" + idGearboxMechanic + ", idCarServiceB=" + idCarServiceB
 				+ ", idEmployees=" + idEmployees + "]";
 	}
-	
-	
+
 }

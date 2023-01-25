@@ -1,9 +1,16 @@
 package model;
+
+import java.util.List;
+
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 @XmlRootElement
 public class Car {
+
 	private Long idCar;
 	private Long idCustomer;
 	private String vin;
@@ -14,11 +21,12 @@ public class Car {
 	private String engineCapacity;
 	private String fuelType;
 	private String exteriorColor;
-	
+	@JsonProperty("Cars")
+	private List<Car> Cars;
+
 	public Car() {
 
 	}
-
 
 	public Car(Long idCar, Long idCustomer, String vin, String make, String model, String bodytype, int productionYear,
 			String engineCapacity, String fuelType, String exteriorColor) {
@@ -35,18 +43,22 @@ public class Car {
 		this.exteriorColor = exteriorColor;
 	}
 
+	public List<Car> getCars() {
+		return Cars;
+	}
+
+	public void setCars(List<Car> cars) {
+		Cars = cars;
+	}
 
 	@XmlAttribute
 	public Long getIdCar() {
 		return idCar;
 	}
 
-
-
 	public void setIdCar(Long idCar) {
 		this.idCar = idCar;
 	}
-
 
 	@XmlAttribute
 	public Long getIdCustomer() {
@@ -56,6 +68,7 @@ public class Car {
 	public void setIdCustomer(Long idCustomer) {
 		this.idCustomer = idCustomer;
 	}
+
 	@XmlElement
 	public String getVin() {
 		return vin;
@@ -64,6 +77,7 @@ public class Car {
 	public void setVin(String vin) {
 		this.vin = vin;
 	}
+
 	@XmlElement
 	public String getMake() {
 		return make;
@@ -72,6 +86,7 @@ public class Car {
 	public void setMake(String make) {
 		this.make = make;
 	}
+
 	@XmlElement
 	public String getModel() {
 		return model;
@@ -80,6 +95,7 @@ public class Car {
 	public void setModel(String model) {
 		this.model = model;
 	}
+
 	@XmlElement
 	public String getBodytype() {
 		return bodytype;
@@ -88,6 +104,7 @@ public class Car {
 	public void setBodytype(String bodytype) {
 		this.bodytype = bodytype;
 	}
+
 	@XmlElement
 	public int getProductionYear() {
 		return productionYear;
@@ -96,6 +113,7 @@ public class Car {
 	public void setProductionYear(int productionYear) {
 		this.productionYear = productionYear;
 	}
+
 	@XmlElement
 	public String getEngineCapacity() {
 		return engineCapacity;
@@ -104,6 +122,7 @@ public class Car {
 	public void setEngineCapacity(String engineCapacity) {
 		this.engineCapacity = engineCapacity;
 	}
+
 	@XmlElement
 	public String getFuelType() {
 		return fuelType;
@@ -112,6 +131,7 @@ public class Car {
 	public void setFuelType(String fuelType) {
 		this.fuelType = fuelType;
 	}
+
 	@XmlElement
 	public String getExteriorColor() {
 		return exteriorColor;
@@ -137,7 +157,7 @@ public class Car {
 		result = prime * result + ((vin == null) ? 0 : vin.hashCode());
 		return result;
 	}
-		
+
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -203,7 +223,5 @@ public class Car {
 				+ model + ", bodytype=" + bodytype + ", productionYear=" + productionYear + ", engineCapacity="
 				+ engineCapacity + ", fuelType=" + fuelType + ", exteriorColor=" + exteriorColor + "]";
 	}
-
-	
 
 }

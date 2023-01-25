@@ -8,6 +8,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 import jaxb.DateAdapter;
+
 @XmlRootElement
 public class AutomotivePartsStoreOrders {
 	private Long idCustomer;
@@ -15,12 +16,10 @@ public class AutomotivePartsStoreOrders {
 	private Long idOrder;
 	private Date orderDate;
 	private Double orderAmount;
-	
-	
-	public AutomotivePartsStoreOrders() {
-		
-	}
 
+	public AutomotivePartsStoreOrders() {
+
+	}
 
 	public AutomotivePartsStoreOrders(Long idCustomer, Long idAutomotivePartsStore, Long idOrder, Date orderDate,
 			Double orderAmount) {
@@ -37,7 +36,6 @@ public class AutomotivePartsStoreOrders {
 		return idCustomer;
 	}
 
-
 	public void setIdCustomer(Long idCustomer) {
 		this.idCustomer = idCustomer;
 	}
@@ -47,7 +45,6 @@ public class AutomotivePartsStoreOrders {
 		return idAutomotivePartsStore;
 	}
 
-
 	public void setIdAutomotivePartsStore(Long idAutomotivePartsStore) {
 		this.idAutomotivePartsStore = idAutomotivePartsStore;
 	}
@@ -56,7 +53,6 @@ public class AutomotivePartsStoreOrders {
 	public Long getIdOrder() {
 		return idOrder;
 	}
-
 
 	public void setIdOrder(Long idOrder) {
 		this.idOrder = idOrder;
@@ -68,7 +64,6 @@ public class AutomotivePartsStoreOrders {
 		return orderDate;
 	}
 
-
 	public void setOrderDate(Date orderDate) {
 		this.orderDate = orderDate;
 	}
@@ -78,17 +73,14 @@ public class AutomotivePartsStoreOrders {
 		return orderAmount;
 	}
 
-
 	public void setOrderAmount(Double orderAmount) {
 		this.orderAmount = orderAmount;
 	}
-
 
 	@Override
 	public int hashCode() {
 		return Objects.hash(idAutomotivePartsStore, idCustomer, idOrder, orderAmount, orderDate);
 	}
-
 
 	@Override
 	public boolean equals(Object obj) {
@@ -104,16 +96,11 @@ public class AutomotivePartsStoreOrders {
 				&& Objects.equals(orderAmount, other.orderAmount) && Objects.equals(orderDate, other.orderDate);
 	}
 
-
 	@Override
 	public String toString() {
 		return "AutomotivePartsStoreOrders [idCustomer=" + idCustomer + ", idAutomotivePartsStore="
 				+ idAutomotivePartsStore + ", idOrder=" + idOrder + ", orderDate=" + orderDate + ", orderAmount="
 				+ orderAmount + "]";
 	}
-	
-	
-	
-	
-	
+
 }

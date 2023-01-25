@@ -1,0 +1,15 @@
+16:11:26:967 [main] INFO  jaxb.CarJAXB - Exterior color: Alpine White
+16:11:26:977 [main] INFO  jaxb.CarJAXB - Car info
+16:11:26:977 [main] INFO  jaxb.CarJAXB - Vin: null
+16:11:26:978 [main] INFO  jaxb.CarJAXB - Make: null
+16:11:26:978 [main] INFO  jaxb.CarJAXB - Model: null
+16:11:26:978 [main] INFO  jaxb.CarJAXB - Body type: null
+16:11:26:979 [main] INFO  jaxb.CarJAXB - Production year: 0
+16:11:26:979 [main] INFO  jaxb.CarJAXB - Engine capacity: null
+16:11:26:979 [main] INFO  jaxb.CarJAXB - Fuel type: null
+16:11:26:979 [main] INFO  jaxb.CarJAXB - Exterior color: null
+16:11:26:995 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Automotive Parts Store order information
+16:11:26:996 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Customer ID: 1
+16:11:26:997 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - AutomotivePartsStore ID: 1
+16:11:26:997 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Order ID: 1
+16:11:27:010 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Order Date: Thu Jan 01 00:00:00 GET 1970

@@ -1,0 +1,14 @@
+15:24:57:496 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Customer ID: 1
+15:24:57:509 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - AutomotivePartsStore ID: 1
+15:24:57:509 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Order ID: 1
+15:24:57:522 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Order Date: Thu Jan 01 00:00:00 GET 1970
+15:24:57:533 [main] INFO  jaxb.PartWarehouseJAXB - Part warehouse info
+15:24:57:533 [main] INFO  jaxb.PartWarehouseJAXB - Part warehouse ID : 1
+15:24:57:534 [main] INFO  jaxb.PartWarehouseJAXB - Part ID: 1
+15:24:57:534 [main] INFO  jaxb.PartWarehouseJAXB - Part name: Valve cover gasket
+15:24:57:535 [main] INFO  jaxb.PartWarehouseJAXB - Part number: b32sCx100
+15:24:57:535 [main] INFO  jaxb.PartWarehouseJAXB - Part quantity: 3
+15:24:57:536 [main] INFO  jaxb.PartWarehouseJAXB - Part producer: Mahle
+15:24:57:537 [main] INFO  jaxb.PartWarehouseJAXB - Part name: 2021
+15:24:57:547 [main] INFO  jaxb.GearboxMechanicJAXB - Gearbox mechanic info
+15:24:57:547 [main] INFO  jaxb.GearboxMechanicJAXB - Gearbox mechanic ID: 1

@@ -1,0 +1,66 @@
+{
+	"AutomotiveElectricians": [
+		{
+			"idAutomotiveElectrician": 1,
+			"idCarServiceB": 2,
+			"idEmployees": 4
+		}
+	]
+},
+{
+	"EngineMechanics": [
+		{
+			"idEngineMechanic": 1,
+			"idCarServiceA": 1,
+			"idEmployees": 1
+		}
+	]
+},
+{
+	"Cars": [
+		{
+			"idCar": 1,
+			"idCustomer": 1,
+			"vin": "WBAAA1305H8251545",
+			"make": "BMW",
+			"model": "X5",
+			"bodytype": "SUV",
+			"productionYear": 2009,
+			"engineCapacity": "2993cc",
+			"fuelType": "Diesel",
+			"exteriorColor": "SpaceGray"
+		},
+		{
+			"idCar": 2,
+			"idCustomer": 2,
+			"vin": "WBDBA2505H8342325",
+			"make": "Mercedes",
+			"model": "CLA",
+			"bodytype": "Sedan",
+			"productionYear": 2015,
+			"engineCapacity": "1992cc",
+			"fuelType": "Gasoline",
+			"exteriorColor": "SunYellow"
+		}
+	]
+},
+{
+	"EnginePartsStoreOrders": [
+		{
+			"idCustomer": 1,
+			"idEnginePartsStore": 1,
+			"idOrder": 1,
+			"orderDate": "2023-1-10",
+			"orderAmount": 140
+		}
+	]
+},
+{
+	"SuspensionMechanics": [
+		{
+			"idSuspensionMechanic": 1,
+			"idCarServiceB": 1,
+			"idEmployees": 1
+		}
+	]
+}

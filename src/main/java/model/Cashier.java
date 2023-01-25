@@ -3,9 +3,15 @@ package model;
 public class Cashier {
 	private Long idCashier;
 	private Long idEmployees;
-	
+
 	public Cashier() {
-		
+
+	}
+
+	public Cashier(Long idCashier, Long idEmployees) {
+		super();
+		this.idCashier = idCashier;
+		this.idEmployees = idEmployees;
 	}
 
 	public Long getIdCashier() {
@@ -60,7 +66,4 @@ public class Cashier {
 		return "Cashier [idCashier=" + idCashier + ", idEmployees=" + idEmployees + "]";
 	}
 
-	
-	
-	
 }

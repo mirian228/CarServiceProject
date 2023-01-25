@@ -14,6 +14,19 @@ public class Employees {
 
 	}
 
+	public Employees(Long idEmployees, String fname, String lname, String city, String phoneNumber, String adress,
+			int salary, Long idManager) {
+		super();
+		this.idEmployees = idEmployees;
+		this.fname = fname;
+		this.lname = lname;
+		this.city = city;
+		this.phoneNumber = phoneNumber;
+		this.adress = adress;
+		this.salary = salary;
+		this.idManager = idManager;
+	}
+
 	public Long getIdEmployees() {
 		return idEmployees;
 	}
@@ -148,6 +161,5 @@ public class Employees {
 				+ ", phoneNumber=" + phoneNumber + ", adress=" + adress + ", salary=" + salary + ", idManager="
 				+ idManager + "]";
 	}
-	
-	
+
 }

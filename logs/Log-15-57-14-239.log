@@ -1,0 +1,14 @@
+15:57:14:096 [main] ERROR main.Main - DatabindException
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "EnginePartsStoreOrders" (class model.EnginePartsStoreOrders), not marked as ignorable (5 known properties: "idCustomer", "idOrder", "orderDate", "idEnginePartsStore", "orderAmount"])
+ at [Source: (File); line: 2, column: 29] (through reference chain: model.EnginePartsStoreOrders["EnginePartsStoreOrders"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1132) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2202) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1705) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1683) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:320) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:177) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4730) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3542) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at main.Main.main(Main.java:48) ~[classes/:?]

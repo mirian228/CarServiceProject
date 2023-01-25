@@ -11,9 +11,9 @@ public interface IBaseDao<T> {
 
 	List<T> selectAllEntity() throws SQLException;
 
-	boolean updateEntity(T entity) throws SQLException;
+	void updateEntity(T entity) throws SQLException;
 
 
-	boolean deleteEntinty(T entity) throws SQLException;
+	void deleteEntinty(T entity) throws SQLException;
 
 }

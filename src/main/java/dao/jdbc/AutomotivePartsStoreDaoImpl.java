@@ -34,7 +34,7 @@ public class AutomotivePartsStoreDaoImpl implements IAutomotivePartsStoreDao {
 			automotivePartsStore.setIdOrders(resultSet.getLong("idOrders"));
 			automotivePartsStore.setIdPartWarehouse(resultSet.getLong("idPartWarehouse"));
 			automotivePartsStore.setPartid(resultSet.getString("Partid"));
-
+			statement.executeUpdate();
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} finally {
@@ -134,7 +134,7 @@ public class AutomotivePartsStoreDaoImpl implements IAutomotivePartsStoreDao {
 
 	}
 
-	public boolean updateEntity(AutomotivePartsStore entity) throws SQLException {
+	public void updateEntity(AutomotivePartsStore entity) throws SQLException {
 		Connection connection = conPool.retrieve();
 		PreparedStatement statement = null;
 		String sql = "UPDATE AutomotivePartsStore SET idAutomotivePartsStore=?, idСashier=?, idOrders=?, idPartWarehouse=?, partid=?";
@@ -167,10 +167,9 @@ public class AutomotivePartsStoreDaoImpl implements IAutomotivePartsStoreDao {
 			}
 		}
 
-		return false;
 	}
 
-	public boolean deleteEntinty(AutomotivePartsStore entity) throws SQLException {
+	public void deleteEntinty(AutomotivePartsStore entity) throws SQLException {
 		Connection connection = conPool.retrieve();
 		PreparedStatement statement = null;
 		String sql = "DELETE FROM AutomotivePartsStore WHERE idAutomotivePartsStore=?";
@@ -201,7 +200,7 @@ public class AutomotivePartsStoreDaoImpl implements IAutomotivePartsStoreDao {
 		
 		}
 
-		return false;
+		
 	}
 
 }

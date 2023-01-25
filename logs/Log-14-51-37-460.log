@@ -1,0 +1,15 @@
+14:51:37:407 [main] INFO  jaxb.CarJAXB - Make: null
+14:51:37:412 [main] INFO  jaxb.CarJAXB - Model: null
+14:51:37:412 [main] INFO  jaxb.CarJAXB - Body type: null
+14:51:37:413 [main] INFO  jaxb.CarJAXB - Production year: 0
+14:51:37:413 [main] INFO  jaxb.CarJAXB - Engine capacity: null
+14:51:37:413 [main] INFO  jaxb.CarJAXB - Fuel type: null
+14:51:37:413 [main] INFO  jaxb.CarJAXB - Exterior color: null
+14:51:37:430 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Automotive Parts Store order information
+14:51:37:430 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Customer ID: 1
+14:51:37:430 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - AutomotivePartsStore ID: 1
+14:51:37:430 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Order ID: 1
+14:51:37:443 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Order Date: Thu Jan 01 00:00:00 GET 1970
+14:51:37:458 [main] INFO  jaxb.PartWarehouseJAXB - Part warehouse info
+14:51:37:459 [main] INFO  jaxb.PartWarehouseJAXB - Part warehouse ID : 1
+14:51:37:459 [main] INFO  jaxb.PartWarehouseJAXB - Part ID: 1

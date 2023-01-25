@@ -1,11 +1,23 @@
 package model;
 
 public class AutomotiveElectrician {
+
 	private Long idAutomotiveElectrician;
+
 	private Long idCarServiceB;
+
 	private Long idEmployees;
-	
-	public AutomotiveElectrician() {}
+	public AutomotiveElectrician() {
+	}
+
+	public AutomotiveElectrician(Long idAutomotiveElectrician, Long idCarServiceB, Long idEmployees) {
+		super();
+		this.idAutomotiveElectrician = idAutomotiveElectrician;
+		this.idCarServiceB = idCarServiceB;
+		this.idEmployees = idEmployees;
+	}
+
+
 
 	public Long getIdAutomotiveElectrician() {
 		return idAutomotiveElectrician;
@@ -74,5 +86,4 @@ public class AutomotiveElectrician {
 				+ idCarServiceB + ", idEmployees=" + idEmployees + "]";
 	}
 
-	
 }

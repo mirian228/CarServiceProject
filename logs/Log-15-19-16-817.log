@@ -1,0 +1,15 @@
+15:13:37:480 [main] INFO  jaxb.EnginePartsStoreJAXB - Engine parts store info
+15:13:37:483 [main] INFO  jaxb.EnginePartsStoreJAXB - Engine parts store ID1
+15:13:37:483 [main] INFO  jaxb.EnginePartsStoreJAXB - Cashier ID1
+15:13:37:483 [main] INFO  jaxb.EnginePartsStoreJAXB - Part warehouse ID1
+15:13:37:484 [main] INFO  jaxb.EnginePartsStoreJAXB - Part ID3
+15:13:37:494 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car Service B info:
+15:13:37:495 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car service B ID: 1
+15:13:37:496 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car ID: 1
+15:13:37:497 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Service type: 3
+15:13:37:514 [main] INFO  jaxb.CarServiceBJAXB - Car Service B info:
+15:13:37:514 [main] INFO  jaxb.CarServiceBJAXB - Car service B ID: 1
+15:13:37:514 [main] INFO  jaxb.CarServiceBJAXB - Car ID: 2
+15:13:37:514 [main] INFO  jaxb.CarServiceBJAXB - Service type: Engine Replacement
+15:19:16:813 [main] INFO  jaxb.CarJAXB - Car info
+15:19:16:815 [main] INFO  jaxb.CarJAXB - Vin: KNDJE723297570351

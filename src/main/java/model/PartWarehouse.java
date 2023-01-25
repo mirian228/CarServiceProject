@@ -13,9 +13,9 @@ public class PartWarehouse {
 	private int partquantity;
 	private String producer;
 	private int releaseyear;
-
-	public PartWarehouse() {
 	
+	public PartWarehouse() {
+
 	}
 
 	public PartWarehouse(Long idPartWarehouse, String partId, String partName, String partNumber, int partquantity,
@@ -29,6 +29,9 @@ public class PartWarehouse {
 		this.producer = producer;
 		this.releaseyear = releaseyear;
 	}
+
+
+
 	@XmlAttribute
 	public Long getIdPartWarehouse() {
 		return idPartWarehouse;
@@ -37,6 +40,7 @@ public class PartWarehouse {
 	public void setIdPartWarehouse(Long idPartWarehouse) {
 		this.idPartWarehouse = idPartWarehouse;
 	}
+
 	@XmlElement
 	public String getPartId() {
 		return partId;
@@ -45,6 +49,7 @@ public class PartWarehouse {
 	public void setPartId(String partId) {
 		this.partId = partId;
 	}
+
 	@XmlElement
 	public String getPartName() {
 		return partName;
@@ -53,6 +58,7 @@ public class PartWarehouse {
 	public void setPartName(String partName) {
 		this.partName = partName;
 	}
+
 	@XmlElement
 	public String getPartNumber() {
 		return partNumber;
@@ -61,6 +67,7 @@ public class PartWarehouse {
 	public void setPartNumber(String partNumber) {
 		this.partNumber = partNumber;
 	}
+
 	@XmlElement
 	public int getPartquantity() {
 		return partquantity;
@@ -69,6 +76,7 @@ public class PartWarehouse {
 	public void setPartquantity(int partquantity) {
 		this.partquantity = partquantity;
 	}
+
 	@XmlElement
 	public String getProducer() {
 		return producer;
@@ -77,6 +85,7 @@ public class PartWarehouse {
 	public void setProducer(String producer) {
 		this.producer = producer;
 	}
+
 	@XmlElement
 	public int getReleaseyear() {
 		return releaseyear;
@@ -147,7 +156,5 @@ public class PartWarehouse {
 				+ ", partNumber=" + partNumber + ", partquantity=" + partquantity + ", producer=" + producer
 				+ ", releaseyear=" + releaseyear + "]";
 	}
-
-
 
 }

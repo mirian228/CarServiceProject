@@ -1,0 +1,17 @@
+15:07:10:349 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car ID: 1
+15:07:10:351 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Service type: 3
+15:07:10:360 [main] INFO  jaxb.CarServiceBJAXB - Car Service B info:
+15:07:10:360 [main] INFO  jaxb.CarServiceBJAXB - Car service B ID: 1
+15:07:10:360 [main] INFO  jaxb.CarServiceBJAXB - Car ID: 2
+15:07:10:360 [main] INFO  jaxb.CarServiceBJAXB - Service type: Engine Replacement
+15:07:21:043 [main] INFO  jaxb.CarJAXB - Car info
+15:07:21:046 [main] INFO  jaxb.CarJAXB - Vin: KNDJE723297570351
+15:07:21:047 [main] INFO  jaxb.CarJAXB - Make: BMW
+15:07:21:047 [main] INFO  jaxb.CarJAXB - Model: X3
+15:07:21:047 [main] INFO  jaxb.CarJAXB - Body type: SUV
+15:07:21:047 [main] INFO  jaxb.CarJAXB - Production year: 2018
+15:07:21:048 [main] INFO  jaxb.CarJAXB - Engine capacity: 2993cc
+15:07:21:048 [main] INFO  jaxb.CarJAXB - Fuel type: Gasoline
+15:07:21:048 [main] INFO  jaxb.CarJAXB - Exterior color: Alpine White
+15:07:21:054 [main] INFO  jaxb.CarJAXB - Car info
+15:07:21:054 [main] INFO  jaxb.CarJAXB - Vin: null

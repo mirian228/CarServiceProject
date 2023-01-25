@@ -36,19 +36,18 @@ public class PartWarehouseDaoImpl implements IPartWarehouseDao {
 			partWarehouse.setProducer(resultSet.getString("producer"));
 			partWarehouse.setReleaseyear(resultSet.getInt("releaseyear"));
 			statement.executeUpdate();
-			
-		}catch(SQLException e) {
+
+		} catch (SQLException e) {
 			e.printStackTrace();
-		}
-		finally {
+		} finally {
 			try {
-			if(statement != null) {
-				statement.close();
-				LOGGER.info("Statement closed");
-			}
-			} catch(SQLException e) {
+				if (statement != null) {
+					statement.close();
+					LOGGER.info("Statement closed");
+				}
+			} catch (SQLException e) {
 				e.printStackTrace();
-				LOGGER.error("Cannot close Statement" ,e);
+				LOGGER.error("Cannot close Statement", e);
 			}
 			if (connection != null) {
 				conPool.putBack(connection);
@@ -63,48 +62,44 @@ public class PartWarehouseDaoImpl implements IPartWarehouseDao {
 		List<PartWarehouse> partWarehouseList = new ArrayList<PartWarehouse>();
 		String sql = "SELECT * FROM PartWarehouse";
 		Statement statement = null;
-		
+
 		try {
-		statement = connection.createStatement();
-		ResultSet resultSet = statement.executeQuery(sql);
-		
-		while(resultSet.next()) {
-			PartWarehouse partWarehouse = new PartWarehouse();
-			partWarehouse.setIdPartWarehouse(resultSet.getLong("idPartWarehouse"));
-			partWarehouse.setPartId(resultSet.getString("PartId"));
-			partWarehouse.setPartName(resultSet.getString("partName"));
-			partWarehouse.setPartNumber(resultSet.getString("partNumber"));
-			partWarehouse.setPartquantity(resultSet.getInt("partquantity"));
-			partWarehouse.setProducer(resultSet.getString("producer"));
-			partWarehouse.setReleaseyear(resultSet.getInt("releaseyear"));
-			
-			partWarehouseList.add(partWarehouse);
-		}
-		}
-		catch(SQLException e) { 
-			e.printStackTrace();
-		}
-		finally {
-			try {
-			if(statement != null) {
-				statement.close();
-				LOGGER.info("Statement closed successfully");
+			statement = connection.createStatement();
+			ResultSet resultSet = statement.executeQuery(sql);
+
+			while (resultSet.next()) {
+				PartWarehouse partWarehouse = new PartWarehouse();
+				partWarehouse.setIdPartWarehouse(resultSet.getLong("idPartWarehouse"));
+				partWarehouse.setPartId(resultSet.getString("PartId"));
+				partWarehouse.setPartName(resultSet.getString("partName"));
+				partWarehouse.setPartNumber(resultSet.getString("partNumber"));
+				partWarehouse.setPartquantity(resultSet.getInt("partquantity"));
+				partWarehouse.setProducer(resultSet.getString("producer"));
+				partWarehouse.setReleaseyear(resultSet.getInt("releaseyear"));
+
+				partWarehouseList.add(partWarehouse);
 			}
-			} catch(SQLException e) {
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (statement != null) {
+					statement.close();
+					LOGGER.info("Statement closed successfully");
+				}
+			} catch (SQLException e) {
 				e.printStackTrace();
 				LOGGER.error("Cannot close statement", e);
-				
+
 			}
 			if (connection != null) {
 				conPool.putBack(connection);
 				LOGGER.info("Connection has returned back to connection pool");
 			}
 		}
-		
+
 		return partWarehouseList;
 	}
-
-	
 
 	public void insertEntity(PartWarehouse entity) {
 		Connection connection = conPool.retrieve();
@@ -119,7 +114,7 @@ public class PartWarehouseDaoImpl implements IPartWarehouseDao {
 			statement.setInt(5, entity.getPartquantity());
 			statement.setString(6, entity.getProducer());
 			statement.setInt(7, entity.getReleaseyear());
-			
+
 			statement.executeUpdate();
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -128,30 +123,27 @@ public class PartWarehouseDaoImpl implements IPartWarehouseDao {
 				if (statement != null) {
 					statement.close();
 					LOGGER.info("Statement closed successfully");
-											   } 
-				} catch (SQLException e) {
-					e.printStackTrace();
-					LOGGER.error("Cannot close Statement", e);
-										 } 
+				}
+			} catch (SQLException e) {
+				e.printStackTrace();
+				LOGGER.error("Cannot close Statement", e);
+			}
 			if (connection != null) {
 				conPool.putBack(connection);
 				LOGGER.info("Connection has returned back to connection pool");
 			}
-		          }
-		
+		}
+
 	}
 
-	
-
-	public boolean updateEntity(PartWarehouse entity) {
+	public void updateEntity(PartWarehouse entity) {
 		Connection connection = conPool.retrieve();
 		PreparedStatement statement = null;
 		String sql = "UPDATE PartWarehouse SET idPartWarehouse=?, PartId=?, partName=?, partNumber=?, partquantity=?, producer=?, releaseyear=?";
-		
-				
+
 		try {
 			statement = connection.prepareStatement(sql);
-			
+
 			statement.setLong(1, entity.getIdPartWarehouse());
 			statement.setString(2, entity.getPartId());
 			statement.setString(3, entity.getPartName());
@@ -159,76 +151,64 @@ public class PartWarehouseDaoImpl implements IPartWarehouseDao {
 			statement.setInt(5, entity.getPartquantity());
 			statement.setString(6, entity.getProducer());
 			statement.setInt(7, entity.getReleaseyear());
-			
+
 			statement.executeUpdate();
-			} catch(SQLException e) {
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (statement != null) {
+					statement.close();
+					LOGGER.info("Statement closed successfully");
+				}
+			} catch (SQLException e) {
 				e.printStackTrace();
-			}		finally {
-				try {
-					if(statement != null) {
-						statement.close();
-						LOGGER.info("Statement closed successfully");
-					}
-					} catch(SQLException e) {
-						e.printStackTrace();
-						LOGGER.error("Cannot close statement", e);
-						
-					}
-				if (connection != null) {
-					conPool.putBack(connection);
-					LOGGER.info("Connection has returned back to connection pool");
-				}
-				}
-		
-		return false;
+				LOGGER.error("Cannot close statement", e);
+
+			}
+			if (connection != null) {
+				conPool.putBack(connection);
+				LOGGER.info("Connection has returned back to connection pool");
+			}
+		}
+
 	}
 
-
-
-	public boolean deleteEntinty(PartWarehouse entity) {
+	public void deleteEntinty(PartWarehouse entity) {
 		Connection connection = conPool.retrieve();
 		PreparedStatement statement = null;
 		String sql = "DELETE FROM PartWarehouse WHERE idPartWarehouse=?";
-			
-				
-				
+
 		try {
 			statement = connection.prepareStatement(sql);
 			statement.setLong(1, entity.getIdPartWarehouse());
-			
+
 			statement.executeUpdate();
-			
-			
-		}catch(SQLException e) {
+
+		} catch (SQLException e) {
 			e.printStackTrace();
-		}
-		finally {
+		} finally {
 			try {
-			if(statement != null) {
-				statement.close();
-				LOGGER.info("Statement closed successfully");
-			}
-			} catch(SQLException e) {
+				if (statement != null) {
+					statement.close();
+					LOGGER.info("Statement closed successfully");
+				}
+			} catch (SQLException e) {
 				e.printStackTrace();
 				LOGGER.error("Cannot close statement", e);
-				
+
 			}
 			try {
-			if(connection != null) {
-				connection.close();
-				LOGGER.info("Connection closed successfully");
-									}
-				}catch(SQLException e) {
-					e.printStackTrace();
-					LOGGER.error("Cannot close connection" ,e);
+				if (connection != null) {
+					connection.close();
+					LOGGER.info("Connection closed successfully");
 				}
+			} catch (SQLException e) {
+				e.printStackTrace();
+				LOGGER.error("Cannot close connection", e);
+			}
 		}
-		
-		return false;
+
 	}
-	
-	
-	
-	
-	
+
 }

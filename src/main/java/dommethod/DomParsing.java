@@ -40,14 +40,15 @@ public class DomParsing {
 					Node node4 = carXml4.item(i);
 					Node node5 = carXml5.item(i);
 					Node node6 = carXml6.item(i);
+					Node node7 = carXml7.item(i);
 				if(node1.getNodeType() == Node.ELEMENT_NODE) {
 					System.out.println("vin: " + node1.getTextContent());
-					System.out.println("make: " + node1.getTextContent());
-					System.out.println("model: " + node2.getTextContent());
-					System.out.println("bodytype: " + node3.getTextContent());
-					System.out.println("productionYear: " + node4.getTextContent());
-					System.out.println("engineCapcaity: " + node5.getTextContent());
-					System.out.println("fuelType: " + node6.getTextContent() + "\n");
+					System.out.println("make: " + node2.getTextContent());
+					System.out.println("model: " + node3.getTextContent());
+					System.out.println("bodytype: " + node4.getTextContent());
+					System.out.println("productionYear: " + node5.getTextContent());
+					System.out.println("engineCapacity: " + node6.getTextContent());
+					System.out.println("fuelType: " + node7.getTextContent() + "\n");
 				}
 			 
 			 

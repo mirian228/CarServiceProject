@@ -1,0 +1,29 @@
+[
+	{
+		"idPartWarehouse": 1,
+		"partId": 1,
+		"partName": "ZF8HP",
+		"partNumber": "XBC23054",
+		"partquantity": 1,
+		"producer": "Zeppelin-Stiftung",
+		"releaseyear": 2009
+	},
+	{
+		"idPartWarehouse": 1,
+		"partId": 2,
+		"partName": "Oil-Filter",
+		"partNumber": "3412PDY",
+		"partquantity": 55,
+		"producer": "Mahle",
+		"releaseyear": 2023
+	},
+	{
+		"idPartWarehouse": 1,
+		"partId": 3,
+		"partName": "Oil-Pan",
+		"partNumber": "ZCX2357",
+		"partquantity": 7,
+		"producer": "Bayerische-Motoren-Werke",
+		"releaseyear": 2015
+	}
+]

@@ -7,61 +7,59 @@ public class AutomotivePartsStore {
 	private Long idPartWarehouse;
 	private String partid;
 
-	
 	public AutomotivePartsStore() {
-		
+
 	}
 
+	public AutomotivePartsStore(Long idAutomotivePartsStore, Long idСashier, Long idOrders, Long idPartWarehouse,
+			String partid) {
+		super();
+		this.idAutomotivePartsStore = idAutomotivePartsStore;
+		this.idСashier = idСashier;
+		this.idOrders = idOrders;
+		this.idPartWarehouse = idPartWarehouse;
+		this.partid = partid;
+	}
 
 	public Long getIdAutomotivePartsStore() {
 		return idAutomotivePartsStore;
 	}
 
-
 	public void setIdAutomotivePartsStore(Long idAutomotivePartsStore) {
 		this.idAutomotivePartsStore = idAutomotivePartsStore;
 	}
-
 
 	public Long getIdСashier() {
 		return idСashier;
 	}
 
-
 	public void setIdСashier(Long idСashier) {
 		this.idСashier = idСashier;
 	}
-
 
 	public Long getIdPartWarehouse() {
 		return idPartWarehouse;
 	}
 
-
 	public void setIdPartWarehouse(Long idPartWarehouse) {
 		this.idPartWarehouse = idPartWarehouse;
 	}
-
 
 	public String getPartid() {
 		return partid;
 	}
 
-
 	public void setPartid(String partid) {
 		this.partid = partid;
 	}
-
 
 	public Long getIdOrders() {
 		return idOrders;
 	}
 
-
 	public void setIdOrders(Long idOrders) {
 		this.idOrders = idOrders;
 	}
-
 
 	@Override
 	public int hashCode() {
@@ -73,7 +71,6 @@ public class AutomotivePartsStore {
 		result = prime * result + ((partid == null) ? 0 : partid.hashCode());
 		return result;
 	}
-
 
 	@Override
 	public boolean equals(Object obj) {
@@ -107,13 +104,10 @@ public class AutomotivePartsStore {
 		return true;
 	}
 
-
 	@Override
 	public String toString() {
 		return "AutomotivePartsStore [idAutomotivePartsStore=" + idAutomotivePartsStore + ", idСashier=" + idСashier
 				+ ", idPartWarehouse=" + idPartWarehouse + ", partid=" + partid + "]";
 	}
-	
-	
-	
+
 }

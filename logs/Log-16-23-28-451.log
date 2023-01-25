@@ -1,0 +1,22 @@
+16:21:15:654 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car Service B info:
+16:21:15:656 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car service B ID: 1
+16:21:15:656 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car ID: 1
+16:21:15:657 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Service type: 3
+16:21:15:668 [main] INFO  jaxb.CarServiceBJAXB - Car Service B info:
+16:21:15:669 [main] INFO  jaxb.CarServiceBJAXB - Car service B ID: 1
+16:21:15:669 [main] INFO  jaxb.CarServiceBJAXB - Car ID: 2
+16:21:15:669 [main] INFO  jaxb.CarServiceBJAXB - Service type: Engine Replacement
+16:23:28:322 [main] ERROR main.Main - DatabindException
+com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `[Lmodel.AutomotiveElectrician;` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (File); line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1746) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1520) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1467) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.deser.std.ObjectArrayDeserializer.handleNonArray(ObjectArrayDeserializer.java:345) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.deser.std.ObjectArrayDeserializer.deserialize(ObjectArrayDeserializer.java:196) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.deser.std.ObjectArrayDeserializer.deserialize(ObjectArrayDeserializer.java:26) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4730) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3542) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at main.Main.main(Main.java:65) ~[classes/:?]

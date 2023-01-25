@@ -1,0 +1,15 @@
+15:40:27:881 [main] INFO  jaxb.GearboxMechanicJAXB - Car Service B ID: 1
+15:40:27:883 [main] INFO  jaxb.GearboxMechanicJAXB - Employee ID: 9
+15:40:27:897 [main] INFO  jaxb.EnginePartsStoreJAXB - Engine parts store info
+15:40:27:898 [main] INFO  jaxb.EnginePartsStoreJAXB - Engine parts store ID1
+15:40:27:898 [main] INFO  jaxb.EnginePartsStoreJAXB - Cashier ID1
+15:40:27:898 [main] INFO  jaxb.EnginePartsStoreJAXB - Part warehouse ID1
+15:40:27:899 [main] INFO  jaxb.EnginePartsStoreJAXB - Part ID3
+15:40:27:909 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car Service B info:
+15:40:27:910 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car service B ID: 1
+15:40:27:911 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car ID: 1
+15:40:27:912 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Service type: 3
+15:40:27:923 [main] INFO  jaxb.CarServiceBJAXB - Car Service B info:
+15:40:27:924 [main] INFO  jaxb.CarServiceBJAXB - Car service B ID: 1
+15:40:27:924 [main] INFO  jaxb.CarServiceBJAXB - Car ID: 2
+15:40:27:926 [main] INFO  jaxb.CarServiceBJAXB - Service type: Engine Replacement

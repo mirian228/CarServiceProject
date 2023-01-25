@@ -1,0 +1,14 @@
+15:07:10:217 [main] INFO  jaxb.CarJAXB - Body type: null
+15:07:10:269 [main] INFO  jaxb.CarJAXB - Production year: 0
+15:07:10:269 [main] INFO  jaxb.CarJAXB - Engine capacity: null
+15:07:10:269 [main] INFO  jaxb.CarJAXB - Fuel type: null
+15:07:10:269 [main] INFO  jaxb.CarJAXB - Exterior color: null
+15:07:10:285 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Automotive Parts Store order information
+15:07:10:286 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Customer ID: 1
+15:07:10:286 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - AutomotivePartsStore ID: 1
+15:07:10:287 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Order ID: 1
+15:07:10:300 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Order Date: Thu Jan 01 00:00:00 GET 1970
+15:07:10:313 [main] INFO  jaxb.PartWarehouseJAXB - Part warehouse info
+15:07:10:313 [main] INFO  jaxb.PartWarehouseJAXB - Part warehouse ID : 1
+15:07:10:313 [main] INFO  jaxb.PartWarehouseJAXB - Part ID: 1
+15:07:10:314 [main] INFO  jaxb.PartWarehouseJAXB - Part name: Valve cover gasket

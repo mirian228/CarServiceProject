@@ -1,0 +1,14 @@
+15:07:00:528 [main] INFO  jaxb.CarJAXB - Engine capacity: null
+15:07:00:533 [main] INFO  jaxb.CarJAXB - Fuel type: null
+15:07:00:533 [main] INFO  jaxb.CarJAXB - Exterior color: null
+15:07:00:549 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Automotive Parts Store order information
+15:07:00:550 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Customer ID: 1
+15:07:00:551 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - AutomotivePartsStore ID: 1
+15:07:00:551 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Order ID: 1
+15:07:00:562 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Order Date: Thu Jan 01 00:00:00 GET 1970
+15:07:00:573 [main] INFO  jaxb.PartWarehouseJAXB - Part warehouse info
+15:07:00:573 [main] INFO  jaxb.PartWarehouseJAXB - Part warehouse ID : 1
+15:07:00:574 [main] INFO  jaxb.PartWarehouseJAXB - Part ID: 1
+15:07:00:574 [main] INFO  jaxb.PartWarehouseJAXB - Part name: Valve cover gasket
+15:07:00:575 [main] INFO  jaxb.PartWarehouseJAXB - Part number: b32sCx100
+15:07:00:575 [main] INFO  jaxb.PartWarehouseJAXB - Part quantity: 3

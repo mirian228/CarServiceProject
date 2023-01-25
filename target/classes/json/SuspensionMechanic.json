@@ -1,0 +1,9 @@
+{
+	"SuspensionMechanics": [
+		{
+		"idSuspensionMechanic": 1,
+		"idCarServiceB": 1,
+		"idEmployees": 1
+		}
+	]
+}

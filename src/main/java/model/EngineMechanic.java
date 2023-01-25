@@ -1,11 +1,24 @@
 package model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class EngineMechanic {
+	@JsonProperty("idEngineMechanic")
 	private Long idEngineMechanic;
+	@JsonProperty("idCarServiceA")
 	private Long idCarServiceA;
+	@JsonProperty("idEmployees")
 	private Long idEmployees;
 
-	public EngineMechanic() {}
+	public EngineMechanic() {
+	}
+
+	public EngineMechanic(Long idEngineMechanic, Long idCarServiceA, Long idEmployees) {
+		super();
+		this.idEngineMechanic = idEngineMechanic;
+		this.idCarServiceA = idCarServiceA;
+		this.idEmployees = idEmployees;
+	}
 
 	public Long getIdEngineMechanic() {
 		return idEngineMechanic;
@@ -73,8 +86,5 @@ public class EngineMechanic {
 		return "EngineMechanic [idEngineMechanic=" + idEngineMechanic + ", idCarServiceA=" + idCarServiceA
 				+ ", idEmployees=" + idEmployees + "]";
 	}
-	
-	
-
 
 }

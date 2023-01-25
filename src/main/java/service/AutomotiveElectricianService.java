@@ -25,15 +25,13 @@ public class AutomotiveElectricianService implements IAutomotiveElectricianDao {
 		return null;
 	}
 
-	public boolean updateEntity(AutomotiveElectrician entity) {
-		// TODO Auto-generated method stub
-		return false;
+	public void updateEntity(AutomotiveElectrician entity) {
+		
 	}
 
 
-	public boolean deleteEntinty(AutomotiveElectrician entity) {
-		// TODO Auto-generated method stub
-		return false;
+	public void deleteEntinty(AutomotiveElectrician entity) {
+		
 	}
 
 

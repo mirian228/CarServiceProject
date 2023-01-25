@@ -1,0 +1,30 @@
+[
+	{
+		"idCar": 1,
+		"idCustomer": 1,
+		"vin": "WBAAA1305H8251545",
+		"make": "BMW",
+		"model": "X5",
+		"bodytype": "SUV",
+		"productionYear": 2009,
+		"engineCapacity": "2993cc",
+		"fuelType": "Diesel",
+		"exteriorColor": "SpaceGray",
+		"cars": null,
+		"Cars": null
+	},
+	{
+		"idCar": 2,
+		"idCustomer": 2,
+		"vin": "WBDBA2505H8342325",
+		"make": "Mercedes",
+		"model": "CLA",
+		"bodytype": "Sedan",
+		"productionYear": 2015,
+		"engineCapacity": "1992cc",
+		"fuelType": "Gasoline",
+		"exteriorColor": "SunYellow",
+		"cars": null,
+		"Cars": null
+	}
+]

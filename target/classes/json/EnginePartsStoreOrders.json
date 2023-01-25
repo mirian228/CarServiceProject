@@ -1,0 +1,11 @@
+{
+	"EnginePartsStoreOrders": [
+		{
+			"idCustomer": 1,
+			"idEnginePartsStore": 1,
+			"idOrder": 1,
+			"orderDate": "2023-1-10",
+			"orderAmount": 140
+		}
+	]
+}

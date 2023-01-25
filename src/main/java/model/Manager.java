@@ -7,45 +7,69 @@ public class Manager {
 	private String adress;
 	private String phoneNumber;
 	private int salary;
+
 	public Manager() {
-		
+
 	}
+
+	public Manager(Long idManager, String fname, String lname, String adress, String phoneNumber, int salary) {
+		super();
+		this.idManager = idManager;
+		this.fname = fname;
+		this.lname = lname;
+		this.adress = adress;
+		this.phoneNumber = phoneNumber;
+		this.salary = salary;
+	}
+
 	public Long getIdManager() {
 		return idManager;
 	}
+
 	public void setIdManager(Long idManager) {
 		this.idManager = idManager;
 	}
+
 	public String getFname() {
 		return fname;
 	}
+
 	public void setFname(String fname) {
 		this.fname = fname;
 	}
+
 	public String getLname() {
 		return lname;
 	}
+
 	public void setLname(String lname) {
 		this.lname = lname;
 	}
+
 	public String getAdress() {
 		return adress;
 	}
+
 	public void setAdress(String adress) {
 		this.adress = adress;
 	}
+
 	public String getPhoneNumber() {
 		return phoneNumber;
 	}
+
 	public void setPhoneNumber(String phoneNumber) {
 		this.phoneNumber = phoneNumber;
 	}
+
 	public int getsalary() {
 		return salary;
 	}
+
 	public void setsalary(int salary) {
 		this.salary = salary;
 	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -58,6 +82,7 @@ public class Manager {
 		result = prime * result + ((phoneNumber == null) ? 0 : phoneNumber.hashCode());
 		return result;
 	}
+
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -96,13 +121,11 @@ public class Manager {
 			return false;
 		return true;
 	}
+
 	@Override
 	public String toString() {
 		return "Manager [idManager=" + idManager + ", fname=" + fname + ", lname=" + lname + ", adress=" + adress
 				+ ", phoneNumber=" + phoneNumber + ", salary=" + salary + "]";
 	}
 
-	
-	
-	
 }

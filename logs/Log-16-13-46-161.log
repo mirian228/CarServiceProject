@@ -1,0 +1,19 @@
+16:12:44:641 [main] INFO  jaxb.CarServiceBJAXB - Car Service B info:
+16:12:44:644 [main] INFO  jaxb.CarServiceBJAXB - Car service B ID: 1
+16:12:44:644 [main] INFO  jaxb.CarServiceBJAXB - Car ID: 2
+16:12:44:644 [main] INFO  jaxb.CarServiceBJAXB - Service type: Engine Replacement
+16:13:46:024 [main] ERROR main.Main - DatabindException
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `model.PartWarehouse[]`: no String-argument constructor/factory method to deserialize from String value ('PartWarehouse')
+ at [Source: (File); line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1909) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:408) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1349) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromString(StdDeserializer.java:311) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.deser.std.ObjectArrayDeserializer.handleNonArray(ObjectArrayDeserializer.java:343) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.deser.std.ObjectArrayDeserializer.deserialize(ObjectArrayDeserializer.java:196) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.deser.std.ObjectArrayDeserializer.deserialize(ObjectArrayDeserializer.java:26) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4730) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3542) ~[jackson-databind-2.14.1.jar:2.14.1]
+	at main.Main.main(Main.java:42) ~[classes/:?]

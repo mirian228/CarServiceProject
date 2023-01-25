@@ -6,7 +6,14 @@ public class CarServiceA {
 	private String ServiceType;
 
 	public CarServiceA() {
-	
+
+	}
+
+	public CarServiceA(Long idCarServiceA, Long idCar, String serviceType) {
+		super();
+		this.idCarServiceA = idCarServiceA;
+		this.idCar = idCar;
+		ServiceType = serviceType;
 	}
 
 	public Long getIdCarServiceA() {
@@ -76,5 +83,4 @@ public class CarServiceA {
 				+ "]";
 	}
 
-	
 }

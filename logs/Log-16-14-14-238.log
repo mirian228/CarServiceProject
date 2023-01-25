@@ -1,0 +1,18 @@
+16:14:14:210 [main] INFO  jaxb.CarJAXB - Car info
+16:14:14:215 [main] INFO  jaxb.CarJAXB - Vin: KNDJE723297570351
+16:14:14:215 [main] INFO  jaxb.CarJAXB - Make: BMW
+16:14:14:215 [main] INFO  jaxb.CarJAXB - Model: X3
+16:14:14:216 [main] INFO  jaxb.CarJAXB - Body type: SUV
+16:14:14:216 [main] INFO  jaxb.CarJAXB - Production year: 2018
+16:14:14:216 [main] INFO  jaxb.CarJAXB - Engine capacity: 2993cc
+16:14:14:216 [main] INFO  jaxb.CarJAXB - Fuel type: Gasoline
+16:14:14:216 [main] INFO  jaxb.CarJAXB - Exterior color: Alpine White
+16:14:14:222 [main] INFO  jaxb.CarJAXB - Car info
+16:14:14:223 [main] INFO  jaxb.CarJAXB - Vin: null
+16:14:14:223 [main] INFO  jaxb.CarJAXB - Make: null
+16:14:14:223 [main] INFO  jaxb.CarJAXB - Model: null
+16:14:14:224 [main] INFO  jaxb.CarJAXB - Body type: null
+16:14:14:224 [main] INFO  jaxb.CarJAXB - Production year: 0
+16:14:14:224 [main] INFO  jaxb.CarJAXB - Engine capacity: null
+16:14:14:225 [main] INFO  jaxb.CarJAXB - Fuel type: null
+16:14:14:225 [main] INFO  jaxb.CarJAXB - Exterior color: null
