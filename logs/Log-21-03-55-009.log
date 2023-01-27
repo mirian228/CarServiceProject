@@ -1,0 +1,16 @@
+20:27:34:637 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car Service B info:
+20:27:34:655 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car service B ID: 1
+20:27:34:655 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car ID: 1
+20:27:34:655 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Service type: 3
+20:27:34:705 [main] INFO  jaxb.CarServiceBJAXB - Car Service B info:
+20:27:34:705 [main] INFO  jaxb.CarServiceBJAXB - Car service B ID: 1
+20:27:34:706 [main] INFO  jaxb.CarServiceBJAXB - Car ID: 2
+20:27:34:706 [main] INFO  jaxb.CarServiceBJAXB - Service type: Engine Replacement
+21:03:30:112 [main] ERROR utility.MyBatisUtil - Exception while reading the configuration file
+java.io.IOException: Could not find resource resources/mybatis-config.xml
+	at org.apache.ibatis.io.Resources.getResourceAsStream(Resources.java:114) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.io.Resources.getResourceAsStream(Resources.java:100) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.io.Resources.getResourceAsReader(Resources.java:160) ~[mybatis-3.5.11.jar:3.5.11]
+	at utility.MyBatisUtil.<clinit>(MyBatisUtil.java:18) ~[classes/:?]
+	at service.AutomotiveElectricianService.<clinit>(AutomotiveElectricianService.java:15) ~[classes/:?]
+	at main.Main.main(Main.java:43) ~[classes/:?]

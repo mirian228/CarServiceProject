@@ -1,0 +1,11 @@
+22:30:19:669 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+22:30:20:087 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1490985125.
+22:30:20:088 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@58dea0a5]
+22:30:20:096 [main] DEBUG dao.ICashierDao.selectEntityById - ==>  Preparing: SELECT * FROM Сashier WHERE idСashier = ?
+22:30:20:134 [main] DEBUG dao.ICashierDao.selectEntityById - ==> Parameters: 1(Long)
+22:30:20:204 [main] TRACE dao.ICashierDao.selectEntityById - <==    Columns: idСashier, idEmployees
+22:30:20:204 [main] TRACE dao.ICashierDao.selectEntityById - <==        Row: 1, 2
+22:30:20:208 [main] DEBUG dao.ICashierDao.selectEntityById - <==      Total: 1
+22:30:20:213 [main] INFO  main.Main - Cashier [idCashier=null, idEmployees=2]
+22:30:20:650 [main] INFO  jaxb.CarJAXB - Car info
+22:30:20:651 [main] INFO  jaxb.CarJAXB - Vin: KNDJE723297570351

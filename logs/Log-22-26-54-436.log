@@ -1,0 +1,16 @@
+22:26:53:599 [main] DEBUG dao.ICashierDao.selectEntityById - ==> Parameters: 1(Long)
+22:26:53:732 [main] TRACE dao.ICashierDao.selectEntityById - <==    Columns: idСashier, idEmployees
+22:26:53:733 [main] TRACE dao.ICashierDao.selectEntityById - <==        Row: 1, 2
+22:26:53:747 [main] DEBUG dao.ICashierDao.selectEntityById - <==      Total: 1
+22:26:53:759 [main] INFO  main.Main - Cashier [idCashier=null, idEmployees=2]
+22:26:54:405 [main] INFO  jaxb.CarJAXB - Car info
+22:26:54:405 [main] INFO  jaxb.CarJAXB - Vin: KNDJE723297570351
+22:26:54:406 [main] INFO  jaxb.CarJAXB - Make: BMW
+22:26:54:406 [main] INFO  jaxb.CarJAXB - Model: X3
+22:26:54:406 [main] INFO  jaxb.CarJAXB - Body type: SUV
+22:26:54:406 [main] INFO  jaxb.CarJAXB - Production year: 2018
+22:26:54:407 [main] INFO  jaxb.CarJAXB - Engine capacity: 2993cc
+22:26:54:407 [main] INFO  jaxb.CarJAXB - Fuel type: Gasoline
+22:26:54:408 [main] INFO  jaxb.CarJAXB - Exterior color: Alpine White
+22:26:54:435 [main] INFO  jaxb.CarJAXB - Car info
+22:26:54:436 [main] INFO  jaxb.CarJAXB - Vin: null

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<partWarehouse idPartWarehouse="1">
-    <partId>1</partId>
-    <partName>Valve cover gasket</partName>
-    <partNumber>b32sCx100</partNumber>
-    <partquantity>3</partquantity>
-    <producer>Mahle</producer>
-    <releaseyear>2021</releaseyear>
-</partWarehouse>

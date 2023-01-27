@@ -1,0 +1,9 @@
+22:23:10:621 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+22:23:11:168 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 85357160.
+22:23:11:171 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5167268]
+22:23:11:179 [main] DEBUG dao.ICashierDao.selectEntityById - ==>  Preparing: SELECT * FROM Cashier WHERE id = ?
+22:23:11:216 [main] DEBUG dao.ICashierDao.selectEntityById - ==> Parameters: 1(Long)
+22:23:47:929 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+22:23:47:945 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:23:47:946 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:23:47:947 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.

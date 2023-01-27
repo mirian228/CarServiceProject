@@ -23,12 +23,17 @@ import model.AutomotiveElectrician;
 import model.Car;
 import model.Cashier;
 import model.PartWarehouse;
+import service.ICashierService;
+import service.serviceimpl.CashierServiceImpl;
 
 public class Main {
 	private static final Logger LOGGER = LogManager.getLogger(Main.class);
 
 	public static void main(String[] args) throws SQLException {
-
+		
+		ICashierService cashierService = new CashierServiceImpl();
+		LOGGER.info(cashierService.selectEntityById(1L));
+		
 		// --- JACKSON --- //
 		
 		File automotiveElectricianJsonFile = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\json\\AutomotiveElectrician.json");
@@ -37,6 +42,10 @@ public class Main {
 		File enginePartsStoreOrdersJsonFile = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\json\\EnginePartsStoreOrders.json");
 		File partWarehouseJsonFile = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\json\\PartWarehouse.json");
 		ObjectMapper om = new ObjectMapper();
+		
+		
+		
+
 		
 		try {
 			PartWarehouse[] partWarehouse = om.readValue(partWarehouseJsonFile, PartWarehouse[].class);

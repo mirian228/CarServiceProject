@@ -1,0 +1,8 @@
+22:30:46:394 [main] DEBUG dao.ICashierDao.selectEntityById - ==>  Preparing: SELECT * Сashier FROM WHERE idСashier = ?
+22:30:46:438 [main] DEBUG dao.ICashierDao.selectEntityById - ==> Parameters: 1(Long)
+22:31:03:530 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+22:31:03:545 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:31:03:545 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:31:03:546 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:31:03:547 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+22:31:03:619 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
