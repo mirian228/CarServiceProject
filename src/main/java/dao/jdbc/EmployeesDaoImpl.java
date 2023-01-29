@@ -219,4 +219,10 @@ public class EmployeesDaoImpl implements IEmployeesDao {
 		}
 	}
 
+	@Override
+	public void deleteEntinty(Long id) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
 }

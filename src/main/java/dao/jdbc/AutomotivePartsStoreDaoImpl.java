@@ -14,10 +14,10 @@ import model.AutomotivePartsStore;
 import utility.ConnectionPool;
 
 public class AutomotivePartsStoreDaoImpl implements IAutomotivePartsStoreDao {
-    private static final Logger LOGGER = LogManager.getLogger(AutomotivePartsStoreDaoImpl.class);
-    ConnectionPool conPool = ConnectionPool.getInstance();
-	
-    public AutomotivePartsStore selectEntityById(Long id) throws SQLException {
+	private static final Logger LOGGER = LogManager.getLogger(AutomotivePartsStoreDaoImpl.class);
+	ConnectionPool conPool = ConnectionPool.getInstance();
+
+	public AutomotivePartsStore selectEntityById(Long id) throws SQLException {
 		Connection connection = conPool.retrieve();
 		PreparedStatement statement = null;
 		AutomotivePartsStore automotivePartsStore = new AutomotivePartsStore();
@@ -193,14 +193,19 @@ public class AutomotivePartsStoreDaoImpl implements IAutomotivePartsStoreDao {
 				LOGGER.error("Cannot close Statement", e);
 			}
 
-				if (connection != null) {
-					conPool.putBack(connection);
-					LOGGER.info("Connection has returned back to connection pool");
-				}
-		
+			if (connection != null) {
+				conPool.putBack(connection);
+				LOGGER.info("Connection has returned back to connection pool");
+			}
+
 		}
 
-		
+	}
+
+	@Override
+	public void deleteEntinty(Long id) throws SQLException {
+		// TODO Auto-generated method stub
+
 	}
 
 }

@@ -190,4 +190,10 @@ public class EngineMechanicDaoImpl implements IEngineMechanicDao {
 		}
 	}
 
+	@Override
+	public void deleteEntinty(Long id) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
 }

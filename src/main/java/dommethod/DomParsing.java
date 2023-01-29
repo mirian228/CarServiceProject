@@ -14,13 +14,11 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 import main.Main;
-import model.Car;
 
 public class DomParsing {
     private static final Logger LOGGER = LogManager.getLogger(Main.class);
 
 	public static void main(String[] args) {
-		Car car = new Car();
 		Document xmlFile = null;
 		
 		try {
@@ -70,8 +68,7 @@ public class DomParsing {
 		
 		
 		String fullText = null; 
-		String vinText = null;
-		Node car1 = null;
+	
 		
 		for(int i=0; i < carXmlList.getLength(); i++) {
 			if(carXmlList.item(i).getNodeType() == Node.ELEMENT_NODE) {
@@ -94,7 +91,7 @@ public class DomParsing {
 		
 }
 	private static Document buildDocument() throws SAXException, IOException, ParserConfigurationException {
-		File file = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\Car.xml");
+		File file = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\xml\\Car.xml");
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		return factory.newDocumentBuilder().parse(file);
 	}

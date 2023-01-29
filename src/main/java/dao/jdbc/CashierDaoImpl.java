@@ -19,7 +19,7 @@ public class CashierDaoImpl implements ICashierDao {
 	private static final Logger LOGGER = LogManager.getLogger(CashierDaoImpl.class);
 	ConnectionPool conPool = ConnectionPool.getInstance();
 
-	public Cashier selectEntityById(Long id){
+	public Cashier selectEntityById(Long id) {
 		Connection connection = conPool.retrieve();
 		PreparedStatement statement = null;
 		String sql = "SELECT * FROM Cashier WHERE idCashier=?";
@@ -76,7 +76,6 @@ public class CashierDaoImpl implements ICashierDao {
 				Cashier cashier = new Cashier();
 				cashier.setIdCashier(resultSet.getLong("idCashier"));
 				cashier.setIdEmployees(resultSet.getLong("idEmployees"));
-				
 
 				cashierList.add(cashier);
 			}
@@ -129,8 +128,6 @@ public class CashierDaoImpl implements ICashierDao {
 		}
 	}
 
-
-
 	public void updateEntity(Cashier entity) {
 		Connection connection = conPool.retrieve();
 		PreparedStatement statement = null;
@@ -141,7 +138,6 @@ public class CashierDaoImpl implements ICashierDao {
 
 			statement.setLong(1, entity.getIdCashier());
 			statement.setLong(2, entity.getIdEmployees());
-			
 
 			statement.executeUpdate();
 		} catch (SQLException e) {
@@ -164,8 +160,6 @@ public class CashierDaoImpl implements ICashierDao {
 		}
 	}
 
-
-
 	public void deleteEntinty(Cashier entity) throws SQLException {
 		PreparedStatement statement = null;
 		String sql = "DELETE FROM Cashier WHERE idCashier=?";
@@ -173,15 +167,14 @@ public class CashierDaoImpl implements ICashierDao {
 
 		try {
 			statement = connection.prepareStatement(sql);
-			
+
 			statement.setLong(1, entity.getIdCashier());
-			
+
 			statement.executeUpdate();
-			
-		} catch(SQLException e) {
+
+		} catch (SQLException e) {
 			e.printStackTrace();
-		}
-		finally {
+		} finally {
 			try {
 				if (statement != null) {
 					statement.close();
@@ -196,13 +189,13 @@ public class CashierDaoImpl implements ICashierDao {
 				LOGGER.info("Connection has returned back to connection pool");
 			}
 		}
-		
-		
+
 	}
-	
-	
-	
-	
+
+	@Override
+	public void deleteEntinty(Long id) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
 
 }
-

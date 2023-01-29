@@ -1,0 +1,8 @@
+18:26:55:787 [main] DEBUG dao.ICarDao.selectEntityById - ==> Parameters: 1(Long)
+18:26:55:879 [main] TRACE dao.ICarDao.selectEntityById - <==    Columns: idCar, idCustomer, vin, make, model, bodyType, productionYear, engineCapacity, fuelType, exteriorColor
+18:26:55:880 [main] TRACE dao.ICarDao.selectEntityById - <==        Row: 1, 1, WBAAA1305H8251545, BMW, X5, SUV, 2009, 2993cc, Diesel, SpaceGray
+18:26:55:883 [main] DEBUG dao.ICarDao.selectEntityById - <==      Total: 1
+18:26:55:884 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@436390f4]
+18:26:55:885 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@436390f4]
+18:26:55:886 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1130598644 to pool.
+18:26:55:886 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection

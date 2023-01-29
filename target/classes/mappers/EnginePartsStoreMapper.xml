@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.IEnginePartsStoreDao">
+	<resultMap id="result1" type="model.EnginePartsStore" autoMapping="false">
+		<id property="idEnginePartsStore" column="idEnginePartsStore" />
+		<result property="idСashier" column="idСashier" />
+		<result property="idPartWarehouse" column="idPartWarehouse" />
+		<result property="partid" column="partid" />
+	</resultMap>
+	<select id="selectEntityById" resultType="model.EnginePartsStore" resultMap="result1"> 
+		SELECT * FROM EnginePartsStore WHERE idEnginePartsStore = #{id}
+	</select>
+	<select id="selectAllEntity" resultType="model.EnginePartsStore" resultMap="result1">
+		SELECT * FROM EnginePartsStore
+	</select>
+	<insert id="insertEntity">
+		INSERT INTO EnginePartsStore () VALUES(#{idEnginePartsStore}, #{idСashier}, #{idPartWarehouse}, #{partid} )
+	</insert>
+	<delete id="deleteEntinty">
+		DELETE FROM EnginePartsStore WHERE idAutomotivePartsStore = #{id}
+	</delete>
+	<update id="updateEntity">
+		UPDATE EnginePartsStore SET idEnginePartsStore=#{idEnginePartsStore}, idСashier=#{idСashier}, idPartWarehouse=#{idPartWarehouse}, partid=#{partid} WHERE idEnginePartsStore= #{idEnginePartsStore}
+	</update>
+</mapper>

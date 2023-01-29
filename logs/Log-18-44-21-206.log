@@ -1,0 +1,9 @@
+18:44:21:194 [main] DEBUG dao.ICashierDao.deleteEntinty - ==>  Preparing: DELETE FROM Сashier WHERE idСashier = ?
+18:44:21:197 [main] DEBUG dao.ICashierDao.deleteEntinty - ==> Parameters: 3(Long)
+18:44:21:200 [main] DEBUG dao.ICashierDao.deleteEntinty - <==    Updates: 0
+18:44:21:200 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@436390f4]
+18:44:21:201 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@436390f4]
+18:44:21:203 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@436390f4]
+18:44:21:205 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1130598644 to pool.
+18:44:21:205 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+18:44:21:205 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 1130598644 from pool.

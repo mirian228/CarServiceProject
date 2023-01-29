@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.ISuspensionMechanicDao">
+	<resultMap id="result1" type="model.SuspensionMechanic" autoMapping="false">
+		<id property="idSuspensionMechanic" column="idSuspensionMechanic" />
+		<result property="idCarServiceB" column="idCarServiceB" />
+		<result property="idEmployees" column="idEmployees" />
+	</resultMap>
+	<select id="selectEntityById" resultType="model.SuspensionMechanic" resultMap="result1"> 
+		SELECT * FROM SuspensionMechanic WHERE idSuspensionMechanic = #{id}
+	</select>
+	<select id="selectAllEntity" resultType="model.SuspensionMechanic" resultMap="result1">
+		SELECT * FROM SuspensionMechanic
+	</select>
+	<insert id="insertEntity">
+		INSERT INTO SuspensionMechanic () VALUES(#{idEngineMechanic}, #{idCarServiceB}, #{idEmployees})
+	</insert>
+	<delete id="deleteEntinty">
+		DELETE FROM SuspensionMechanic WHERE idSuspensionMechanic = #{id}
+	</delete>
+	<update id="updateEntity">
+		UPDATE SuspensionMechanic SET idSuspensionMechanic=#{idSuspensionMechanic}, idCarServiceB=#{idCarServiceB}, idEmployees=#{idEmployees} WHERE idSuspensionMechanic= #{idSuspensionMechanic}
+	</update>
+</mapper>

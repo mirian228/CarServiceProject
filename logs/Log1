@@ -1,8 +1,6 @@
-22:31:32:114 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car Service B info:
-22:31:32:118 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car service B ID: 1
-22:31:32:118 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car ID: 1
-22:31:32:118 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Service type: 3
-22:31:32:130 [main] INFO  jaxb.CarServiceBJAXB - Car Service B info:
-22:31:32:131 [main] INFO  jaxb.CarServiceBJAXB - Car service B ID: 1
-22:31:32:131 [main] INFO  jaxb.CarServiceBJAXB - Car ID: 2
-22:31:32:132 [main] INFO  jaxb.CarServiceBJAXB - Service type: Engine Replacement
+14:54:00:451 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car ID: 1
+14:54:00:453 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Service type: 3
+14:54:00:467 [main] INFO  jaxb.CarServiceBJAXB - Car Service B info:
+14:54:00:468 [main] INFO  jaxb.CarServiceBJAXB - Car service B ID: 1
+14:54:00:468 [main] INFO  jaxb.CarServiceBJAXB - Car ID: 2
+14:54:00:468 [main] INFO  jaxb.CarServiceBJAXB - Service type: Engine Replacement

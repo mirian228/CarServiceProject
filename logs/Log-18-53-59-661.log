@@ -1,0 +1,8 @@
+18:53:59:650 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 1130598644 from pool.
+18:53:59:652 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@436390f4]
+18:53:59:653 [main] DEBUG dao.ICarDao.selectAllEntity - ==>  Preparing: SELECT * FROM Car
+18:53:59:654 [main] DEBUG dao.ICarDao.selectAllEntity - ==> Parameters: 
+18:53:59:657 [main] TRACE dao.ICarDao.selectAllEntity - <==    Columns: idCar, idCustomer, vin, make, model, bodyType, productionYear, engineCapacity, fuelType, exteriorColor
+18:53:59:657 [main] TRACE dao.ICarDao.selectAllEntity - <==        Row: 1, 1, WBAAA1305H8251545, BMW, X5, SUV, 2009, 2993cc, Diesel, SpaceGray
+18:53:59:659 [main] TRACE dao.ICarDao.selectAllEntity - <==        Row: 2, 2, WBDBA2505H8342325, Mercedes, CLA, Sedan, 2015, 1992cc, Gasoline, SunYellow
+18:53:59:660 [main] TRACE dao.ICarDao.selectAllEntity - <==        Row: 3, 2, JH4DA9370MS016526, Audi, A5, Sportback, 2015, 1993cc, Gasoline, Gray

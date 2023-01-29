@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.IDiagnosticsMechanicDao">
+	<resultMap id="result1" type="model.DiagnosticsMechanic" autoMapping="false">
+		<id property="idDiagnosticsMechanic" column="idDiagnosticsMechanic" />
+		<result property="idCarServiceA" column="idCarServiceA" />
+		<result property="idEmployees" column="idEmployees" />
+	</resultMap>
+	<select id="selectEntityById" resultType="model.DiagnosticsMechanic" resultMap="result1"> 
+		SELECT * FROM DiagnosticsMechanic WHERE idDiagnosticsMechanic = #{id}
+	</select>
+	<select id="selectAllEntity" resultType="model.DiagnosticsMechanic" resultMap="result1">
+		SELECT * FROM DiagnosticsMechanic
+	</select>
+	<insert id="insertEntity">
+		INSERT INTO DiagnosticsMechanic () VALUES(#{idDiagnosticsMechanic}, #{idCarServiceA}, #{idEmployees})
+	</insert>
+	<delete id="deleteEntinty">
+		DELETE FROM DiagnosticsMechanic WHERE idDiagnosticsMechanic = #{id}
+	</delete>
+	<update id="updateEntity">
+		UPDATE DiagnosticsMechanic SET idDiagnosticsMechanic=#{idDiagnosticsMechanic}, idCarServiceA=#{idCarServiceA}, idEmployees=#{idEmployees} WHERE idDiagnosticsMechanic= #{idDiagnosticsMechanic}
+	</update>
+</mapper>

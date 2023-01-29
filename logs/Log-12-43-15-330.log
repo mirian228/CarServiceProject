@@ -1,0 +1,16 @@
+12:43:15:263 [main] INFO  jaxb.CarJAXB - Production year: 2018
+12:43:15:265 [main] INFO  jaxb.CarJAXB - Engine capacity: 2993cc
+12:43:15:265 [main] INFO  jaxb.CarJAXB - Fuel type: Gasoline
+12:43:15:266 [main] INFO  jaxb.CarJAXB - Exterior color: Alpine White
+12:43:15:272 [main] INFO  jaxb.CarJAXB - Car info
+12:43:15:272 [main] INFO  jaxb.CarJAXB - Vin: null
+12:43:15:272 [main] INFO  jaxb.CarJAXB - Make: null
+12:43:15:272 [main] INFO  jaxb.CarJAXB - Model: null
+12:43:15:273 [main] INFO  jaxb.CarJAXB - Body type: null
+12:43:15:275 [main] INFO  jaxb.CarJAXB - Production year: 0
+12:43:15:275 [main] INFO  jaxb.CarJAXB - Engine capacity: null
+12:43:15:276 [main] INFO  jaxb.CarJAXB - Fuel type: null
+12:43:15:276 [main] INFO  jaxb.CarJAXB - Exterior color: null
+12:43:15:326 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Automotive Parts Store order information
+12:43:15:327 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Customer ID: 1
+12:43:15:329 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - AutomotivePartsStore ID: 1

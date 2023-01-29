@@ -1,0 +1,16 @@
+18:56:53:462 [main] INFO  jaxb.CarJAXB - Fuel type: Gasoline
+18:56:53:465 [main] INFO  jaxb.CarJAXB - Exterior color: Alpine White
+18:56:53:471 [main] INFO  jaxb.CarJAXB - Car info
+18:56:53:472 [main] INFO  jaxb.CarJAXB - Vin: null
+18:56:53:472 [main] INFO  jaxb.CarJAXB - Make: null
+18:56:53:473 [main] INFO  jaxb.CarJAXB - Model: null
+18:56:53:473 [main] INFO  jaxb.CarJAXB - Body type: null
+18:56:53:476 [main] INFO  jaxb.CarJAXB - Production year: 0
+18:56:53:476 [main] INFO  jaxb.CarJAXB - Engine capacity: null
+18:56:53:477 [main] INFO  jaxb.CarJAXB - Fuel type: null
+18:56:53:477 [main] INFO  jaxb.CarJAXB - Exterior color: null
+18:56:53:497 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Automotive Parts Store order information
+18:56:53:497 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Customer ID: 1
+18:56:53:498 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - AutomotivePartsStore ID: 1
+18:56:53:499 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Order ID: 1
+18:56:53:513 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Order Date: Thu Jan 01 00:00:00 GET 1970

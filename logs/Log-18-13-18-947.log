@@ -1,0 +1,8 @@
+18:13:18:923 [main] INFO  main.Main - [Cashier [idCashier=1, idEmployees=2], Cashier [idCashier=2, idEmployees=7]]
+18:13:18:927 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+18:13:18:927 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 1857910993 from pool.
+18:13:18:929 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6ebd78d1]
+18:13:18:930 [main] DEBUG dao.ICarDao.selectEntityById - ==>  Preparing: SELECT * FROM Car WHERE idCar = ?
+18:13:18:931 [main] DEBUG dao.ICarDao.selectEntityById - ==> Parameters: 1(Long)
+18:13:18:940 [main] TRACE dao.ICarDao.selectEntityById - <==    Columns: idCar, idCustomer, vin, make, model, bodyType, productionYear, engineCapacity, fuelType, exteriorColor
+18:13:18:941 [main] TRACE dao.ICarDao.selectEntityById - <==        Row: 1, 1, WBAAA1305H8251545, BMW, X5, SUV, 2009, 2993cc, Diesel, SpaceGray

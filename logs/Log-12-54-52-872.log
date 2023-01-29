@@ -1,0 +1,17 @@
+12:54:52:489 [main] INFO  main.Main - [Cashier [idCashier=1, idEmployees=2], Cashier [idCashier=2, idEmployees=7]]
+12:54:52:850 [main] INFO  jaxb.CarJAXB - Car info
+12:54:52:850 [main] INFO  jaxb.CarJAXB - Vin: KNDJE723297570351
+12:54:52:851 [main] INFO  jaxb.CarJAXB - Make: BMW
+12:54:52:851 [main] INFO  jaxb.CarJAXB - Model: X3
+12:54:52:851 [main] INFO  jaxb.CarJAXB - Body type: SUV
+12:54:52:852 [main] INFO  jaxb.CarJAXB - Production year: 2018
+12:54:52:852 [main] INFO  jaxb.CarJAXB - Engine capacity: 2993cc
+12:54:52:852 [main] INFO  jaxb.CarJAXB - Fuel type: Gasoline
+12:54:52:853 [main] INFO  jaxb.CarJAXB - Exterior color: Alpine White
+12:54:52:863 [main] INFO  jaxb.CarJAXB - Car info
+12:54:52:864 [main] INFO  jaxb.CarJAXB - Vin: null
+12:54:52:866 [main] INFO  jaxb.CarJAXB - Make: null
+12:54:52:866 [main] INFO  jaxb.CarJAXB - Model: null
+12:54:52:868 [main] INFO  jaxb.CarJAXB - Body type: null
+12:54:52:869 [main] INFO  jaxb.CarJAXB - Production year: 0
+12:54:52:870 [main] INFO  jaxb.CarJAXB - Engine capacity: null

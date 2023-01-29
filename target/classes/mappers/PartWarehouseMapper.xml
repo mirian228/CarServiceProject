@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.IPartWarehouseDao">
+	<resultMap id="result1" type="model.PartWarehouse" autoMapping="false">
+		<id property="idPartWarehouse" column="idPartWarehouse" />
+		<result property="partId" column="partId" />
+		<result property="partName" column="partName" />
+		<result property="partNumber" column="partNumber" />
+		<result property="partquantity" column="partquantity" />
+		<result property="producer" column="producer" />
+		<result property="releaseyear" column="releaseyear" />
+	</resultMap>
+	<select id="selectEntityById" resultType="model.PartWarehouse" resultMap="result1"> 
+		SELECT * FROM PartWarehouse WHERE idPartWarehouse = #{id}
+	</select>
+	<select id="selectAllEntity" resultType="model.PartWarehouse" resultMap="result1">
+		SELECT * FROM PartWarehouse
+	</select>
+	<insert id="insertEntity">
+		INSERT INTO PartWarehouse () VALUES(#{idPartWarehouse}, #{partId}, #{partName}, #{partNumber}, #{partquantity}, #{producer}, #{releaseyear} )
+	</insert>
+	<delete id="deleteEntinty">
+		DELETE FROM PartWarehouse WHERE idPartWarehouse = #{id}
+	</delete>
+	<update id="updateEntity">
+		UPDATE PartWarehouse SET idPartWarehouse=#{idPartWarehouse}, partId=#{partId}, partName=#{partName}, partNumber=#{partNumber}, partquantity=#{partquantity}, producer=#{producer}, releaseyear=#{releaseyear}  WHERE idPartWarehouse= #{idPartWarehouse}
+	</update>
+</mapper>

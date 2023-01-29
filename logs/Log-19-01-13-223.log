@@ -1,0 +1,7 @@
+19:01:13:209 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6ebd78d1]
+19:01:13:212 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1857910993 to pool.
+19:01:13:213 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+19:01:13:213 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 1857910993 from pool.
+19:01:13:214 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6ebd78d1]
+19:01:13:215 [main] DEBUG dao.ICarDao.updateEntity - ==>  Preparing: UPDATE Car SET idCar=?, idCustomer=?, vin=?, make=?, model=?, bodytype=?, productionYear=?, engineCapacity=?, fuelType=?, exteriorColor=? WHERE idСar= ?
+19:01:13:222 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Rolling back JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6ebd78d1]

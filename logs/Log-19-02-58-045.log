@@ -1,0 +1,8 @@
+19:02:58:009 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2024293c]
+19:02:58:012 [main] DEBUG dao.ICarDao.selectEntityById - ==>  Preparing: SELECT * FROM Car WHERE idCar = ?
+19:02:58:012 [main] DEBUG dao.ICarDao.selectEntityById - ==> Parameters: 1(Long)
+19:02:58:014 [main] TRACE dao.ICarDao.selectEntityById - <==    Columns: idCar, idCustomer, vin, make, model, bodyType, productionYear, engineCapacity, fuelType, exteriorColor
+19:02:58:015 [main] TRACE dao.ICarDao.selectEntityById - <==        Row: 1, 1, WBAAA1305H8251545, BMW, X5, SUV, 2009, 2993cc, Diesel, SpaceGray
+19:02:58:018 [main] DEBUG dao.ICarDao.selectEntityById - <==      Total: 1
+19:02:58:044 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2024293c]
+19:02:58:045 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2024293c]

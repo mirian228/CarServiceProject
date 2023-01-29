@@ -1,0 +1,13 @@
+12:34:48:061 [main] TRACE dao.ICashierDao.selectEntityById - <==        Row: 3, 11
+12:34:48:065 [main] DEBUG dao.ICashierDao.selectEntityById - <==      Total: 1
+12:34:48:065 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@58dea0a5]
+12:34:48:066 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@58dea0a5]
+12:34:48:067 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1490985125 to pool.
+12:34:48:068 [main] INFO  main.Main - Cashier [idCashier=3, idEmployees=11]
+12:34:48:423 [main] INFO  jaxb.CarJAXB - Car info
+12:34:48:423 [main] INFO  jaxb.CarJAXB - Vin: KNDJE723297570351
+12:34:48:424 [main] INFO  jaxb.CarJAXB - Make: BMW
+12:34:48:427 [main] INFO  jaxb.CarJAXB - Model: X3
+12:34:48:428 [main] INFO  jaxb.CarJAXB - Body type: SUV
+12:34:48:429 [main] INFO  jaxb.CarJAXB - Production year: 2018
+12:34:48:430 [main] INFO  jaxb.CarJAXB - Engine capacity: 2993cc

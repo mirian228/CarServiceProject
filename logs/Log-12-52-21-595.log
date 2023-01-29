@@ -1,0 +1,9 @@
+12:52:21:515 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@69c43e48]
+12:52:21:526 [main] DEBUG dao.ICashierDao.selectEntityById - ==>  Preparing: SELECT * FROM Сashier WHERE idСashier = ?
+12:52:21:558 [main] DEBUG dao.ICashierDao.selectEntityById - ==> Parameters: 2(Long)
+12:52:21:582 [main] TRACE dao.ICashierDao.selectEntityById - <==    Columns: idСashier, idEmployees
+12:52:21:582 [main] TRACE dao.ICashierDao.selectEntityById - <==        Row: 2, 7
+12:52:21:586 [main] DEBUG dao.ICashierDao.selectEntityById - <==      Total: 1
+12:52:21:590 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@69c43e48]
+12:52:21:592 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@69c43e48]
+12:52:21:594 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1774468680 to pool.

@@ -1,0 +1,9 @@
+19:02:17:296 [main] TRACE dao.ICashierDao.selectAllEntity - <==        Row: 2, 7
+19:02:17:299 [main] DEBUG dao.ICashierDao.selectAllEntity - <==      Total: 2
+19:02:17:299 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2024293c]
+19:02:17:300 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2024293c]
+19:02:17:300 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 539240764 to pool.
+19:02:17:301 [main] INFO  main.Main - [Cashier [idCashier=1, idEmployees=2], Cashier [idCashier=2, idEmployees=7]]
+19:02:17:303 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+19:02:17:304 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 539240764 from pool.
+19:02:17:304 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2024293c]

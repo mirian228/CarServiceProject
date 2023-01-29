@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.ICustomerDao">
+	<resultMap id="result1" type="model.Customer" autoMapping="false">
+		<id property="idCustomer" column="idCustomer" />
+		<result property="fname" column="fname" />
+		<result property="lname" column="lname" />
+		<result property="phoneNumber" column="phoneNumber" />
+		<result property="adress" column="adress" />
+		<result property="discount" column="discount" />
+	</resultMap>
+	<select id="selectEntityById" resultType="model.Customer" resultMap="result1"> 
+		SELECT * FROM Customer WHERE idCustomer = #{id}
+	</select>
+	<select id="selectAllEntity" resultType="model.Customer" resultMap="result1">
+		SELECT * FROM Customer
+	</select>
+	<insert id="insertEntity">
+		INSERT INTO Customer () VALUES(#{idCustomer}, #{fname}, #{lname}, #{phoneNumber}, #{adress},  #{discount})
+	</insert>
+	<delete id="deleteEntinty">
+		DELETE FROM Customer WHERE idCustomer = #{id}
+	</delete>
+	<update id="updateEntity">
+		UPDATE Customer SET idCustomer=#{idCustomer}, fname=#{fname}, lname=#{lname}, phoneNumber=#{phoneNumber}, adress={#adress}, discount=#{discount} WHERE idCustomer= #{idCustomer}
+	</update>
+</mapper>

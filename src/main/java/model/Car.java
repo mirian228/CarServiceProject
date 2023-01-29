@@ -51,7 +51,8 @@ public class Car {
 		Cars = cars;
 	}
 
-	@XmlAttribute
+	
+    @XmlAttribute
 	public Long getIdCar() {
 		return idCar;
 	}

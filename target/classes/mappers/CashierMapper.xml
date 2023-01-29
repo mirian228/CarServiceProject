@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="dao.ICashierDao">
-	
 	<resultMap id="result" type="cashier" autoMapping="false">
-		<id property="idCashier" column="idCashier"/>
-		<result property="idEmployees" column="idEmployees"/>
+		<id property="idCashier" column="idСashier" />
+		<result property="idEmployees" column="idEmployees" />
 	</resultMap>
-	
 	<select id="selectEntityById" resultType="cashier" resultMap="result"> 
-		
 		SELECT * FROM Сashier WHERE idСashier = #{id}
-	
 	</select>
+	<select id="selectAllEntity" resultType="cashier" resultMap="result">
+		SELECT * FROM Сashier
+	</select>
+	<insert id="insertEntity">
+		INSERT INTO Сashier () VALUES(#{idCashier}, #{idEmployees})
+	</insert>
+	<delete id="deleteEntinty">
+		DELETE FROM Сashier WHERE idСashier = #{id}
+	</delete>
+	<update id="updateEntity">
+		UPDATE Сashier SET idСashier=#{idCashier}, idEmployees=#{idEmployees} WHERE idСashier = #{idCashier}
+	</update>
 </mapper>

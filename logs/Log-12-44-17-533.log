@@ -1,0 +1,8 @@
+12:43:48:357 [main] DEBUG dao.ICashierDao.updateEntity - ==>  Preparing: UPDATE Cashier SET idСashier= ? idEmployees= ? WHERE idСashier = ?
+12:43:48:360 [main] DEBUG dao.ICashierDao.updateEntity - ==> Parameters: 4(Long), 5(Long), 4(Long)
+12:43:48:384 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Rolling back JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@58dea0a5]
+12:43:48:385 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@58dea0a5]
+12:43:48:386 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@58dea0a5]
+12:43:48:387 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1490985125 to pool.
+12:44:17:518 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+12:44:17:531 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.

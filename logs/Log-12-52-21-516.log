@@ -1,0 +1,8 @@
+12:51:54:699 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1774468680 to pool.
+12:52:21:081 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+12:52:21:095 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+12:52:21:096 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+12:52:21:097 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+12:52:21:097 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+12:52:21:165 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+12:52:21:513 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1774468680.

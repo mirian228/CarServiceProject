@@ -1,0 +1,10 @@
+18:02:10:158 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2024293c]
+18:02:10:161 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 539240764 to pool.
+18:02:10:161 [main] INFO  main.Main - null
+18:02:10:162 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+18:02:10:162 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 539240764 from pool.
+18:02:10:163 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2024293c]
+18:02:10:164 [main] DEBUG dao.ICashierDao.deleteEntinty - ==>  Preparing: DELETE FROM Сashier WHERE idСashier = ?
+18:02:10:165 [main] DEBUG dao.ICashierDao.deleteEntinty - ==> Parameters: 3(Long)
+18:02:10:168 [main] DEBUG dao.ICashierDao.deleteEntinty - <==    Updates: 0
+18:02:10:168 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2024293c]

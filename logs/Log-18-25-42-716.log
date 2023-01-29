@@ -1,0 +1,7 @@
+18:25:42:647 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@436390f4]
+18:25:42:650 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1130598644 to pool.
+18:25:42:650 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+18:25:42:650 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 1130598644 from pool.
+18:25:42:650 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@436390f4]
+18:25:42:651 [main] DEBUG dao.ICarDao.updateEntity - ==>  Preparing: UPDATE Car SET idCar=?, ?, ?, ?, ?, ?, ?, ?, ?, ? WHERE idСar = ?
+18:25:42:656 [main] DEBUG dao.ICarDao.updateEntity - ==> Parameters: 4(Long), 2(Long), WB4DD9550MS170534(String), Nissan(String), Patrol(String), Large-Size SUV(String), 2002(Integer), 4497cc(String), Diesel(String), White(String), 4(Long)

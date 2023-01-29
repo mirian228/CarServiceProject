@@ -192,4 +192,10 @@ public class DiagnosticsMechanicDaoImpl implements IDiagnosticsMechanicDao {
 
 	}
 
+	@Override
+	public void deleteEntinty(Long id) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
 }

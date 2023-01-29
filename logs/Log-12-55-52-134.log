@@ -1,0 +1,15 @@
+12:55:05:159 [main] INFO  jaxb.EnginePartsStoreJAXB - Engine parts store info
+12:55:05:162 [main] INFO  jaxb.EnginePartsStoreJAXB - Engine parts store ID1
+12:55:05:162 [main] INFO  jaxb.EnginePartsStoreJAXB - Cashier ID1
+12:55:05:162 [main] INFO  jaxb.EnginePartsStoreJAXB - Part warehouse ID1
+12:55:05:164 [main] INFO  jaxb.EnginePartsStoreJAXB - Part ID3
+12:55:05:172 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car Service B info:
+12:55:05:173 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car service B ID: 1
+12:55:05:173 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car ID: 1
+12:55:05:173 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Service type: 3
+12:55:05:180 [main] INFO  jaxb.CarServiceBJAXB - Car Service B info:
+12:55:05:180 [main] INFO  jaxb.CarServiceBJAXB - Car service B ID: 1
+12:55:05:181 [main] INFO  jaxb.CarServiceBJAXB - Car ID: 2
+12:55:05:181 [main] INFO  jaxb.CarServiceBJAXB - Service type: Engine Replacement
+12:55:52:030 [main] INFO  main.Main - ||--- MyBatis Examples ---|||
+12:55:52:121 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.

@@ -191,4 +191,10 @@ public class GearboxMechanicDaoImpl implements IGearboxMechanicDao {
 		}
 	}
 
+	@Override
+	public void deleteEntinty(Long id) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
 }

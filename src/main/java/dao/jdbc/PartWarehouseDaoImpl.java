@@ -211,4 +211,10 @@ public class PartWarehouseDaoImpl implements IPartWarehouseDao {
 
 	}
 
+	@Override
+	public void deleteEntinty(Long id) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
 }

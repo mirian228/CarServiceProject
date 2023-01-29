@@ -138,7 +138,6 @@ public class CustomerDaoImpl implements ICustomerDao {
 			}
 		}
 
-
 	}
 
 	public void updateEntity(Customer entity) {
@@ -210,6 +209,12 @@ public class CustomerDaoImpl implements ICustomerDao {
 				LOGGER.error("Cannot close connection", e);
 			}
 		}
+	}
+
+	@Override
+	public void deleteEntinty(Long id) throws SQLException {
+		// TODO Auto-generated method stub
+
 	}
 
 }

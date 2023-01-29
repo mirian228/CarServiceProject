@@ -1,0 +1,8 @@
+19:01:13:223 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6ebd78d1]
+19:01:13:226 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6ebd78d1]
+19:01:13:226 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1857910993 to pool.
+19:01:46:149 [main] INFO  main.Main - ||--- MyBatis Examples ---|||
+19:01:46:252 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+19:01:46:264 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+19:01:46:265 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+19:01:46:266 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.

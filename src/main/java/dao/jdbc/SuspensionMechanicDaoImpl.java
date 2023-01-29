@@ -194,4 +194,10 @@ public class SuspensionMechanicDaoImpl implements ISuspensionMechanicDao {
 
 	}
 
+	@Override
+	public void deleteEntinty(Long id) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
 }

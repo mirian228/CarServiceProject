@@ -1,0 +1,14 @@
+18:44:21:766 [main] INFO  jaxb.GearboxMechanicJAXB - Gearbox mechanic info
+18:44:21:769 [main] INFO  jaxb.GearboxMechanicJAXB - Gearbox mechanic ID: 1
+18:44:21:769 [main] INFO  jaxb.GearboxMechanicJAXB - Car Service B ID: 1
+18:44:21:771 [main] INFO  jaxb.GearboxMechanicJAXB - Employee ID: 9
+18:44:21:784 [main] INFO  jaxb.EnginePartsStoreJAXB - Engine parts store info
+18:44:21:785 [main] INFO  jaxb.EnginePartsStoreJAXB - Engine parts store ID1
+18:44:21:785 [main] INFO  jaxb.EnginePartsStoreJAXB - Cashier ID1
+18:44:21:787 [main] INFO  jaxb.EnginePartsStoreJAXB - Part warehouse ID1
+18:44:21:788 [main] INFO  jaxb.EnginePartsStoreJAXB - Part ID3
+18:44:21:796 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car Service B info:
+18:44:21:796 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car service B ID: 1
+18:44:21:797 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car ID: 1
+18:44:21:797 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Service type: 3
+18:44:21:805 [main] INFO  jaxb.CarServiceBJAXB - Car Service B info:

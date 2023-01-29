@@ -1,0 +1,8 @@
+19:01:12:961 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+19:01:12:964 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 1857910993 from pool.
+19:01:12:964 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6ebd78d1]
+19:01:12:965 [main] DEBUG dao.ICashierDao.updateEntity - ==>  Preparing: UPDATE Сashier SET idСashier=?, idEmployees=? WHERE idСashier = ?
+19:01:12:967 [main] DEBUG dao.ICashierDao.updateEntity - ==> Parameters: 3(Long), 5(Long), 3(Long)
+19:01:12:999 [main] DEBUG dao.ICashierDao.updateEntity - <==    Updates: 1
+19:01:12:999 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6ebd78d1]
+19:01:13:041 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6ebd78d1]

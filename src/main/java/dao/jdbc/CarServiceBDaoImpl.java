@@ -1,4 +1,5 @@
 package dao.jdbc;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -130,8 +131,6 @@ public class CarServiceBDaoImpl implements ICarServiceBDao {
 
 	}
 
-	
-
 	public void updateEntity(CarServiceB entity) {
 		Connection connection = conPool.retrieve();
 		PreparedStatement statement = null;
@@ -164,8 +163,6 @@ public class CarServiceBDaoImpl implements ICarServiceBDao {
 			}
 		}
 	}
-
-	
 
 	public void deleteEntinty(CarServiceB entity) {
 		Connection connection = conPool.retrieve();
@@ -201,6 +198,12 @@ public class CarServiceBDaoImpl implements ICarServiceBDao {
 				LOGGER.error("Cannot close connection", e);
 			}
 		}
+	}
+
+	@Override
+	public void deleteEntinty(Long id) throws SQLException {
+		// TODO Auto-generated method stub
+
 	}
 
 }

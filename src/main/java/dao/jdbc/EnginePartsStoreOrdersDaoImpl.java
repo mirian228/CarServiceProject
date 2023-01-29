@@ -132,7 +132,6 @@ public class EnginePartsStoreOrdersDaoImpl implements IEnginePartsStoreOrdersDao
 		return enginePartsStoreOrdersList;
 	}
 
-	@Override
 	public void updateEntity(EnginePartsStoreOrders entity) throws SQLException {
 		Connection connection = conPool.retrieve();
 		PreparedStatement statement = null;
@@ -169,7 +168,6 @@ public class EnginePartsStoreOrdersDaoImpl implements IEnginePartsStoreOrdersDao
 
 	}
 
-	@Override
 	public void deleteEntinty(EnginePartsStoreOrders entity) throws SQLException {
 		Connection connection = conPool.retrieve();
 		PreparedStatement statement = null;
@@ -204,6 +202,12 @@ public class EnginePartsStoreOrdersDaoImpl implements IEnginePartsStoreOrdersDao
 				LOGGER.error("Cannot close connection", e);
 			}
 		}
+	}
+
+	@Override
+	public void deleteEntinty(Long id) throws SQLException {
+		// TODO Auto-generated method stub
+
 	}
 
 }

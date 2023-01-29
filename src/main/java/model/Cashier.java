@@ -13,7 +13,7 @@ public class Cashier {
 		this.idCashier = idCashier;
 		this.idEmployees = idEmployees;
 	}
-
+	
 	public Long getIdCashier() {
 		return idCashier;
 	}

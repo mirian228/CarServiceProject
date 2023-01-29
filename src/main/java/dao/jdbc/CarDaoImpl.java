@@ -242,4 +242,10 @@ public class CarDaoImpl implements ICarDao {
 		}
 	}
 
+	@Override
+	public void deleteEntinty(Long id) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
 }

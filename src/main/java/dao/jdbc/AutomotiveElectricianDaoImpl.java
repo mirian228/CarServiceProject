@@ -193,4 +193,10 @@ public class AutomotiveElectricianDaoImpl implements IAutomotiveElectricianDao {
 
 	}
 
+	@Override
+	public void deleteEntinty(Long id) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
 }

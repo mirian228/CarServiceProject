@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.IAutomotiveElectricianDao">
+	<resultMap id="result1" type="model.AutomotiveElectrician" autoMapping="false">
+		<id property="idAutomotiveElectrician" column="idAutomotiveElectrician" />
+		<result property="idCarServiceB" column="idCarServiceB" />
+		<result property="idEmployees" column="idEmployees" />
+	</resultMap>
+	<select id="selectEntityById" resultType="model.AutomotiveElectrician" resultMap="result1"> 
+		SELECT * FROM AutomotiveElectrician WHERE idAutomotiveElectrician = #{id}
+	</select>
+	<select id="selectAllEntity" resultType="model.AutomotiveElectrician" resultMap="result1">
+		SELECT * FROM AutomotiveElectrician
+	</select>
+	<insert id="insertEntity">
+		INSERT INTO AutomotiveElectrician () VALUES(#{idAutomotiveElectrician}, #{idCarServiceB}, #{idEmployees})
+	</insert>
+	<delete id="deleteEntinty">
+		DELETE FROM AutomotiveElectrician WHERE idAutomotiveElectrician = #{id}
+	</delete>
+	<update id="updateEntity">
+		UPDATE AutomotiveElectrician SET idAutomotiveElectrician=#{idAutomotiveElectrician}, idCarServiceB=#{idCarServiceB}, idEmployees=#{idEmployees} WHERE idAutomotiveElectrician= #{idAutomotiveElectrician}
+	</update>
+</mapper>

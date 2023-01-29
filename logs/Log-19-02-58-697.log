@@ -1,0 +1,17 @@
+19:02:58:311 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 539240764 to pool.
+19:02:58:313 [main] INFO  main.Main - --- JACKSON ---
+19:02:58:685 [main] INFO  jaxb.CarJAXB - Car info
+19:02:58:685 [main] INFO  jaxb.CarJAXB - Vin: KNDJE723297570351
+19:02:58:686 [main] INFO  jaxb.CarJAXB - Make: BMW
+19:02:58:686 [main] INFO  jaxb.CarJAXB - Model: X3
+19:02:58:686 [main] INFO  jaxb.CarJAXB - Body type: SUV
+19:02:58:687 [main] INFO  jaxb.CarJAXB - Production year: 2018
+19:02:58:687 [main] INFO  jaxb.CarJAXB - Engine capacity: 2993cc
+19:02:58:687 [main] INFO  jaxb.CarJAXB - Fuel type: Gasoline
+19:02:58:687 [main] INFO  jaxb.CarJAXB - Exterior color: Alpine White
+19:02:58:695 [main] INFO  jaxb.CarJAXB - Car info
+19:02:58:696 [main] INFO  jaxb.CarJAXB - Vin: null
+19:02:58:696 [main] INFO  jaxb.CarJAXB - Make: null
+19:02:58:696 [main] INFO  jaxb.CarJAXB - Model: null
+19:02:58:696 [main] INFO  jaxb.CarJAXB - Body type: null
+19:02:58:696 [main] INFO  jaxb.CarJAXB - Production year: 0

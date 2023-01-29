@@ -211,4 +211,10 @@ public class ManagerDaoImpl implements IManagerDao {
 		}
 	}
 
+	@Override
+	public void deleteEntinty(Long id) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
 }

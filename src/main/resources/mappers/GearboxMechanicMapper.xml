@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.IGearboxMechanicDao">
+	<resultMap id="result1" type="model.GearboxMechanic" autoMapping="false">
+		<id property="idGearboxMechanic" column="idGearboxMechanic" />
+		<result property="idCarServiceB" column="idCarServiceB" />
+		<result property="idEmployees" column="idEmployees" />
+	</resultMap>
+	<select id="selectEntityById" resultType="model.GearboxMechanic" resultMap="result1"> 
+		SELECT * FROM GearboxMechanic WHERE idGearboxMechanic = #{id}
+	</select>
+	<select id="selectAllEntity" resultType="model.GearboxMechanic" resultMap="result1">
+		SELECT * FROM GearboxMechanic
+	</select>
+	<insert id="insertEntity">
+		INSERT INTO GearboxMechanic () VALUES(#{idEngineMechanic}, #{idCarServiceB}, #{idEmployees})
+	</insert>
+	<delete id="deleteEntinty">
+		DELETE FROM GearboxMechanic WHERE idGearboxMechanic = #{id}
+	</delete>
+	<update id="updateEntity">
+		UPDATE GearboxMechanic SET idGearboxMechanic=#{idGearboxMechanic}, idCarServiceB=#{idCarServiceB}, idEmployees=#{idEmployees} WHERE idGearboxMechanic= #{idGearboxMechanic}
+	</update>
+</mapper>

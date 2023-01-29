@@ -1,0 +1,8 @@
+12:44:18:066 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 707506411 from pool.
+12:44:18:068 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a2bb0eb]
+12:44:18:070 [main] DEBUG dao.ICashierDao.updateEntity - ==>  Preparing: UPDATE Cashier SET idСashier=?, idEmployees=? WHERE idСashier = ?
+12:44:18:071 [main] DEBUG dao.ICashierDao.updateEntity - ==> Parameters: 4(Long), 5(Long), 4(Long)
+12:44:18:107 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Rolling back JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a2bb0eb]
+12:44:18:112 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a2bb0eb]
+12:44:18:114 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a2bb0eb]
+12:44:18:114 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 707506411 to pool.

@@ -1,0 +1,15 @@
+18:13:19:594 [main] INFO  jaxb.PartWarehouseJAXB - Part quantity: 3
+18:13:19:597 [main] INFO  jaxb.PartWarehouseJAXB - Part producer: Mahle
+18:13:19:598 [main] INFO  jaxb.PartWarehouseJAXB - Part name: 2021
+18:13:19:605 [main] INFO  jaxb.GearboxMechanicJAXB - Gearbox mechanic info
+18:13:19:605 [main] INFO  jaxb.GearboxMechanicJAXB - Gearbox mechanic ID: 1
+18:13:19:606 [main] INFO  jaxb.GearboxMechanicJAXB - Car Service B ID: 1
+18:13:19:607 [main] INFO  jaxb.GearboxMechanicJAXB - Employee ID: 9
+18:13:19:614 [main] INFO  jaxb.EnginePartsStoreJAXB - Engine parts store info
+18:13:19:614 [main] INFO  jaxb.EnginePartsStoreJAXB - Engine parts store ID1
+18:13:19:615 [main] INFO  jaxb.EnginePartsStoreJAXB - Cashier ID1
+18:13:19:616 [main] INFO  jaxb.EnginePartsStoreJAXB - Part warehouse ID1
+18:13:19:617 [main] INFO  jaxb.EnginePartsStoreJAXB - Part ID3
+18:13:19:624 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car Service B info:
+18:13:19:624 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car service B ID: 1
+18:13:19:624 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car ID: 1

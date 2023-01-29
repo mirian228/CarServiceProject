@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "https://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-	 <properties resource="database.properties"/>
+	<properties resource="database.properties" />
 	<typeAliases>
 		<typeAlias type="model.Cashier" alias="cashier" />
 	</typeAliases>
@@ -19,6 +19,21 @@
 		</environment>
 	</environments>
 	<mappers>
+		<mapper resource="mappers/AutomotiveElectricianMapper.xml" />
+		<mapper resource="mappers/AutomotivePartsStoreMapper.xml" />
+		<mapper resource="mappers/AutomotivePartsStoreOrdersMapper.xml" />
+		<mapper resource="mappers/CarMapper.xml" />
+		<mapper resource="mappers/CarServiceAMapper.xml" />
+		<mapper resource="mappers/CarServiceBMapper.xml" />
 		<mapper resource="mappers/CashierMapper.xml" />
+		<mapper resource="mappers/DiagnosticsMechanicMapper.xml" />
+		<mapper resource="mappers/EmployeesMapper.xml" />
+		<mapper resource="mappers/EngineMechanicMapper.xml" />
+		<mapper resource="mappers/EnginePartsStoreMapper.xml" />
+		<mapper resource="mappers/EnginePartsStoreOrdersMapper.xml" />
+		<mapper resource="mappers/GearboxMechanicMapper.xml" />
+		<mapper resource="mappers/ManagerMapper.xml" />
+		<mapper resource="mappers/PartWarehouseMapper.xml" />
+		<mapper resource="mappers/SuspensionMechanicMapper.xml" />
 	</mappers>
 </configuration>

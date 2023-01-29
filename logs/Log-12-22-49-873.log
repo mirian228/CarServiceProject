@@ -1,0 +1,20 @@
+12:22:49:712 [main] DEBUG dao.ICashierDao.selectEntityById - ==> Parameters: 2(Long)
+12:22:49:779 [main] TRACE dao.ICashierDao.selectEntityById - <==    Columns: idСashier, idEmployees
+12:22:49:779 [main] TRACE dao.ICashierDao.selectEntityById - <==        Row: 2, 7
+12:22:49:784 [main] DEBUG dao.ICashierDao.selectEntityById - <==      Total: 1
+12:22:49:793 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@58dea0a5]
+12:22:49:835 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@58dea0a5]
+12:22:49:835 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1490985125 to pool.
+12:22:49:837 [main] INFO  main.Main - Cashier [idCashier=null, idEmployees=7]
+12:22:49:838 [main] ERROR service.serviceimpl.CashierServiceImpl - Exception
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): dao.ICashierDao.insertEntity
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:108) ~[mybatis-3.5.11.jar:3.5.11]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[?:?]
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:35) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:95) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86) ~[mybatis-3.5.11.jar:3.5.11]
+	at jdk.proxy2.$Proxy19.insertEntity(Unknown Source) ~[?:?]
+	at service.serviceimpl.CashierServiceImpl.insertEntity(CashierServiceImpl.java:50) ~[classes/:?]
+	at main.Main.main(Main.java:37) ~[classes/:?]

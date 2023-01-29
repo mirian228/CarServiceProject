@@ -1,0 +1,13 @@
+18:53:46:718 [main] DEBUG dao.ICarDao.selectAllEntity - <==      Total: 3
+18:53:46:721 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@436390f4]
+18:53:46:723 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@436390f4]
+18:53:46:724 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1130598644 to pool.
+18:53:46:724 [main] INFO  main.Main - --- JACKSON ---
+18:53:47:111 [main] INFO  jaxb.CarJAXB - Car info
+18:53:47:111 [main] INFO  jaxb.CarJAXB - Vin: KNDJE723297570351
+18:53:47:112 [main] INFO  jaxb.CarJAXB - Make: BMW
+18:53:47:120 [main] INFO  jaxb.CarJAXB - Model: X3
+18:53:47:120 [main] INFO  jaxb.CarJAXB - Body type: SUV
+18:53:47:121 [main] INFO  jaxb.CarJAXB - Production year: 2018
+18:53:47:121 [main] INFO  jaxb.CarJAXB - Engine capacity: 2993cc
+18:53:47:121 [main] INFO  jaxb.CarJAXB - Fuel type: Gasoline

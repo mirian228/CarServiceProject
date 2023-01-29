@@ -1,0 +1,10 @@
+12:56:10:711 [main] INFO  jaxb.CarServiceBJAXB - Car service B ID: 1
+12:56:10:714 [main] INFO  jaxb.CarServiceBJAXB - Car ID: 2
+12:56:10:714 [main] INFO  jaxb.CarServiceBJAXB - Service type: Engine Replacement
+17:47:55:104 [main] INFO  main.Main - ||--- MyBatis Examples ---|||
+17:47:55:585 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+17:47:55:596 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:47:55:596 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:47:55:597 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:47:55:597 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:50:12:543 [main] INFO  main.Main - ||--- MyBatis Examples ---|||

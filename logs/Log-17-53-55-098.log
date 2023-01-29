@@ -1,0 +1,13 @@
+17:53:53:985 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@733037]
+17:53:53:988 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@733037]
+17:53:53:988 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 7548983 to pool.
+17:53:53:989 [main] INFO  main.Main - [Cashier [idCashier=1, idEmployees=2], Cashier [idCashier=2, idEmployees=7]]
+17:53:55:065 [main] INFO  jaxb.CarJAXB - Car info
+17:53:55:066 [main] INFO  jaxb.CarJAXB - Vin: KNDJE723297570351
+17:53:55:067 [main] INFO  jaxb.CarJAXB - Make: BMW
+17:53:55:067 [main] INFO  jaxb.CarJAXB - Model: X3
+17:53:55:068 [main] INFO  jaxb.CarJAXB - Body type: SUV
+17:53:55:068 [main] INFO  jaxb.CarJAXB - Production year: 2018
+17:53:55:068 [main] INFO  jaxb.CarJAXB - Engine capacity: 2993cc
+17:53:55:068 [main] INFO  jaxb.CarJAXB - Fuel type: Gasoline
+17:53:55:069 [main] INFO  jaxb.CarJAXB - Exterior color: Alpine White

@@ -1,0 +1,12 @@
+18:15:19:908 [main] TRACE dao.ICarDao.selectAllEntity - <==        Row: 2, 2, WBDBA2505H8342325, Mercedes, CLA, Sedan, 2015, 1992cc, Gasoline, SunYellow
+18:15:19:912 [main] DEBUG dao.ICarDao.selectAllEntity - <==      Total: 2
+18:15:19:913 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@436390f4]
+18:15:19:915 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@436390f4]
+18:15:19:916 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1130598644 to pool.
+18:15:20:263 [main] INFO  jaxb.CarJAXB - Car info
+18:15:20:264 [main] INFO  jaxb.CarJAXB - Vin: KNDJE723297570351
+18:15:20:265 [main] INFO  jaxb.CarJAXB - Make: BMW
+18:15:20:265 [main] INFO  jaxb.CarJAXB - Model: X3
+18:15:20:266 [main] INFO  jaxb.CarJAXB - Body type: SUV
+18:15:20:267 [main] INFO  jaxb.CarJAXB - Production year: 2018
+18:15:20:267 [main] INFO  jaxb.CarJAXB - Engine capacity: 2993cc

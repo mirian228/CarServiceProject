@@ -1,0 +1,14 @@
+12:54:06:606 [main] INFO  jaxb.CarJAXB - Fuel type: null
+12:54:06:608 [main] INFO  jaxb.CarJAXB - Exterior color: null
+12:54:06:623 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Automotive Parts Store order information
+12:54:06:626 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Customer ID: 1
+12:54:06:627 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - AutomotivePartsStore ID: 1
+12:54:06:628 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Order ID: 1
+12:54:06:644 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Order Date: Thu Jan 01 00:00:00 GET 1970
+12:54:06:653 [main] INFO  jaxb.PartWarehouseJAXB - Part warehouse info
+12:54:06:653 [main] INFO  jaxb.PartWarehouseJAXB - Part warehouse ID : 1
+12:54:06:653 [main] INFO  jaxb.PartWarehouseJAXB - Part ID: 1
+12:54:06:654 [main] INFO  jaxb.PartWarehouseJAXB - Part name: Valve cover gasket
+12:54:06:654 [main] INFO  jaxb.PartWarehouseJAXB - Part number: b32sCx100
+12:54:06:655 [main] INFO  jaxb.PartWarehouseJAXB - Part quantity: 3
+12:54:06:655 [main] INFO  jaxb.PartWarehouseJAXB - Part producer: Mahle

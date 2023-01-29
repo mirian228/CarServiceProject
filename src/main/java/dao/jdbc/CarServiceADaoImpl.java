@@ -204,4 +204,10 @@ public class CarServiceADaoImpl implements ICarServiceADao {
 		return carServiceAList;
 	}
 
+	@Override
+	public void deleteEntinty(Long id) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
 }

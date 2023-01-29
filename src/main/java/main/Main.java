@@ -23,30 +23,70 @@ import model.AutomotiveElectrician;
 import model.Car;
 import model.Cashier;
 import model.PartWarehouse;
+import service.ICarService;
 import service.ICashierService;
+import service.serviceimpl.CarServiceImpl;
 import service.serviceimpl.CashierServiceImpl;
 
 public class Main {
 	private static final Logger LOGGER = LogManager.getLogger(Main.class);
 
 	public static void main(String[] args) throws SQLException {
-		
-		ICashierService cashierService = new CashierServiceImpl();
-		LOGGER.info(cashierService.selectEntityById(1L));
-		
-		// --- JACKSON --- //
-		
-		File automotiveElectricianJsonFile = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\json\\AutomotiveElectrician.json");
-		File carJsonFile = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\json\\Car.json");
-		File cashierJsonFile = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\json\\Cashier.json");
-		File enginePartsStoreOrdersJsonFile = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\json\\EnginePartsStoreOrders.json");
-		File partWarehouseJsonFile = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\json\\PartWarehouse.json");
-		ObjectMapper om = new ObjectMapper();
-		
-		
-		
 
+		// --- MyBatis --- //
+		LOGGER.info("||--- MyBatis Examples ---|||");
+
+		// --- Cashier --- //
+		ICashierService cashierInstance = new CashierServiceImpl();
+		LOGGER.info(cashierInstance.selectEntityById(2L));
+		Cashier cashierObject = new Cashier(3L, 11L);
+		Cashier cashierUpdate = new Cashier(3L, 5L);
+		 cashierInstance.insertEntity(cashierObject);
+		System.out.println("------------------------");
+		cashierInstance.selectEntityById(3L);
+		// cashierInstance.deleteEntinty(cashierObject);
+		cashierInstance.updateEntity(cashierUpdate);
+		LOGGER.info(cashierInstance.selectAllEntity());
+		cashierInstance.deleteEntinty(3L);
+		LOGGER.info(cashierInstance.selectAllEntity());
+
+		// --- Car --- //
+		Car carObj = new Car(3L, 2L, "JH4DA9370MS016526", "Audi", "A5", "Sportback", 2015, "1993cc", "Gasoline",
+				"Gray");
+		Car carUpdate = new Car(3L, 2L, "WB4DD9550MS170534", "Nissan", "Patrol", "Large-Size SUV", 2002, "4497cc",
+				"Diesel", "White");
+		ICarService carInstance = new CarServiceImpl();
+		carInstance.selectEntityById(1L);
+		System.out.println("------------------------");
+	//	carInstance.insertEntity(carObj);
+		carInstance.selectAllEntity();
+	    carInstance.deleteEntinty(3L);
+		System.out.println("------------------------");
+		carInstance.selectAllEntity();
+	//	carInstance.updateEntity(carUpdate);
+		carInstance.deleteEntinty(3L);
+     	carInstance.selectAllEntity();
 		
+		for (int i = 0; i < 5; i++) {
+			System.out.println();
+		}
+		
+		
+		LOGGER.info("--- JACKSON ---");
+		// --- JACKSON --- //
+
+		File automotiveElectricianJsonFile = new File(
+				"C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\json\\AutomotiveElectrician.json");
+		File carJsonFile = new File(
+				"C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\json\\Car.json");
+		File cashierJsonFile = new File(
+				"C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\json\\Cashier.json");
+		File enginePartsStoreOrdersJsonFile = new File(
+				"C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\json\\EnginePartsStoreOrders.json");
+		File partWarehouseJsonFile = new File(
+				"C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\json\\PartWarehouse.json");
+		ObjectMapper om = new ObjectMapper();
+
 		try {
 			PartWarehouse[] partWarehouse = om.readValue(partWarehouseJsonFile, PartWarehouse[].class);
 			for (PartWarehouse object : partWarehouse) {
@@ -54,37 +94,32 @@ public class Main {
 				System.out.println("-----------");
 			}
 			System.out.println();
-			
-			
+
 			JsonNode enginePartsStoreOrders = om.readTree(enginePartsStoreOrdersJsonFile);
 			System.out.println(enginePartsStoreOrders);
 			System.out.println("-----------");
-			
-			
+
 			Cashier cashier = new Cashier(1L, 1L);
 			om.writeValue(cashierJsonFile, cashier);
 			Cashier cashier1 = om.readValue(cashierJsonFile, Cashier.class);
 			System.out.println(cashier1);
 			System.out.println("-----------");
-			
-			
+
 			JsonNode carNode = om.readTree(carJsonFile);
 			System.out.println(carNode.toPrettyString());
 			System.out.println("-----------");
-			
-		
-	
+
 			// prints nulls
 			Car car = om.readValue(carJsonFile, Car.class);
 			System.out.println(car);
 			System.out.println("-----------");
-			
+
 			// prints nulls
-			AutomotiveElectrician automotiveElectricianW = om.readValue(automotiveElectricianJsonFile, AutomotiveElectrician.class);
+			AutomotiveElectrician automotiveElectricianW = om.readValue(automotiveElectricianJsonFile,
+					AutomotiveElectrician.class);
 			System.out.println(automotiveElectricianW);
 			System.out.println("-----------");
-		
-		
+
 		} catch (StreamReadException e) {
 			LOGGER.error("StreamReadException", e);
 		} catch (DatabindException e) {
@@ -93,9 +128,7 @@ public class Main {
 			LOGGER.error("IOException", e);
 		}
 
-		
-		
-		// --- JAXB --- // 
+		// --- JAXB --- //
 		System.out.println("--- JAXB Examples ---");
 		CarJAXB carObject = new CarJAXB();
 		CarJAXB carObject2 = new CarJAXB();

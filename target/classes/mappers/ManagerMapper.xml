@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.IManagerDao">
+	<resultMap id="result1" type="model.Manager" autoMapping="false">
+		<id property="idManager" column="idManager" />
+		<result property="fname" column="fname" />
+		<result property="lname" column="lname" />
+		<result property="adress" column="adress" />
+		<result property="phoneNumber" column="phoneNumber" />
+		<result property="salary" column="salary" />
+	</resultMap>
+	<select id="selectEntityById" resultType="model.Manager" resultMap="result1"> 
+		SELECT * FROM Manager WHERE idManager = #{id}
+	</select>
+	<select id="selectAllEntity" resultType="model.Manager" resultMap="result1">
+		SELECT * FROM Manager
+	</select>
+	<insert id="insertEntity">
+		INSERT INTO Manager () VALUES(#{idManager}, #{fname}, #{lname}, #{adress}, #{phoneNumber}, #{salary})
+	</insert>
+	<delete id="deleteEntinty">
+		DELETE FROM Manager WHERE idManager = #{id}
+	</delete>
+	<update id="updateEntity">
+		UPDATE Manager SET idManager=#{idManager}, fname=#{fname}, lname=#{lname}, adress=#{adress}, phoneNumber=#{phoneNumber}, salary=#{salary}  WHERE idManager= #{idManager}
+	</update>
+</mapper>

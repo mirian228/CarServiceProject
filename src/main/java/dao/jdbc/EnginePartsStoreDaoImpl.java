@@ -199,4 +199,10 @@ public class EnginePartsStoreDaoImpl implements IEnginePartsStoreDao {
 		}
 	}
 
+	@Override
+	public void deleteEntinty(Long id) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
 }

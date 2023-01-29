@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.ICarDao">
+	<resultMap id="result1" type="model.Car" autoMapping="false">
+		<id property="idCar" column="idCar" />
+		<result property="idCustomer" column="idCustomer" />
+		<result property="vin" column="vin" />
+		<result property="make" column="make" />
+		<result property="model" column="model" />
+		<result property="bodytype" column="bodytype" />
+		<result property="productionYear" column="productionYear" />
+		<result property="engineCapacity" column="engineCapacity" />
+		<result property="fuelType" column="fuelType" />
+		<result property="exteriorColor" column="exteriorColor" />
+	</resultMap>
+	<select id="selectEntityById" resultType="model.Car" resultMap="result1"> 
+		SELECT * FROM Car WHERE idCar = #{id}
+	</select>
+	<select id="selectAllEntity" resultType="model.Car" resultMap="result1">
+		SELECT * FROM Car
+	</select>
+	<insert id="insertEntity">
+		INSERT INTO Car () VALUES(#{idCar}, #{idCustomer}, #{vin}, #{make}, #{model}, #{bodytype}, #{productionYear}, #{engineCapacity}, #{fuelType}, #{exteriorColor})
+	</insert>
+	<delete id="deleteEntinty">
+		DELETE FROM Car WHERE idCar = #{id}
+	</delete>
+	<update id="updateEntity">
+		UPDATE Car SET idCar=#{idCar}, idCustomer=#{idCustomer}, vin=#{vin}, make=#{make}, model=#{model}, bodytype=#{bodytype}, productionYear=#{productionYear}, engineCapacity=#{engineCapacity}, fuelType=#{fuelType}, exteriorColor=#{exteriorColor}  WHERE idCar= #{idCar}
+	</update>
+</mapper>

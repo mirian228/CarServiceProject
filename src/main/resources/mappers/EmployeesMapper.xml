@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.IEmployeesDao">
+	<resultMap id="result1" type="model.Employees" autoMapping="false">
+		<id property="idEmployees" column="idEmployees" />
+		<result property="fname" column="fname" />
+		<result property="lname" column="lname" />
+		<result property="city" column="city" />
+		<result property="phoneNumber" column="phoneNumber" />
+		<result property="adress" column="adress" />
+		<result property="salary" column="salary" />
+		<result property="idManager" column="idManager" />
+	</resultMap>
+	<select id="selectEntityById" resultType="model.Employees" resultMap="result1"> 
+		SELECT * FROM Employees WHERE idEmployees = #{id}
+	</select>
+	<select id="selectAllEntity" resultType="model.Employees" resultMap="result1">
+		SELECT * FROM Employees
+	</select>
+	<insert id="insertEntity">
+		INSERT INTO Employees () VALUES(#{idEmployees}, #{fname}, #{lname}, #{city}, #{phoneNumber}, #{adress}, #{salary}, #{idManager})
+	</insert>
+	<delete id="deleteEntinty">
+		DELETE FROM Employees WHERE idEmployees = #{id}
+	</delete>
+	<update id="updateEntity">
+		UPDATE Employees SET idEmployees=#{idEmployees}, fname=#{fname}, lname=#{lname},  city=#{city}, phoneNumber={#phoneNumber}, adress=#{adress}, salary=#{salary}, idManager=#{idManager} WHERE idEmployees= #{idEmployees}
+	</update>
+</mapper>
