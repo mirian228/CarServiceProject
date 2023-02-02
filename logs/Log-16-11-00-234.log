@@ -1,0 +1,22 @@
+16:10:10:051 [main] INFO  jaxb.CashierJAXB - Cashier ID1
+16:10:10:053 [main] INFO  jaxb.CashierJAXB - Employee ID1
+16:10:10:060 [main] INFO  jaxb.CustomerJAXB - Customer info
+16:10:10:060 [main] INFO  jaxb.CustomerJAXB - Customer ID 1
+16:10:10:060 [main] INFO  jaxb.CustomerJAXB - First name Ana
+16:10:10:060 [main] INFO  jaxb.CustomerJAXB - Last name Surmanidze
+16:10:10:060 [main] INFO  jaxb.CustomerJAXB - Phone number +995555222000
+16:10:10:061 [main] INFO  jaxb.CustomerJAXB - adress Tbilisi Street 2
+16:10:10:061 [main] INFO  jaxb.CustomerJAXB - discount 3%
+16:10:10:065 [main] ERROR jaxb.EmployeesJAXB - JAXBException
+javax.xml.bind.MarshalException: null
+	at com.sun.xml.bind.v2.runtime.MarshallerImpl.write(MarshallerImpl.java:331) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.MarshallerImpl.marshal(MarshallerImpl.java:256) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at javax.xml.bind.helpers.AbstractMarshallerImpl.marshal(AbstractMarshallerImpl.java:110) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at jaxb.EmployeesJAXB.marshall(EmployeesJAXB.java:28) ~[classes/:?]
+	at main.Main.main(Main.java:218) ~[classes/:?]
+Caused by: com.sun.istack.SAXException2: unable to marshal type "model.Employees" as an element because it is missing an @XmlRootElement annotation
+	at com.sun.xml.bind.v2.runtime.XMLSerializer.reportError(XMLSerializer.java:249) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.ClassBeanInfoImpl.serializeRoot(ClassBeanInfoImpl.java:338) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.XMLSerializer.childAsRoot(XMLSerializer.java:494) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.MarshallerImpl.write(MarshallerImpl.java:328) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	... 4 more

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customer idCustomer="1">
+    <adress>Tbilisi Street 2</adress>
+    <discount>3%</discount>
+    <fname>Ana</fname>
+    <lname>Surmanidze</lname>
+    <phoneNumber>+995555222000</phoneNumber>
+</customer>

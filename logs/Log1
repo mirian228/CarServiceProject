@@ -1,6 +1,2 @@
-14:54:00:451 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car ID: 1
-14:54:00:453 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Service type: 3
-14:54:00:467 [main] INFO  jaxb.CarServiceBJAXB - Car Service B info:
-14:54:00:468 [main] INFO  jaxb.CarServiceBJAXB - Car service B ID: 1
-14:54:00:468 [main] INFO  jaxb.CarServiceBJAXB - Car ID: 2
-14:54:00:468 [main] INFO  jaxb.CarServiceBJAXB - Service type: Engine Replacement
+16:29:20:132 [main] INFO  jaxb.SuspensionMechanicJAXB - Car Service B ID: 1
+16:29:20:135 [main] INFO  jaxb.SuspensionMechanicJAXB - Employee ID: 2

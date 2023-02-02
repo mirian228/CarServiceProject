@@ -1,7 +1,11 @@
 package model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+@XmlRootElement
 public class EngineMechanic {
 	@JsonProperty("idEngineMechanic")
 	private Long idEngineMechanic;
@@ -19,7 +23,7 @@ public class EngineMechanic {
 		this.idCarServiceA = idCarServiceA;
 		this.idEmployees = idEmployees;
 	}
-
+	@XmlAttribute
 	public Long getIdEngineMechanic() {
 		return idEngineMechanic;
 	}
@@ -27,7 +31,7 @@ public class EngineMechanic {
 	public void setIdEngineMechanic(Long idEngineMechanic) {
 		this.idEngineMechanic = idEngineMechanic;
 	}
-
+	@XmlElement
 	public Long getIdCarServiceA() {
 		return idCarServiceA;
 	}
@@ -35,7 +39,7 @@ public class EngineMechanic {
 	public void setIdCarServiceA(Long idCarServiceA) {
 		this.idCarServiceA = idCarServiceA;
 	}
-
+	@XmlElement
 	public Long getIdEmployees() {
 		return idEmployees;
 	}

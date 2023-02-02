@@ -1,0 +1,14 @@
+15:55:18:072 [main] INFO  jaxb.CarServiceBJAXB - Car service B ID: 1
+15:55:18:074 [main] INFO  jaxb.CarServiceBJAXB - Car ID: 2
+15:55:18:074 [main] INFO  jaxb.CarServiceBJAXB - Service type: Engine Replacement
+15:55:18:082 [main] INFO  jaxb.AutomotiveElectricianJAXB - Automotive Electrician information:
+15:55:18:082 [main] INFO  jaxb.AutomotiveElectricianJAXB - Automotive Electrician ID: 1
+15:55:18:082 [main] INFO  jaxb.AutomotiveElectricianJAXB - Car Service B ID: 1
+15:55:18:083 [main] INFO  jaxb.AutomotiveElectricianJAXB - Employee ID: 3
+15:55:18:095 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Automotive parts store info
+15:55:18:095 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Automotive parts store ID1
+15:55:18:096 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Cashier ID1
+15:55:18:096 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Order ID1
+15:55:18:097 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Part warehouse ID1
+15:55:18:097 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Part ID3
+15:59:42:891 [main] INFO  main.Main - ||--- MyBatis Examples ---|||

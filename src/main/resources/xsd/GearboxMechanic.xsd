@@ -1,0 +1,11 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="gearboxMechanic">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element type="xs:byte" name="idCarServiceB" />
+				<xs:element type="xs:byte" name="idEmployees" />
+			</xs:sequence>
+			<xs:attribute type="xs:byte" name="idGearboxMechanic" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

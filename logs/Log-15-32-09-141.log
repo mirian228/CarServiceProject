@@ -1,0 +1,9 @@
+15:29:57:003 [main] INFO  jaxb.AutomotiveElectricianJAXB - Automotive Electrician ID: 1
+15:29:57:005 [main] INFO  jaxb.AutomotiveElectricianJAXB - Car Service B ID: 1
+15:29:57:005 [main] INFO  jaxb.AutomotiveElectricianJAXB - Employee ID: 3
+15:32:08:818 [main] INFO  main.Main - ||--- MyBatis Examples ---|||
+15:32:08:911 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+15:32:08:921 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+15:32:08:922 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+15:32:08:923 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+15:32:08:924 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.

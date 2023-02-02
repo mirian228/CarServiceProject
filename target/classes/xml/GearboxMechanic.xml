@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gearboxMechanic idGearboxMechanic="1">
-    <idCarServiceB>1</idCarServiceB>
-    <idEmployees>9</idEmployees>
+    <idCarServiceB>2</idCarServiceB>
+    <idEmployees>6</idEmployees>
 </gearboxMechanic>

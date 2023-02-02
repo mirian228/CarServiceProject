@@ -40,7 +40,7 @@ public class AutomotivePartsStoreOrders {
 		this.idCustomer = idCustomer;
 	}
 
-	@XmlAttribute
+	@XmlElement
 	public Long getIdAutomotivePartsStore() {
 		return idAutomotivePartsStore;
 	}
@@ -49,7 +49,7 @@ public class AutomotivePartsStoreOrders {
 		this.idAutomotivePartsStore = idAutomotivePartsStore;
 	}
 
-	@XmlAttribute
+	@XmlElement
 	public Long getIdOrder() {
 		return idOrder;
 	}

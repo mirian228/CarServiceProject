@@ -1,5 +1,10 @@
 package model;
 
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class AutomotivePartsStore {
 	private Long idAutomotivePartsStore;
 	private Long idСashier;
@@ -20,7 +25,7 @@ public class AutomotivePartsStore {
 		this.idPartWarehouse = idPartWarehouse;
 		this.partid = partid;
 	}
-
+	@XmlAttribute
 	public Long getIdAutomotivePartsStore() {
 		return idAutomotivePartsStore;
 	}
@@ -28,7 +33,7 @@ public class AutomotivePartsStore {
 	public void setIdAutomotivePartsStore(Long idAutomotivePartsStore) {
 		this.idAutomotivePartsStore = idAutomotivePartsStore;
 	}
-
+	@XmlElement
 	public Long getIdСashier() {
 		return idСashier;
 	}
@@ -36,7 +41,7 @@ public class AutomotivePartsStore {
 	public void setIdСashier(Long idСashier) {
 		this.idСashier = idСashier;
 	}
-
+	@XmlElement
 	public Long getIdPartWarehouse() {
 		return idPartWarehouse;
 	}
@@ -44,7 +49,7 @@ public class AutomotivePartsStore {
 	public void setIdPartWarehouse(Long idPartWarehouse) {
 		this.idPartWarehouse = idPartWarehouse;
 	}
-
+	@XmlElement
 	public String getPartid() {
 		return partid;
 	}
@@ -52,7 +57,7 @@ public class AutomotivePartsStore {
 	public void setPartid(String partid) {
 		this.partid = partid;
 	}
-
+	@XmlElement
 	public Long getIdOrders() {
 		return idOrders;
 	}

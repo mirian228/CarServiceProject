@@ -1,0 +1,17 @@
+16:14:13:665 [main] INFO  jaxb.CarJAXB - Model: X3
+16:14:13:668 [main] INFO  jaxb.CarJAXB - Body type: SUV
+16:14:13:669 [main] INFO  jaxb.CarJAXB - Production year: 2018
+16:14:13:670 [main] INFO  jaxb.CarJAXB - Engine capacity: 2993cc
+16:14:13:670 [main] INFO  jaxb.CarJAXB - Fuel type: Gasoline
+16:14:13:670 [main] INFO  jaxb.CarJAXB - Exterior color: Alpine White
+16:14:13:683 [main] INFO  jaxb.CarJAXB - Car info
+16:14:13:683 [main] INFO  jaxb.CarJAXB - Vin: null
+16:14:13:683 [main] INFO  jaxb.CarJAXB - Make: null
+16:14:13:684 [main] INFO  jaxb.CarJAXB - Model: null
+16:14:13:684 [main] INFO  jaxb.CarJAXB - Body type: null
+16:14:13:684 [main] INFO  jaxb.CarJAXB - Production year: 0
+16:14:13:684 [main] INFO  jaxb.CarJAXB - Engine capacity: null
+16:14:13:699 [main] INFO  jaxb.CarJAXB - Fuel type: null
+16:14:13:699 [main] INFO  jaxb.CarJAXB - Exterior color: null
+16:14:13:717 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Automotive Parts Store order information
+16:14:13:717 [main] INFO  jaxb.AutomotivePartsStoreOrdersJAXB - Customer ID: 1

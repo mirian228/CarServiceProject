@@ -1,24 +1,24 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<xs:element name="car">
 		<xs:complexType>
-		<xs:sequence>
-			<xs:element name="car" maxOccurs="unbounded" minOccurs="0">
-				<xs:complexType>
-					<xs:sequence>
-						<xs:element name="vin" type="xs:string"/>
-						<xs:element name="make" type="xs:string"/>
-						<xs:element name="model" type="xs:string"/>
-						<xs:element name="bodytype" type="xs:string"/>
-						<xs:element name="productionYear" type="xs:int"/>
-						<xs:element name="engineCapacity" type="xs:string"/>
-						<xs:element name="fuelType" type="xs:string"/>
-						<xs:element name="exteriorColor" type="xs:string"/>
+			<xs:sequence>
+				<xs:element name="car" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="vin" type="xs:string" />
+							<xs:element name="make" type="xs:string" />
+							<xs:element name="model" type="xs:string" />
+							<xs:element name="bodytype" type="xs:string" />
+							<xs:element name="productionYear" type="xs:int" />
+							<xs:element name="engineCapacity" type="xs:string" />
+							<xs:element name="fuelType" type="xs:string" />
+							<xs:element name="exteriorColor" type="xs:string" />
 						</xs:sequence>
-						<xs:attribute name="idCar" type="xs:long" use="optional"/>
-						<xs:attribute name="idCustomer" type="xs:long" use="optional"/>
+						<xs:attribute name="idCar" type="xs:long" use="optional" />
+						<xs:attribute name="idCustomer" type="xs:long" use="optional" />
 					</xs:complexType>
-			</xs:element>
-		</xs:sequence>	
+				</xs:element>
+			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 </xs:schema>

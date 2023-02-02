@@ -1,0 +1,16 @@
+16:22:10:968 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6058e535]
+16:22:10:970 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1616438581 to pool.
+16:22:10:971 [main] INFO  main.Main - --- JACKSON ---
+16:22:11:363 [main] INFO  jaxb.CarJAXB - Car info
+16:22:11:364 [main] INFO  jaxb.CarJAXB - Vin: KNDJE723297570351
+16:22:11:364 [main] INFO  jaxb.CarJAXB - Make: BMW
+16:22:11:365 [main] INFO  jaxb.CarJAXB - Model: X3
+16:22:11:365 [main] INFO  jaxb.CarJAXB - Body type: SUV
+16:22:11:366 [main] INFO  jaxb.CarJAXB - Production year: 2018
+16:22:11:366 [main] INFO  jaxb.CarJAXB - Engine capacity: 2993cc
+16:22:11:366 [main] INFO  jaxb.CarJAXB - Fuel type: Gasoline
+16:22:11:403 [main] INFO  jaxb.CarJAXB - Exterior color: Alpine White
+16:22:11:414 [main] INFO  jaxb.CarJAXB - Car info
+16:22:11:415 [main] INFO  jaxb.CarJAXB - Vin: null
+16:22:11:416 [main] INFO  jaxb.CarJAXB - Make: null
+16:22:11:416 [main] INFO  jaxb.CarJAXB - Model: null

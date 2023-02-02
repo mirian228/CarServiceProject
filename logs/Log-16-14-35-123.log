@@ -1,0 +1,10 @@
+16:14:35:049 [main] DEBUG dao.ICashierDao.selectEntityById - ==>  Preparing: SELECT * FROM Сashier WHERE idСashier = ?
+16:14:35:085 [main] DEBUG dao.ICashierDao.selectEntityById - ==> Parameters: 2(Long)
+16:14:35:110 [main] TRACE dao.ICashierDao.selectEntityById - <==    Columns: idСashier, idEmployees
+16:14:35:111 [main] TRACE dao.ICashierDao.selectEntityById - <==        Row: 2, 7
+16:14:35:116 [main] DEBUG dao.ICashierDao.selectEntityById - <==      Total: 1
+16:14:35:119 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6058e535]
+16:14:35:120 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6058e535]
+16:14:35:121 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1616438581 to pool.
+16:14:35:121 [main] INFO  main.Main - Cashier [idCashier=2, idEmployees=7]
+16:14:35:122 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection

@@ -1,0 +1,19 @@
+15:59:44:560 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Automotive parts store info
+15:59:44:564 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Automotive parts store ID1
+15:59:44:566 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Cashier ID1
+15:59:44:567 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Order ID1
+15:59:44:568 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Part warehouse ID1
+15:59:44:568 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Part ID3
+15:59:44:573 [main] ERROR jaxb.CashierJAXB - JAXBException
+javax.xml.bind.MarshalException: null
+	at com.sun.xml.bind.v2.runtime.MarshallerImpl.write(MarshallerImpl.java:331) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.MarshallerImpl.marshal(MarshallerImpl.java:256) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at javax.xml.bind.helpers.AbstractMarshallerImpl.marshal(AbstractMarshallerImpl.java:110) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at jaxb.CashierJAXB.marshall(CashierJAXB.java:27) ~[classes/:?]
+	at main.Main.main(Main.java:204) ~[classes/:?]
+Caused by: com.sun.istack.SAXException2: unable to marshal type "model.Cashier" as an element because it is missing an @XmlRootElement annotation
+	at com.sun.xml.bind.v2.runtime.XMLSerializer.reportError(XMLSerializer.java:249) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.ClassBeanInfoImpl.serializeRoot(ClassBeanInfoImpl.java:338) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.XMLSerializer.childAsRoot(XMLSerializer.java:494) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.MarshallerImpl.write(MarshallerImpl.java:328) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	... 4 more

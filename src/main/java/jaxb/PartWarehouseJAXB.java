@@ -14,7 +14,7 @@ import model.PartWarehouse;
 
 public class PartWarehouseJAXB {
 	private static final Logger LOGGER = LogManager.getLogger(PartWarehouseJAXB.class);
-	File file = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\xml\\PartWarehouse.xml");
+	File file = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\jaxbXml\\PartWarehouseJAXB.xml");
 	
 	public void marshall() {
 		try {

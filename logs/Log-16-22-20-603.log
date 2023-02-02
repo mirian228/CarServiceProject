@@ -1,0 +1,16 @@
+16:22:11:665 [main] INFO  jaxb.CustomerJAXB - adress Tbilisi Street 2
+16:22:11:666 [main] INFO  jaxb.CustomerJAXB - discount 3%
+16:22:11:676 [main] INFO  jaxb.EmployeesJAXB - Employee info
+16:22:11:676 [main] INFO  jaxb.EmployeesJAXB - Employee ID 1
+16:22:11:677 [main] INFO  jaxb.EmployeesJAXB - First name Gia
+16:22:11:677 [main] INFO  jaxb.EmployeesJAXB - Last name Bolkvadze
+16:22:11:677 [main] INFO  jaxb.EmployeesJAXB - City Batumi
+16:22:11:677 [main] INFO  jaxb.EmployeesJAXB - Phone number +995555222000
+16:22:11:677 [main] INFO  jaxb.EmployeesJAXB - adress Gogebashvili Street 2
+16:22:11:678 [main] INFO  jaxb.EmployeesJAXB - salary 25000
+16:22:11:678 [main] INFO  jaxb.EmployeesJAXB - Manager ID2
+16:22:11:684 [main] INFO  jaxb.EngineMechanicJAXB - Engine mechanic info:
+16:22:11:684 [main] INFO  jaxb.EngineMechanicJAXB - Engine mechanic ID: 1
+16:22:11:684 [main] INFO  jaxb.EngineMechanicJAXB - Car Service ID: 1
+16:22:11:684 [main] INFO  jaxb.EngineMechanicJAXB - Employee ID: 3
+16:22:20:514 [main] INFO  main.Main - ||--- MyBatis Examples ---|||

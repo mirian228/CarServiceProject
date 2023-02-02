@@ -1,0 +1,8 @@
+16:05:17:852 [main] TRACE dao.ICarDao.selectAllEntity - <==        Row: 2, 2, WBDBA2505H8342325, Mercedes, CLA, Sedan, 2015, 1992cc, Gasoline, SunYellow
+16:05:17:855 [main] DEBUG dao.ICarDao.selectAllEntity - <==      Total: 2
+16:05:17:856 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5a2f016d]
+16:05:17:858 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5a2f016d]
+16:05:17:858 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1513029997 to pool.
+16:05:17:859 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+16:05:17:860 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 1513029997 from pool.
+16:05:17:860 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5a2f016d]

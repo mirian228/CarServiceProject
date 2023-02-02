@@ -1,0 +1,10 @@
+16:05:17:990 [main] TRACE dao.ICarDao.selectAllEntity - <==        Row: 1, 1, WBAAA1305H8251545, BMW, X5, SUV, 2009, 2993cc, Diesel, SpaceGray
+16:05:17:993 [main] TRACE dao.ICarDao.selectAllEntity - <==        Row: 2, 2, WBDBA2505H8342325, Mercedes, CLA, Sedan, 2015, 1992cc, Gasoline, SunYellow
+16:05:17:993 [main] DEBUG dao.ICarDao.selectAllEntity - <==      Total: 2
+16:05:17:994 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5a2f016d]
+16:05:17:995 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5a2f016d]
+16:05:17:995 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1513029997 to pool.
+16:05:18:010 [main] INFO  main.Main - --- JACKSON ---
+16:05:18:342 [main] INFO  jaxb.CarJAXB - Car info
+16:05:18:342 [main] INFO  jaxb.CarJAXB - Vin: KNDJE723297570351
+16:05:18:342 [main] INFO  jaxb.CarJAXB - Make: BMW

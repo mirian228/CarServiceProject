@@ -12,13 +12,22 @@ import com.fasterxml.jackson.databind.DatabindException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import jaxb.AutomotiveElectricianJAXB;
+import jaxb.AutomotivePartsStoreJAXB;
 import jaxb.AutomotivePartsStoreOrdersJAXB;
 import jaxb.CarJAXB;
+import jaxb.CarServiceAJAXB;
 import jaxb.CarServiceBJAXB;
+import jaxb.CashierJAXB;
+import jaxb.CustomerJAXB;
 import jaxb.DiagnosticsMechanicJAXB;
+import jaxb.EmployeesJAXB;
+import jaxb.EngineMechanicJAXB;
 import jaxb.EnginePartsStoreJAXB;
 import jaxb.GearboxMechanicJAXB;
+import jaxb.ManagerJAXB;
 import jaxb.PartWarehouseJAXB;
+import jaxb.SuspensionMechanicJAXB;
 import model.AutomotiveElectrician;
 import model.Car;
 import model.Cashier;
@@ -41,7 +50,7 @@ public class Main {
 		LOGGER.info(cashierInstance.selectEntityById(2L));
 		Cashier cashierObject = new Cashier(3L, 11L);
 		Cashier cashierUpdate = new Cashier(3L, 5L);
-		 cashierInstance.insertEntity(cashierObject);
+		cashierInstance.insertEntity(cashierObject);
 		System.out.println("------------------------");
 		cashierInstance.selectEntityById(3L);
 		// cashierInstance.deleteEntinty(cashierObject);
@@ -58,20 +67,19 @@ public class Main {
 		ICarService carInstance = new CarServiceImpl();
 		carInstance.selectEntityById(1L);
 		System.out.println("------------------------");
-	//	carInstance.insertEntity(carObj);
+		// carInstance.insertEntity(carObj);
 		carInstance.selectAllEntity();
-	    carInstance.deleteEntinty(3L);
+		carInstance.deleteEntinty(3L);
 		System.out.println("------------------------");
 		carInstance.selectAllEntity();
-	//	carInstance.updateEntity(carUpdate);
+		// carInstance.updateEntity(carUpdate);
 		carInstance.deleteEntinty(3L);
-     	carInstance.selectAllEntity();
-		
+		carInstance.selectAllEntity();
+
 		for (int i = 0; i < 5; i++) {
 			System.out.println();
 		}
-		
-		
+
 		LOGGER.info("--- JACKSON ---");
 		// --- JACKSON --- //
 
@@ -137,7 +145,16 @@ public class Main {
 		GearboxMechanicJAXB gearboxMechanicObject = new GearboxMechanicJAXB();
 		EnginePartsStoreJAXB enginePartsStoreObject = new EnginePartsStoreJAXB();
 		DiagnosticsMechanicJAXB diagnosticsMechanicObject = new DiagnosticsMechanicJAXB();
+		CarServiceAJAXB carServiceAJAXB = new CarServiceAJAXB();
 		CarServiceBJAXB carServiceBJAXB = new CarServiceBJAXB();
+		AutomotiveElectricianJAXB automotiveElectricianJAXB = new AutomotiveElectricianJAXB();
+		AutomotivePartsStoreJAXB automotivePartsStoreJAXB = new AutomotivePartsStoreJAXB();
+		CashierJAXB cashierJAXB = new CashierJAXB();
+		CustomerJAXB customerJAXB = new CustomerJAXB();
+		EmployeesJAXB employeesJAXB = new EmployeesJAXB();
+		EngineMechanicJAXB engineMechanicJAXB = new EngineMechanicJAXB();
+		ManagerJAXB managerJAXB = new ManagerJAXB();
+		SuspensionMechanicJAXB suspensionMechanicJAXB = new SuspensionMechanicJAXB();
 
 		carObject.marshall();
 		System.out.println();
@@ -172,9 +189,54 @@ public class Main {
 		diagnosticsMechanicObject.unmarshall();
 		System.out.println();
 
+		carServiceAJAXB.marshall();
+		System.out.println();
+		carServiceAJAXB.unmarshall();
+		System.out.println();
+
 		carServiceBJAXB.marshall();
 		System.out.println();
 		carServiceBJAXB.unmarshall();
+		System.out.println();
+
+		automotiveElectricianJAXB.marshall();
+		System.out.println();
+		automotiveElectricianJAXB.unmarshall();
+		System.out.println();
+
+		automotivePartsStoreJAXB.marshall();
+		System.out.println();
+		automotivePartsStoreJAXB.unmarshall();
+		System.out.println();
+
+		cashierJAXB.marshall();
+		System.out.println();
+		cashierJAXB.unmarshall();
+		System.out.println();
+
+		customerJAXB.marshall();
+		System.out.println();
+		customerJAXB.unmarshall();
+		System.out.println();
+
+		employeesJAXB.marshall();
+		System.out.println();
+		employeesJAXB.unmarshall();
+		System.out.println();
+
+		engineMechanicJAXB.marshall();
+		System.out.println();
+		engineMechanicJAXB.unmarshall();
+		System.out.println();
+
+		managerJAXB.marshall();
+		System.out.println();
+		managerJAXB.unmarshall();
+		System.out.println();
+
+		suspensionMechanicJAXB.marshall();
+		System.out.println();
+		suspensionMechanicJAXB.unmarshall();
 		System.out.println();
 
 	}

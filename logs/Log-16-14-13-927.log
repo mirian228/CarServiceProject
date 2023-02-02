@@ -1,0 +1,14 @@
+16:14:13:894 [main] INFO  jaxb.CarServiceBJAXB - Car Service B info:
+16:14:13:897 [main] INFO  jaxb.CarServiceBJAXB - Car service B ID: 1
+16:14:13:897 [main] INFO  jaxb.CarServiceBJAXB - Car ID: 2
+16:14:13:898 [main] INFO  jaxb.CarServiceBJAXB - Service type: Engine Replacement
+16:14:13:906 [main] INFO  jaxb.AutomotiveElectricianJAXB - Automotive Electrician information:
+16:14:13:907 [main] INFO  jaxb.AutomotiveElectricianJAXB - Automotive Electrician ID: 1
+16:14:13:907 [main] INFO  jaxb.AutomotiveElectricianJAXB - Car Service B ID: 1
+16:14:13:907 [main] INFO  jaxb.AutomotiveElectricianJAXB - Employee ID: 3
+16:14:13:916 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Automotive parts store info
+16:14:13:918 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Automotive parts store ID1
+16:14:13:920 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Cashier ID1
+16:14:13:920 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Order ID1
+16:14:13:921 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Part warehouse ID1
+16:14:13:921 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Part ID3

@@ -1,0 +1,12 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="enginePartsStore">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element type="xs:byte" name="idPartWarehouse" />
+				<xs:element type="xs:byte" name="idСashier" />
+				<xs:element type="xs:byte" name="partid" />
+			</xs:sequence>
+			<xs:attribute type="xs:byte" name="idEnginePartsStore" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

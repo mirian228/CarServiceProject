@@ -1,0 +1,11 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="carServiceB">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element type="xs:string" name="serviceType" />
+			</xs:sequence>
+			<xs:attribute type="xs:byte" name="idCar" />
+			<xs:attribute type="xs:byte" name="idCarServiceB" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

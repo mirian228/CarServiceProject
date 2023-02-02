@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<automotiveElectrician idAutomotiveElectrician="1">
+    <idCarServiceB>1</idCarServiceB>
+    <idEmployees>3</idEmployees>
+</automotiveElectrician>

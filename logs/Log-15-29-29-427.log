@@ -1,0 +1,19 @@
+15:28:37:531 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car ID: 1
+15:28:37:533 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Service type: 3
+15:28:37:542 [main] INFO  jaxb.CarServiceBJAXB - Car Service B info:
+15:28:37:543 [main] INFO  jaxb.CarServiceBJAXB - Car service B ID: 1
+15:28:37:543 [main] INFO  jaxb.CarServiceBJAXB - Car ID: 2
+15:28:37:543 [main] INFO  jaxb.CarServiceBJAXB - Service type: Engine Replacement
+15:28:37:547 [main] ERROR jaxb.AutomotiveElectricianJAXB - JAXBException occured
+javax.xml.bind.MarshalException: null
+	at com.sun.xml.bind.v2.runtime.MarshallerImpl.write(MarshallerImpl.java:331) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.MarshallerImpl.marshal(MarshallerImpl.java:256) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at javax.xml.bind.helpers.AbstractMarshallerImpl.marshal(AbstractMarshallerImpl.java:110) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at jaxb.AutomotiveElectricianJAXB.marshall(AutomotiveElectricianJAXB.java:26) ~[classes/:?]
+	at main.Main.main(Main.java:183) ~[classes/:?]
+Caused by: com.sun.istack.SAXException2: unable to marshal type "model.AutomotiveElectrician" as an element because it is missing an @XmlRootElement annotation
+	at com.sun.xml.bind.v2.runtime.XMLSerializer.reportError(XMLSerializer.java:249) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.ClassBeanInfoImpl.serializeRoot(ClassBeanInfoImpl.java:338) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.XMLSerializer.childAsRoot(XMLSerializer.java:494) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.MarshallerImpl.write(MarshallerImpl.java:328) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	... 4 more

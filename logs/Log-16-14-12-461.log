@@ -1,0 +1,14 @@
+16:11:01:891 [main] INFO  jaxb.CustomerJAXB - discount 3%
+16:11:01:904 [main] INFO  jaxb.EmployeesJAXB - Employee info
+16:11:01:904 [main] INFO  jaxb.EmployeesJAXB - Employee ID 1
+16:11:01:905 [main] INFO  jaxb.EmployeesJAXB - First name Gia
+16:11:01:905 [main] INFO  jaxb.EmployeesJAXB - Last name Bolkvadze
+16:11:01:905 [main] INFO  jaxb.EmployeesJAXB - City Batumi
+16:11:01:905 [main] INFO  jaxb.EmployeesJAXB - Phone number +995555222000
+16:11:01:905 [main] INFO  jaxb.EmployeesJAXB - adress Gogebashvili Street 2
+16:11:01:905 [main] INFO  jaxb.EmployeesJAXB - salary 25000
+16:11:01:905 [main] INFO  jaxb.EmployeesJAXB - Manager ID2
+16:14:12:359 [main] INFO  main.Main - ||--- MyBatis Examples ---|||
+16:14:12:447 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+16:14:12:458 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+16:14:12:459 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.

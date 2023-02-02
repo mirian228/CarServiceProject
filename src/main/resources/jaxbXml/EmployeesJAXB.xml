@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employees idEmployees="1">
+    <adress>Gogebashvili Street 2</adress>
+    <city>Batumi</city>
+    <fname>Gia</fname>
+    <idManager>2</idManager>
+    <lname>Bolkvadze</lname>
+    <phoneNumber>+995555222000</phoneNumber>
+    <salary>25000</salary>
+</employees>

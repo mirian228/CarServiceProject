@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<automotivePartsStoreOrders idCustomer="1">
+    <idAutomotivePartsStore>1</idAutomotivePartsStore>
+    <idOrder>1</idOrder>
+    <orderAmount>200.0</orderAmount>
+    <orderDate>1970-01-01</orderDate>
+</automotivePartsStoreOrders>

@@ -1,17 +1,17 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-<xs:element name="CarServiceA">
-	<xs:complexType>
-		<xs:sequence>
-			<xs:element name="CarServiceA" maxOccurs="unbounded" minOccurs="0">
-				<xs:complexType>
-					<xs:sequence>
-						<xs:element name="ServiceType" type="xs:string"/>
-					</xs:sequence>
-					<xs:attribute name="idCarServiceA" type="xs:long"/>
-					<xs:attribute name="idCar" type="xs:long"/>
-				</xs:complexType>
-			</xs:element>
-		</xs:sequence>
-	</xs:complexType>
-</xs:element>
+	<xs:element name="CarServiceA">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="CarServiceA" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ServiceType" type="xs:string" />
+						</xs:sequence>
+						<xs:attribute name="idCarServiceA" type="xs:long" />
+						<xs:attribute name="idCar" type="xs:long" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
 </xs:schema>

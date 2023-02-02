@@ -14,7 +14,7 @@ import model.Car;
 
 public class CarJAXB {
 	private static final Logger LOGGER = LogManager.getLogger(CarJAXB.class);
-	File file = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\xml\\marshallerCar.xml");
+	File file = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\jaxbXml\\CarJAXB.xml");
 	File file2 = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\xml\\Car.xml");
 	
 	public CarJAXB(){

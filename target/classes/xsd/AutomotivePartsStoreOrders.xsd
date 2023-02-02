@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-   <xs:element name="automotivePartsStoreOrders">
-      <xs:complexType>
-         <xs:sequence>
-            <xs:element name="orderAmount" type="xs:double" />
-            <xs:element name="orderDate" type="xs:date" />
-         </xs:sequence>
-         <xs:attribute name="idAutomotivePartsStore" type="xs:long" />
-         <xs:attribute name="idCustomer" type="xs:long" />
-         <xs:attribute name="idOrder" type="xs:long" />
-      </xs:complexType>
-   </xs:element>
+	<xs:element name="AutomotivePartsStoreOrders">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="AutomotivePartsStoreOrders">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:byte" name="idAutomotivePartsStore" />
+							<xs:element type="xs:byte" name="idOrder" />
+							<xs:element type="xs:string" name="orderDate" />
+							<xs:element type="xs:short" name="orderAmount" />
+						</xs:sequence>
+						<xs:attribute type="xs:byte" name="idCustomer" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
 </xs:schema>

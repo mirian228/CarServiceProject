@@ -1,0 +1,15 @@
+16:11:01:872 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Automotive parts store info
+16:11:01:874 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Automotive parts store ID1
+16:11:01:875 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Cashier ID1
+16:11:01:875 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Order ID1
+16:11:01:875 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Part warehouse ID1
+16:11:01:875 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Part ID3
+16:11:01:881 [main] INFO  jaxb.CashierJAXB - Cashier info
+16:11:01:881 [main] INFO  jaxb.CashierJAXB - Cashier ID1
+16:11:01:881 [main] INFO  jaxb.CashierJAXB - Employee ID1
+16:11:01:889 [main] INFO  jaxb.CustomerJAXB - Customer info
+16:11:01:889 [main] INFO  jaxb.CustomerJAXB - Customer ID 1
+16:11:01:890 [main] INFO  jaxb.CustomerJAXB - First name Ana
+16:11:01:890 [main] INFO  jaxb.CustomerJAXB - Last name Surmanidze
+16:11:01:890 [main] INFO  jaxb.CustomerJAXB - Phone number +995555222000
+16:11:01:891 [main] INFO  jaxb.CustomerJAXB - adress Tbilisi Street 2

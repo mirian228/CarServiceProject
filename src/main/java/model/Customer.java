@@ -25,7 +25,7 @@ public class Customer {
 		this.discount = discount;
 	}
 
-	@XmlElement
+	@XmlAttribute
 	public Long getIdCustomer() {
 		return idCustomer;
 	}

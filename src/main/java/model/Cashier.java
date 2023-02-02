@@ -1,5 +1,10 @@
 package model;
 
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Cashier {
 	private Long idCashier;
 	private Long idEmployees;
@@ -13,7 +18,7 @@ public class Cashier {
 		this.idCashier = idCashier;
 		this.idEmployees = idEmployees;
 	}
-	
+	@XmlAttribute
 	public Long getIdCashier() {
 		return idCashier;
 	}
@@ -21,7 +26,7 @@ public class Cashier {
 	public void setIdCashier(Long idCashier) {
 		this.idCashier = idCashier;
 	}
-
+	@XmlElement
 	public Long getIdEmployees() {
 		return idEmployees;
 	}

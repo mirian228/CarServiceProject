@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<automotivePartsStoreOrders idAutomotivePartsStore="1" idCustomer="1" idOrder="1">
-    <orderAmount>200.0</orderAmount>
-    <orderDate>1970-01-01</orderDate>
-</automotivePartsStoreOrders>
+<AutomotivePartsStoreOrders>
+	<AutomotivePartsStoreOrders idCustomer="2">
+		<idAutomotivePartsStore>1</idAutomotivePartsStore>
+		<idOrder>2</idOrder>
+		<orderDate>2023-1-5</orderDate>
+		<orderAmount>5000</orderAmount>
+	</AutomotivePartsStoreOrders>
+</AutomotivePartsStoreOrders>

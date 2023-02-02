@@ -1,0 +1,14 @@
+16:05:18:458 [main] INFO  jaxb.CarServiceBJAXB - Car service B ID: 1
+16:05:18:460 [main] INFO  jaxb.CarServiceBJAXB - Car ID: 2
+16:05:18:461 [main] INFO  jaxb.CarServiceBJAXB - Service type: Engine Replacement
+16:05:18:469 [main] INFO  jaxb.AutomotiveElectricianJAXB - Automotive Electrician information:
+16:05:18:469 [main] INFO  jaxb.AutomotiveElectricianJAXB - Automotive Electrician ID: 1
+16:05:18:470 [main] INFO  jaxb.AutomotiveElectricianJAXB - Car Service B ID: 1
+16:05:18:470 [main] INFO  jaxb.AutomotiveElectricianJAXB - Employee ID: 3
+16:05:18:477 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Automotive parts store info
+16:05:18:479 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Automotive parts store ID1
+16:05:18:479 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Cashier ID1
+16:05:18:480 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Order ID1
+16:05:18:481 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Part warehouse ID1
+16:05:18:482 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Part ID3
+16:05:18:488 [main] INFO  jaxb.CashierJAXB - Cashier info

@@ -14,7 +14,7 @@ import model.GearboxMechanic;
 
 public class GearboxMechanicJAXB {
 	private static final Logger LOGGER = LogManager.getLogger(GearboxMechanicJAXB.class);
-	File file = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\xml\\GearboxMechanic.xml");
+	File file = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\jaxbXml\\GearboxMechanicJAXB.xml");
 
 	public void marshall() {
 		try {

@@ -1,0 +1,9 @@
+16:05:17:009 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+16:05:17:014 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+16:05:17:222 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+16:05:17:539 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1513029997.
+16:05:17:541 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5a2f016d]
+16:05:17:547 [main] DEBUG dao.ICashierDao.selectEntityById - ==>  Preparing: SELECT * FROM Сashier WHERE idСashier = ?
+16:05:17:575 [main] DEBUG dao.ICashierDao.selectEntityById - ==> Parameters: 2(Long)
+16:05:17:597 [main] TRACE dao.ICashierDao.selectEntityById - <==    Columns: idСashier, idEmployees
+16:05:17:599 [main] TRACE dao.ICashierDao.selectEntityById - <==        Row: 2, 7

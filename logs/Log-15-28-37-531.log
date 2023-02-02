@@ -1,0 +1,15 @@
+15:28:37:485 [main] INFO  jaxb.PartWarehouseJAXB - Part number: b32sCx100
+15:28:37:489 [main] INFO  jaxb.PartWarehouseJAXB - Part quantity: 3
+15:28:37:490 [main] INFO  jaxb.PartWarehouseJAXB - Part producer: Mahle
+15:28:37:491 [main] INFO  jaxb.PartWarehouseJAXB - Part name: 2021
+15:28:37:503 [main] INFO  jaxb.GearboxMechanicJAXB - Gearbox mechanic info
+15:28:37:504 [main] INFO  jaxb.GearboxMechanicJAXB - Gearbox mechanic ID: 1
+15:28:37:504 [main] INFO  jaxb.GearboxMechanicJAXB - Car Service B ID: 1
+15:28:37:505 [main] INFO  jaxb.GearboxMechanicJAXB - Employee ID: 9
+15:28:37:514 [main] INFO  jaxb.EnginePartsStoreJAXB - Engine parts store info
+15:28:37:514 [main] INFO  jaxb.EnginePartsStoreJAXB - Engine parts store ID1
+15:28:37:516 [main] INFO  jaxb.EnginePartsStoreJAXB - Cashier ID1
+15:28:37:517 [main] INFO  jaxb.EnginePartsStoreJAXB - Part warehouse ID1
+15:28:37:517 [main] INFO  jaxb.EnginePartsStoreJAXB - Part ID3
+15:28:37:530 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car Service B info:
+15:28:37:531 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car service B ID: 1

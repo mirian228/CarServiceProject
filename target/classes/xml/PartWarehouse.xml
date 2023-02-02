@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<partWarehouse idPartWarehouse="1">
-    <partId>1</partId>
-    <partName>Valve cover gasket</partName>
-    <partNumber>b32sCx100</partNumber>
-    <partquantity>3</partquantity>
-    <producer>Mahle</producer>
-    <releaseyear>2021</releaseyear>
-</partWarehouse>
+<PartWarehouse>
+	<partWarehouse idPartWarehouse="1">
+		<partId>1</partId>
+		<partName>ZF8HP</partName>
+		<partNumber>XBC23054</partNumber>
+		<partquantity>1</partquantity>
+		<producer>Zeppelin-Stiftung</producer>
+		<releaseyear>2009</releaseyear>
+	</partWarehouse>
+	<partWarehouse idPartWarehouse="1">
+		<partId>2</partId>
+		<partName>Oil-Filter</partName>
+		<partNumber>3412PDY</partNumber>
+		<partquantity>55</partquantity>
+		<producer>Mahle</producer>
+		<releaseyear>2023</releaseyear>
+	</partWarehouse>
+	<partWarehouse idPartWarehouse="1">
+		<partId>3</partId>
+		<partName>Oil-Pan</partName>
+		<partNumber>ZCX2357</partNumber>
+		<partquantity>7</partquantity>
+		<producer>Bayerische-Motoren-Werke</producer>
+		<releaseyear>2015</releaseyear>
+	</partWarehouse>
+</PartWarehouse>

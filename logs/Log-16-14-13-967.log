@@ -1,0 +1,17 @@
+16:14:13:927 [main] INFO  jaxb.CashierJAXB - Cashier info
+16:14:13:928 [main] INFO  jaxb.CashierJAXB - Cashier ID1
+16:14:13:928 [main] INFO  jaxb.CashierJAXB - Employee ID1
+16:14:13:937 [main] INFO  jaxb.CustomerJAXB - Customer info
+16:14:13:937 [main] INFO  jaxb.CustomerJAXB - Customer ID 1
+16:14:13:938 [main] INFO  jaxb.CustomerJAXB - First name Ana
+16:14:13:938 [main] INFO  jaxb.CustomerJAXB - Last name Surmanidze
+16:14:13:938 [main] INFO  jaxb.CustomerJAXB - Phone number +995555222000
+16:14:13:938 [main] INFO  jaxb.CustomerJAXB - adress Tbilisi Street 2
+16:14:13:939 [main] INFO  jaxb.CustomerJAXB - discount 3%
+16:14:13:949 [main] INFO  jaxb.EmployeesJAXB - Employee info
+16:14:13:949 [main] INFO  jaxb.EmployeesJAXB - Employee ID 1
+16:14:13:966 [main] INFO  jaxb.EmployeesJAXB - First name Gia
+16:14:13:966 [main] INFO  jaxb.EmployeesJAXB - Last name Bolkvadze
+16:14:13:966 [main] INFO  jaxb.EmployeesJAXB - City Batumi
+16:14:13:966 [main] INFO  jaxb.EmployeesJAXB - Phone number +995555222000
+16:14:13:966 [main] INFO  jaxb.EmployeesJAXB - adress Gogebashvili Street 2

@@ -30,7 +30,7 @@ public class CarServiceB {
 		this.idCarServiceB = idCarServiceB;
 	}
 
-	@XmlAttribute
+	@XmlElement
 	public Long getIdCar() {
 		return idCar;
 	}

@@ -1,0 +1,15 @@
+16:22:11:630 [main] INFO  jaxb.AutomotiveElectricianJAXB - Employee ID: 3
+16:22:11:642 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Automotive parts store info
+16:22:11:642 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Automotive parts store ID1
+16:22:11:644 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Cashier ID1
+16:22:11:644 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Order ID1
+16:22:11:644 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Part warehouse ID1
+16:22:11:644 [main] INFO  jaxb.AutomotivePartsStoreJAXB - Part ID3
+16:22:11:651 [main] INFO  jaxb.CashierJAXB - Cashier info
+16:22:11:651 [main] INFO  jaxb.CashierJAXB - Cashier ID1
+16:22:11:652 [main] INFO  jaxb.CashierJAXB - Employee ID1
+16:22:11:661 [main] INFO  jaxb.CustomerJAXB - Customer info
+16:22:11:665 [main] INFO  jaxb.CustomerJAXB - Customer ID 1
+16:22:11:665 [main] INFO  jaxb.CustomerJAXB - First name Ana
+16:22:11:665 [main] INFO  jaxb.CustomerJAXB - Last name Surmanidze
+16:22:11:665 [main] INFO  jaxb.CustomerJAXB - Phone number +995555222000

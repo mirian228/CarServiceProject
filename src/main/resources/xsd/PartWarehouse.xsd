@@ -1,0 +1,21 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="PartWarehouse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="partWarehouse" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:byte" name="partId" />
+							<xs:element type="xs:string" name="partName" />
+							<xs:element type="xs:string" name="partNumber" />
+							<xs:element type="xs:byte" name="partquantity" />
+							<xs:element type="xs:string" name="producer" />
+							<xs:element type="xs:short" name="releaseyear" />
+						</xs:sequence>
+						<xs:attribute type="xs:byte" name="idPartWarehouse" use="optional" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

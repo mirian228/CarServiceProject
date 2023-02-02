@@ -14,7 +14,8 @@ import model.DiagnosticsMechanic;
 
 public class DiagnosticsMechanicJAXB {
 	private static final Logger LOGGER = LogManager.getLogger(DiagnosticsMechanicJAXB.class);
-	File file = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\xml\\DiagnosticsMechanic.xml");
+	File file = new File(
+			"C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\jaxbXml\\DiagnosticsMechanicJAXB.xml");
 
 	public void marshall() {
 		try {
@@ -35,10 +36,10 @@ public class DiagnosticsMechanicJAXB {
 			JAXBContext jaxbContent = JAXBContext.newInstance(DiagnosticsMechanic.class);
 			Unmarshaller unmarshaller = jaxbContent.createUnmarshaller();
 			DiagnosticsMechanic diagnosticsMechanic = (DiagnosticsMechanic) unmarshaller.unmarshal(file);
-			LOGGER.info("Car Service B info:");
-			LOGGER.info("Car service B ID: " + diagnosticsMechanic.getIdDiagnosticsMechanic());
-			LOGGER.info("Car ID: " + diagnosticsMechanic.getIdCarServiceA());
-			LOGGER.info("Service type: " + diagnosticsMechanic.getIdEmployees());
+			LOGGER.info("Diagnostic mechanic Info:");
+			LOGGER.info("Diagnostic mechanic ID: " + diagnosticsMechanic.getIdDiagnosticsMechanic());
+			LOGGER.info("Car Service A ID: " + diagnosticsMechanic.getIdCarServiceA());
+			LOGGER.info("Employee ID" + diagnosticsMechanic.getIdEmployees());
 
 		} catch (JAXBException e) {
 			LOGGER.error("JAXBException occured", e);

@@ -4,9 +4,13 @@ import java.sql.Date;
 import java.util.List;
 import java.util.Objects;
 
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
-
+@XmlRootElement
 public class EnginePartsStoreOrders {
 	@JsonProperty("idCustomer")
 	private Long idCustomer;
@@ -20,20 +24,22 @@ public class EnginePartsStoreOrders {
 	private Double orderAmount;
 	@JsonProperty("EnginePartsStoreOrders")
 	private List<EnginePartsStoreOrders> EnginePartsStoreOrders;
-	public EnginePartsStoreOrders() {
 
-	}
 
-	public EnginePartsStoreOrders(Long idCustomer, Long idEnginePartsStore, Long idOrder, Date orderDate,
+	public EnginePartsStoreOrders(Long idCustomer, Long idEnginePartsStore, Long idOrder, java.util.Date orderDate,
 			Double orderAmount) {
 		super();
 		this.idCustomer = idCustomer;
 		this.idEnginePartsStore = idEnginePartsStore;
 		this.idOrder = idOrder;
-		this.orderDate = orderDate;
+		this.orderDate = (Date) orderDate;
 		this.orderAmount = orderAmount;
 	}
-
+	public EnginePartsStoreOrders() {
+		
+	}
+	
+	@XmlAttribute
 	public Long getIdCustomer() {
 		return idCustomer;
 	}
@@ -41,7 +47,7 @@ public class EnginePartsStoreOrders {
 	public void setIdCustomer(Long idCustomer) {
 		this.idCustomer = idCustomer;
 	}
-
+	@XmlElement
 	public Long getIdEnginePartsStore() {
 		return idEnginePartsStore;
 	}
@@ -49,7 +55,7 @@ public class EnginePartsStoreOrders {
 	public void setIdEnginePartsStore(Long idEnginePartsStore) {
 		this.idEnginePartsStore = idEnginePartsStore;
 	}
-
+	@XmlElement
 	public Long getIdOrder() {
 		return idOrder;
 	}
@@ -57,7 +63,7 @@ public class EnginePartsStoreOrders {
 	public void setIdOrder(Long idOrder) {
 		this.idOrder = idOrder;
 	}
-
+	@XmlElement
 	public Date getOrderDate() {
 		return orderDate;
 	}
@@ -65,7 +71,7 @@ public class EnginePartsStoreOrders {
 	public void setOrderDate(Date orderDate) {
 		this.orderDate = orderDate;
 	}
-
+	@XmlElement
 	public Double getOrderAmount() {
 		return orderAmount;
 	}

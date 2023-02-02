@@ -1,5 +1,10 @@
 package model;
 
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Manager {
 	private Long idManager;
 	private String fname;
@@ -22,6 +27,7 @@ public class Manager {
 		this.salary = salary;
 	}
 
+	@XmlAttribute
 	public Long getIdManager() {
 		return idManager;
 	}
@@ -30,6 +36,7 @@ public class Manager {
 		this.idManager = idManager;
 	}
 
+	@XmlElement
 	public String getFname() {
 		return fname;
 	}
@@ -38,6 +45,7 @@ public class Manager {
 		this.fname = fname;
 	}
 
+	@XmlElement
 	public String getLname() {
 		return lname;
 	}
@@ -46,6 +54,7 @@ public class Manager {
 		this.lname = lname;
 	}
 
+	@XmlElement
 	public String getAdress() {
 		return adress;
 	}
@@ -54,6 +63,7 @@ public class Manager {
 		this.adress = adress;
 	}
 
+	@XmlElement
 	public String getPhoneNumber() {
 		return phoneNumber;
 	}
@@ -62,6 +72,7 @@ public class Manager {
 		this.phoneNumber = phoneNumber;
 	}
 
+	@XmlElement
 	public int getsalary() {
 		return salary;
 	}

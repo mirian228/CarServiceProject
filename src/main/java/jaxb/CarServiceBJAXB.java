@@ -11,7 +11,7 @@ import model.CarServiceB;
 
 public class CarServiceBJAXB {
 	private static final Logger LOGGER = LogManager.getLogger(CarServiceBJAXB.class);
-	File file = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\xml\\CarSeviceB.xml");
+	File file = new File("C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\jaxbXml\\CarSeviceBJAXB.xml");
 
 	public void marshall() {
 		try {

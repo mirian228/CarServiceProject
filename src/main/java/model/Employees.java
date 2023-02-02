@@ -1,5 +1,10 @@
 package model;
 
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Employees {
 	private Long idEmployees;
 	private String fname;
@@ -26,7 +31,7 @@ public class Employees {
 		this.salary = salary;
 		this.idManager = idManager;
 	}
-
+	@XmlAttribute
 	public Long getIdEmployees() {
 		return idEmployees;
 	}
@@ -34,7 +39,7 @@ public class Employees {
 	public void setIdEmployees(Long idEmployees) {
 		this.idEmployees = idEmployees;
 	}
-
+	@XmlElement
 	public String getFname() {
 		return fname;
 	}
@@ -42,7 +47,7 @@ public class Employees {
 	public void setFname(String fname) {
 		this.fname = fname;
 	}
-
+	@XmlElement
 	public String getLname() {
 		return lname;
 	}
@@ -50,7 +55,7 @@ public class Employees {
 	public void setLname(String lname) {
 		this.lname = lname;
 	}
-
+	@XmlElement
 	public String getCity() {
 		return city;
 	}
@@ -58,7 +63,7 @@ public class Employees {
 	public void setCity(String city) {
 		this.city = city;
 	}
-
+	@XmlElement
 	public String getPhoneNumber() {
 		return phoneNumber;
 	}
@@ -66,7 +71,7 @@ public class Employees {
 	public void setPhoneNumber(String phoneNumber) {
 		this.phoneNumber = phoneNumber;
 	}
-
+	@XmlElement
 	public String getAdress() {
 		return adress;
 	}
@@ -74,7 +79,7 @@ public class Employees {
 	public void setAdress(String adress) {
 		this.adress = adress;
 	}
-
+	@XmlElement
 	public int getSalary() {
 		return salary;
 	}
@@ -82,7 +87,7 @@ public class Employees {
 	public void setSalary(int salary) {
 		this.salary = salary;
 	}
-
+	@XmlElement
 	public Long getIdManager() {
 		return idManager;
 	}

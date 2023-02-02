@@ -15,7 +15,7 @@ import model.EnginePartsStore;
 public class EnginePartsStoreJAXB {
 	private static final Logger LOGGER = LogManager.getLogger(EnginePartsStoreJAXB.class);
 	File file = new File(
-			"C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\xml\\EnginePartsStore.xml");
+			"C:\\Users\\Mirian\\eclipse-workspace\\CarService\\src\\main\\resources\\jaxbXml\\EnginePartsStoreJAXB.xml");
 
 	public void marshall() {
 		try {

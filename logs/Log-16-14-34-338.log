@@ -1,0 +1,15 @@
+16:14:13:967 [main] INFO  jaxb.EmployeesJAXB - salary 25000
+16:14:13:969 [main] INFO  jaxb.EmployeesJAXB - Manager ID2
+16:14:13:974 [main] ERROR jaxb.EngineMechanicJAXB - JAXException
+javax.xml.bind.MarshalException: null
+	at com.sun.xml.bind.v2.runtime.MarshallerImpl.write(MarshallerImpl.java:331) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.MarshallerImpl.marshal(MarshallerImpl.java:256) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at javax.xml.bind.helpers.AbstractMarshallerImpl.marshal(AbstractMarshallerImpl.java:110) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at jaxb.EngineMechanicJAXB.marshall(EngineMechanicJAXB.java:25) ~[classes/:?]
+	at main.Main.main(Main.java:225) ~[classes/:?]
+Caused by: com.sun.istack.SAXException2: unable to marshal type "model.EngineMechanic" as an element because it is missing an @XmlRootElement annotation
+	at com.sun.xml.bind.v2.runtime.XMLSerializer.reportError(XMLSerializer.java:249) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.ClassBeanInfoImpl.serializeRoot(ClassBeanInfoImpl.java:338) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.XMLSerializer.childAsRoot(XMLSerializer.java:494) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	at com.sun.xml.bind.v2.runtime.MarshallerImpl.write(MarshallerImpl.java:328) ~[jaxb-impl-2.3.1.jar:2.3.1]
+	... 4 more
