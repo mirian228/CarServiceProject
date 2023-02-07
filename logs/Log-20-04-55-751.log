@@ -1,0 +1,9 @@
+20:04:55:709 [main] DEBUG dao.ICarDao.selectAllEntity - <==      Total: 2
+20:04:55:712 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3abd581e]
+20:04:55:713 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3abd581e]
+20:04:55:713 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 985487390 to pool.
+20:04:55:714 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+20:04:55:714 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 985487390 from pool.
+20:04:55:714 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3abd581e]
+20:04:55:715 [main] DEBUG dao.ICarDao.deleteEntinty - ==>  Preparing: DELETE FROM Car WHERE idCar = ?
+20:04:55:716 [main] DEBUG dao.ICarDao.deleteEntinty - ==> Parameters: 3(Long)

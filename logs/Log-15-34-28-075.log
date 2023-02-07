@@ -1,0 +1,12 @@
+14:07:31:020 [main] INFO  designpatterns.factorypattern.Main - First animal does: Woof
+14:07:31:031 [main] INFO  designpatterns.factorypattern.Main - Second animal does: Meow
+14:07:31:031 [main] INFO  designpatterns.factorypattern.Main - Third animal does: Meow
+14:07:37:080 [main] INFO  designpatterns.factorypattern.Main - First animal does: Woof
+14:07:37:087 [main] INFO  designpatterns.factorypattern.Main - Second animal does: Meow
+14:08:04:091 [main] INFO  designpatterns.factorypattern.Main - First animal does: Woof
+14:08:04:096 [main] INFO  designpatterns.factorypattern.Main - Second animal does: Meow
+14:08:32:752 [main] INFO  designpatterns.factorypattern.Main - First animal does: Woof
+14:08:32:757 [main] INFO  designpatterns.factorypattern.Main - Second animal does: Meow
+14:08:32:759 [main] INFO  designpatterns.factorypattern.Main - Third animal does: Moo
+15:34:28:060 [main] INFO  designpatterns.abstractfactorypattern.Main - First animal does: Woof
+15:34:28:063 [main] INFO  designpatterns.abstractfactorypattern.Main - Second animal does: Meow

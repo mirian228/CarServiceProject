@@ -1,0 +1,9 @@
+12:17:14:048 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@18e8473e]
+12:17:14:050 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 417875774 to pool.
+12:17:14:050 [main] INFO  main.Main - [Cashier [idCashier=1, idEmployees=2], Cashier [idCashier=2, idEmployees=7]]
+12:17:14:052 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+12:17:14:053 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 417875774 from pool.
+12:17:14:053 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@18e8473e]
+12:17:14:054 [main] DEBUG dao.ICarDao.selectEntityById - ==>  Preparing: SELECT * FROM Car WHERE idCar = ?
+12:17:14:055 [main] DEBUG dao.ICarDao.selectEntityById - ==> Parameters: 1(Long)
+12:17:14:057 [main] TRACE dao.ICarDao.selectEntityById - <==    Columns: idCar, idCustomer, vin, make, model, bodyType, productionYear, engineCapacity, fuelType, exteriorColor

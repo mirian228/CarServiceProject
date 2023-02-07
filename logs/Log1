@@ -1,2 +1,11 @@
-16:29:20:132 [main] INFO  jaxb.SuspensionMechanicJAXB - Car Service B ID: 1
-16:29:20:135 [main] INFO  jaxb.SuspensionMechanicJAXB - Employee ID: 2
+15:34:28:063 [main] INFO  designpatterns.abstractfactorypattern.Main - Third animal does: Moo
+15:35:50:869 [main] INFO  designpatterns.abstractfactorypattern.Main - First animal does: Woof
+15:35:50:872 [main] INFO  designpatterns.abstractfactorypattern.Main - Second animal does: Meow
+15:35:50:873 [main] INFO  designpatterns.abstractfactorypattern.Main - Third animal does: Moo
+15:35:50:874 [main] INFO  designpatterns.abstractfactorypattern.Main - Morning theme is: Light theme
+15:36:58:752 [main] INFO  designpatterns.abstractfactorypattern.Main - First animal does: Woof
+15:36:58:756 [main] INFO  designpatterns.abstractfactorypattern.Main - Second animal does: Meow
+15:36:58:757 [main] INFO  designpatterns.abstractfactorypattern.Main - Third animal does: Moo
+15:36:58:758 [main] INFO  designpatterns.abstractfactorypattern.Main - Morning theme is: Light theme
+15:36:58:759 [main] INFO  designpatterns.abstractfactorypattern.Main - Morning theme is: Dimmed Theme
+15:36:58:760 [main] INFO  designpatterns.abstractfactorypattern.Main - Morning theme is: Dark Theme

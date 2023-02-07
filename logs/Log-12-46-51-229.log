@@ -1,0 +1,9 @@
+12:46:51:141 [main] DEBUG dao.ICashierDao.insertEntity - ==>  Preparing: INSERT INTO Сashier () VALUES(?, ?)
+12:46:51:144 [main] DEBUG dao.ICashierDao.insertEntity - ==> Parameters: 3(Long), 11(Long)
+12:46:51:172 [main] DEBUG dao.ICashierDao.insertEntity - <==    Updates: 1
+12:46:51:173 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@18e8473e]
+12:46:51:225 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@18e8473e]
+12:46:51:227 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@18e8473e]
+12:46:51:227 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 417875774 to pool.
+12:46:51:228 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+12:46:51:228 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 417875774 from pool.

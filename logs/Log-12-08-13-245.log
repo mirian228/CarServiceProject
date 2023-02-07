@@ -1,0 +1,14 @@
+12:08:13:194 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Diagnostic mechanic ID: 1
+12:08:13:196 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Car Service A ID: 1
+12:08:13:197 [main] INFO  jaxb.DiagnosticsMechanicJAXB - Employee ID3
+12:08:13:208 [main] INFO  jaxb.CarServiceAJAXB - Car Service B info:
+12:08:13:209 [main] INFO  jaxb.CarServiceAJAXB - Car service B ID: 1
+12:08:13:209 [main] INFO  jaxb.CarServiceAJAXB - Car ID: 2
+12:08:13:209 [main] INFO  jaxb.CarServiceAJAXB - Service type: Gearbox Replacement
+12:08:13:216 [main] INFO  jaxb.CarServiceBJAXB - Car Service B info:
+12:08:13:216 [main] INFO  jaxb.CarServiceBJAXB - Car service B ID: 1
+12:08:13:216 [main] INFO  jaxb.CarServiceBJAXB - Car ID: 2
+12:08:13:217 [main] INFO  jaxb.CarServiceBJAXB - Service type: Engine Replacement
+12:08:13:245 [main] INFO  jaxb.AutomotiveElectricianJAXB - Automotive Electrician information:
+12:08:13:245 [main] INFO  jaxb.AutomotiveElectricianJAXB - Automotive Electrician ID: 1
+12:08:13:245 [main] INFO  jaxb.AutomotiveElectricianJAXB - Car Service B ID: 1

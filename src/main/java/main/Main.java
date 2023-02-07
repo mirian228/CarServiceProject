@@ -12,6 +12,8 @@ import com.fasterxml.jackson.databind.DatabindException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import dao.ICarDao;
+import dao.ICashierDao;
 import jaxb.AutomotiveElectricianJAXB;
 import jaxb.AutomotivePartsStoreJAXB;
 import jaxb.AutomotivePartsStoreOrdersJAXB;
@@ -32,10 +34,8 @@ import model.AutomotiveElectrician;
 import model.Car;
 import model.Cashier;
 import model.PartWarehouse;
-import service.ICarService;
-import service.ICashierService;
-import service.serviceimpl.CarServiceImpl;
-import service.serviceimpl.CashierServiceImpl;
+import mybatis.CarServiceImpl;
+import mybatis.CashierServiceImpl;
 
 public class Main {
 	private static final Logger LOGGER = LogManager.getLogger(Main.class);
@@ -46,7 +46,7 @@ public class Main {
 		LOGGER.info("||--- MyBatis Examples ---|||");
 
 		// --- Cashier --- //
-		ICashierService cashierInstance = new CashierServiceImpl();
+		ICashierDao cashierInstance = new CashierServiceImpl();
 		LOGGER.info(cashierInstance.selectEntityById(2L));
 		Cashier cashierObject = new Cashier(3L, 11L);
 		Cashier cashierUpdate = new Cashier(3L, 5L);
@@ -64,7 +64,7 @@ public class Main {
 				"Gray");
 		Car carUpdate = new Car(3L, 2L, "WB4DD9550MS170534", "Nissan", "Patrol", "Large-Size SUV", 2002, "4497cc",
 				"Diesel", "White");
-		ICarService carInstance = new CarServiceImpl();
+		ICarDao carInstance = new CarServiceImpl();
 		carInstance.selectEntityById(1L);
 		System.out.println("------------------------");
 		// carInstance.insertEntity(carObj);

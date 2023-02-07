@@ -1,0 +1,9 @@
+20:04:55:343 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 985487390 to pool.
+20:04:55:363 [main] INFO  main.Main - [Cashier [idCashier=1, idEmployees=2], Cashier [idCashier=3, idEmployees=5], Cashier [idCashier=2, idEmployees=7]]
+20:04:55:364 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+20:04:55:364 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 985487390 from pool.
+20:04:55:364 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3abd581e]
+20:04:55:366 [main] DEBUG dao.ICashierDao.deleteEntinty - ==>  Preparing: DELETE FROM Сashier WHERE idСashier = ?
+20:04:55:366 [main] DEBUG dao.ICashierDao.deleteEntinty - ==> Parameters: 3(Long)
+20:04:55:386 [main] DEBUG dao.ICashierDao.deleteEntinty - <==    Updates: 1
+20:04:55:386 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3abd581e]

@@ -2,13 +2,12 @@ package utility;
 
 import java.io.IOException;
 import java.io.Reader;
+
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import dao.ICashierDao;
 
 public class MyBatisUtil {
 	private static final Logger LOGGER = LogManager.getLogger(MyBatisUtil.class);

@@ -1,0 +1,15 @@
+20:04:59:372 [main] INFO  jaxb.EngineMechanicJAXB - Engine mechanic info:
+20:04:59:375 [main] INFO  jaxb.EngineMechanicJAXB - Engine mechanic ID: 1
+20:04:59:375 [main] INFO  jaxb.EngineMechanicJAXB - Car Service ID: 1
+20:04:59:376 [main] INFO  jaxb.EngineMechanicJAXB - Employee ID: 3
+20:04:59:412 [main] INFO  jaxb.ManagerJAXB - Customer info
+20:04:59:412 [main] INFO  jaxb.ManagerJAXB - Manager ID 1
+20:04:59:412 [main] INFO  jaxb.ManagerJAXB - First name Leila
+20:04:59:413 [main] INFO  jaxb.ManagerJAXB - Last name Turmanidze
+20:04:59:413 [main] INFO  jaxb.ManagerJAXB - Phone number +995555222000
+20:04:59:413 [main] INFO  jaxb.ManagerJAXB - adress Gorgasali Street 2
+20:04:59:413 [main] INFO  jaxb.ManagerJAXB - salary 50000
+20:04:59:428 [main] INFO  jaxb.SuspensionMechanicJAXB - Suspension mechanic info:
+20:04:59:428 [main] INFO  jaxb.SuspensionMechanicJAXB - Suspension mechanic ID: 1
+20:04:59:429 [main] INFO  jaxb.SuspensionMechanicJAXB - Car Service B ID: 1
+20:04:59:429 [main] INFO  jaxb.SuspensionMechanicJAXB - Employee ID: 2

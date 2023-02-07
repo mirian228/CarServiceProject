@@ -1,0 +1,16 @@
+20:04:59:305 [main] INFO  jaxb.CustomerJAXB - Customer info
+20:04:59:310 [main] INFO  jaxb.CustomerJAXB - Customer ID 1
+20:04:59:311 [main] INFO  jaxb.CustomerJAXB - First name Ana
+20:04:59:311 [main] INFO  jaxb.CustomerJAXB - Last name Surmanidze
+20:04:59:312 [main] INFO  jaxb.CustomerJAXB - Phone number +995555222000
+20:04:59:312 [main] INFO  jaxb.CustomerJAXB - adress Tbilisi Street 2
+20:04:59:312 [main] INFO  jaxb.CustomerJAXB - discount 3%
+20:04:59:346 [main] INFO  jaxb.EmployeesJAXB - Employee info
+20:04:59:346 [main] INFO  jaxb.EmployeesJAXB - Employee ID 1
+20:04:59:347 [main] INFO  jaxb.EmployeesJAXB - First name Gia
+20:04:59:349 [main] INFO  jaxb.EmployeesJAXB - Last name Bolkvadze
+20:04:59:350 [main] INFO  jaxb.EmployeesJAXB - City Batumi
+20:04:59:354 [main] INFO  jaxb.EmployeesJAXB - Phone number +995555222000
+20:04:59:355 [main] INFO  jaxb.EmployeesJAXB - adress Gogebashvili Street 2
+20:04:59:357 [main] INFO  jaxb.EmployeesJAXB - salary 25000
+20:04:59:358 [main] INFO  jaxb.EmployeesJAXB - Manager ID2

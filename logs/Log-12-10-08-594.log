@@ -1,0 +1,13 @@
+12:08:13:354 [main] INFO  jaxb.ManagerJAXB - Manager ID 1
+12:08:13:356 [main] INFO  jaxb.ManagerJAXB - First name Leila
+12:08:13:356 [main] INFO  jaxb.ManagerJAXB - Last name Turmanidze
+12:08:13:356 [main] INFO  jaxb.ManagerJAXB - Phone number +995555222000
+12:08:13:357 [main] INFO  jaxb.ManagerJAXB - adress Gorgasali Street 2
+12:08:13:357 [main] INFO  jaxb.ManagerJAXB - salary 50000
+12:08:13:365 [main] INFO  jaxb.SuspensionMechanicJAXB - Suspension mechanic info:
+12:08:13:366 [main] INFO  jaxb.SuspensionMechanicJAXB - Suspension mechanic ID: 1
+12:08:13:366 [main] INFO  jaxb.SuspensionMechanicJAXB - Car Service B ID: 1
+12:08:13:366 [main] INFO  jaxb.SuspensionMechanicJAXB - Employee ID: 2
+12:10:08:488 [main] INFO  main.Main - ||--- MyBatis Examples ---|||
+12:10:08:580 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+12:10:08:591 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.

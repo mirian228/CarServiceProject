@@ -1,0 +1,16 @@
+12:46:52:091 [main] INFO  jaxb.CustomerJAXB - adress Tbilisi Street 2
+12:46:52:093 [main] INFO  jaxb.CustomerJAXB - discount 3%
+12:46:52:110 [main] INFO  jaxb.EmployeesJAXB - Employee info
+12:46:52:111 [main] INFO  jaxb.EmployeesJAXB - Employee ID 1
+12:46:52:112 [main] INFO  jaxb.EmployeesJAXB - First name Gia
+12:46:52:112 [main] INFO  jaxb.EmployeesJAXB - Last name Bolkvadze
+12:46:52:112 [main] INFO  jaxb.EmployeesJAXB - City Batumi
+12:46:52:112 [main] INFO  jaxb.EmployeesJAXB - Phone number +995555222000
+12:46:52:113 [main] INFO  jaxb.EmployeesJAXB - adress Gogebashvili Street 2
+12:46:52:113 [main] INFO  jaxb.EmployeesJAXB - salary 25000
+12:46:52:114 [main] INFO  jaxb.EmployeesJAXB - Manager ID2
+12:46:52:122 [main] INFO  jaxb.EngineMechanicJAXB - Engine mechanic info:
+12:46:52:186 [main] INFO  jaxb.EngineMechanicJAXB - Engine mechanic ID: 1
+12:46:52:187 [main] INFO  jaxb.EngineMechanicJAXB - Car Service ID: 1
+12:46:52:187 [main] INFO  jaxb.EngineMechanicJAXB - Employee ID: 3
+12:46:52:194 [main] INFO  jaxb.ManagerJAXB - Customer info
